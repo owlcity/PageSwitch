@@ -1,0 +1,309 @@
+body,html{ overflow:hidden;}
+*html{
+background-image:url(about:blank);
+background-attachment:fixed;
+}
+.mobile_header{ width: 100%; height: 50px; position: fixed; left:0; top:0;  _left:expression(eval(document.documentElement.scrollLeft));_top:expression(eval(document.documentElement.scrollTop)); z-index: 10000; opacity: 0.7; filter:alpha(opacity=70); background: #fff;}
+.mobile_header_in{ width: 960px; margin: 0 auto; color: #f10180; padding:0 0 0 20px;}
+.mobile_header .logo{ float: left; margin: 8px 0 0;}
+.mobile_header .logo_text{ float: left; width: 200px;height: 27px; font-size: 20px; margin: 12px 0 0 10px; color: #666; font-family: "微软雅黑"; padding:0 0 0 12px; background: url(images/slogan.png) no-repeat left 0px;}
+.mobile_header .menu_list{ float: right; height: 50px; line-height: 50px; padding: 0 20px 0 0;}
+.mobile_header .menu_list a{ font-family: tahoma,arial; font-size: 14px; color: #424141; padding: 0 0 0 65px;}
+.mobile_header .menu_list a:hover{ color: #f10180;}
+/*箭头*/
+.download_arrow{ width: 70px; height: 45px; position: fixed; left:50%; z-index: 4; margin-left:-35px; bottom:30px; background: url(http://m.vip.com/app/images/arrow.png) no-repeat;animation: scroll-arrow-animation 750ms ease-in-out infinite alternate; -moz-animation: scroll-arrow-animation 750ms ease-in-out infinite alternate; -webkit-animation: scroll-arrow-animation 750ms ease-in-out infinite alternate;}
+
+@keyframes scroll-arrow-animation{
+    from{padding-top:8;} to{padding-top:18px;}
+}
+@-webkit-keyframes scroll-arrow-animation{
+    from{padding-top:8;} to{padding-top:18px;}
+}
+@-moz-keyframes scroll-arrow-animation{
+    from{padding-top:8;} to{padding-top:18px;}
+}
+@-o-keyframes scroll-arrow-animation{
+    from{padding-top:8;} to{padding-top:18px;}
+}
+.page .animate{ opacity:0; filter:alpha(opacity=0); }
+/*切换小圆点*/
+.switch_nav{ height: 127px; width: 18px; position: fixed; z-index: 10; _position:absolute; right: 50px; top:50%; _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight/2)); margin-top: -63px;_margin-top:0; }
+.switch_nav a{ width:12px; height:12px; display: block; border: 3px solid #fff; margin-bottom: 14px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;}
+.switch_nav a:hover{ background: #fff;}
+.switch_nav .active{ background: #fff;}
+/*第一屏*/
+
+.page{ position: relative;  overflow: hidden; z-index: 1;}
+#page_1{ z-index: 2;}
+.page_in{ width: 960px; margin: 0 auto; }
+.page_lg{ height: 590px; position: absolute; left:50%; margin-left:-480px; top:50%; margin-top:-295px; }
+.page_sm{ height: 472px; position: absolute; left:50%; margin-left:-480px; top:50%; margin-top:-235px;}
+.page_xs{  height: 472px; position: absolute; left:50%; margin-left:-480px; top:0; }
+.page_1{ background:url(http://m.vip.com/app/images/bg1.png) #c5dfd5; height:780px;}
+.lady01{ position: absolute; left: 124px; top: 177px; width: 496px; height:504px; /*background: url(images/lady01.png) no-repeat; */}
+.page_lg .lady01{top:42px;}
+.page_lg .light{top:42px; }
+
+.page_sm .lady01{top:33px; }
+.page_sm .light{top:33px;  }
+.page_sm .lady01 img,
+.page_sm .light img{ width: 80%; height: 80%;}
+
+.page_xs .lady01{top:0px; /*background-size: 80% 80%;*/}
+.page_xs .light{top:0px; /*background-size: 80% 80%;*/}
+.page_xs .lady01 img,
+.page_xs .light img{ width: 80%; height: 80%;}
+
+.light{ position: absolute; left: 50px; top:178px; width: 72px; height: 442px; /*background: url(images/light.png) no-repeat;*/}
+.page_right{ height: 426px; z-index:1000; position: fixed; top:249px; right: 20px; _position:absolute;  _left:expression(eval((document.documentElement.scrollLeft+document.documentElement.clientWidth-960)/2+600)); width:343px; font-family: "微软雅黑";}
+.page_lg .page_right{top:240px; }
+.page_sm .page_right{top:140px; }
+.page_xs .page_right{top:11px;}
+
+.page_right .title{ display:none; font-size: 40px; font-weight: bold; color: #000; }
+.mobile_text{ display:none; font-size: 18px; font-weight: bold; color: #4c4c4c; text-align: right;}
+.code_area{clear:right; float: right; width: 253px; height: 315px; margin: 10px 0 0; background: url(http://m.vip.com/app/images/code02.png) no-repeat;}
+.download_btn{ display: block; width: 175px; height: 48px; margin:239px auto 0; background: url(http://m.vip.com/app/images/download_btn.png) no-repeat 0 0;}
+.download_btn:hover{ background-position: 0 -48px;}
+.step_text{ opacity: 0; filter:alpha(opacity=0); float:right; width: 343px; height: 101px; background-image:url(http://m.vip.com/app/images/text3.png); background-repeat: no-repeat;}
+.text01{ background-position: 0 0;}
+.text02{ background-position: 0 -101px;}
+.text03{ background-position: 0 -202px;}
+.text04{ background-position: 0 -303px;}
+/*第二屏*/
+.page_2{ background:url(http://m.vip.com/app/images/bg2.png) #c0d7e6; height:780px;}
+.lady02{ position: absolute; left: 27px; top: 259px; width: 547px; height:424px; /*background: url(images/lady02.png) no-repeat;*/ }
+.window{ position: absolute; left: 162px; top:213px; width: 128px; height: 149px; /*background: url(images/window.png) no-repeat;*/}
+
+.page_lg .lady02{ top:83px;}
+.page_lg .window{ top:36px;}
+.page_sm .lady02{ top:65px; /*background-size: 80% 80%;*/}
+.page_sm .window{ top:28px; /*background-size: 80% 80%;*/}
+.page_xs .lady02{ top:37px;/* background-size: 80% 80%;*/}
+.page_xs .window{ top:0; /*background-size: 80% 80%;*/}
+
+.page_sm .lady02 img,
+.page_sm .window img,
+.page_xs .lady02 img,
+.page_xs .window img{ width: 80%; height: 80%;}
+/*第三屏*/
+.page_3{ background:url(http://m.vip.com/app/images/bg3.png) #e8d1c2; height:780px;}
+.lady03{ position: absolute; left: 41px; top: 281px; width: 483px; height:469px; /*background: url(images/lady03.png) no-repeat; */}
+.plant{ position: absolute; left: 264px; top:230px; width: 270px; height: 157px; /*background: url(images/plant.png) no-repeat;*/}
+
+.page_lg .lady03{ top:60px;}
+.page_lg .plant{ top:8px;}
+.page_sm .lady03{ top:47px; /*background-size: 80% 80%;*/}
+.page_sm .plant{ left:224px; top:6px; /*background-size: 80% 80%;*/}
+.page_xs .lady03{ top:8px; /*background-size: 80% 80%;*/}
+.page_xs .plant{ top:0; /*background-size: 80% 80%;*/}
+
+.page_sm .lady03 img,
+.page_sm .plant img,
+.page_xs .lady03 img,
+.page_xs .plant img{ width: 80%; height: 80%;} 
+/*第四屏*/
+.page_4{ background:url(http://m.vip.com/app/images/bg4.png) #c1c1db; height:780px;}
+.lady04{ position: absolute; left: 59px; top:200px; width: 436px; height:589px; /*background: url(images/lady04.png) no-repeat;*/ }
+.alipay{ position: absolute; left: 443px; top:253px; width: 119px; height: 153px; /*background: url(images/alipay.png) no-repeat;*/}
+
+.page_lg .lady04{ top:0px;}
+.page_lg .alipay{ top:54px;}
+.page_sm .lady04{ top:0px; /*background-size: 80% 80%;*/}
+.page_sm .alipay{ top:42px; left:365px; /*background-size: 80% 80%;*/}
+.page_xs .lady04{ top:0px; /*background-size: 80% 80%;*/}
+.page_xs .alipay{ top:42px; left:365px;  /*background-size: 80% 80%;*/}
+
+
+.page_sm .lady04 img, 
+.page_sm .alipay img,
+.page_xs .lady04 img,
+.page_xs .alipay img{ width: 80%; height: 80%;}
+/*弹窗*/
+.cc{text-align:center;}
+.re{ position:relative;}
+.ab{ position:absolute;}
+.fx{ position: fixed; _position:absolute;}
+.ieFix-w {
+    background: none repeat scroll 0 0 #000;
+    float: left;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    filter:alpha(opacity=60);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 21;
+    display:none;
+
+}
+.w-info {
+    background: url(http://a.vpimg4.com/upload/actpics/act/app/bg_window1.png) no-repeat ;
+    color: #333333;
+    display: none;
+    float: left;
+    font-size: 14px;
+    height: 296px;
+    left: 50%;
+    margin-left: -321px;
+    margin-top: -148px;
+    position: fixed;
+    top: 50%;
+    width: 642px;
+    z-index: 1112;
+    _position:absolute;
+}
+.w-info2 {
+    background: url(http://a.vpimg4.com/upload/actpics/act/app/bg_window2.png) no-repeat ;
+    height: 385px;
+    margin-top: -192px;
+    display:none;
+    background-size: 642px;
+}
+.w-close {
+    height: 55px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 55px;
+}
+.w-btitle {
+    border-bottom: 2px solid #de3083;
+    color: #393939;
+    font-size: 14px;
+    height: 40px;
+    line-height: 43px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-left: 15px;
+    width: 601px;
+}
+.w-stitle {
+    float: left;
+    margin-left: 55px;
+    margin-top: 115px;
+    width: 288px;
+}
+.w-stitle p {
+    font-size: 12px;
+    margin: 0 auto;
+    width: 133px;
+}
+.w-2wm {
+    float: left;
+    font-size: 12px;
+    margin-top: 40px;
+    width: 143px;
+}
+.w-select {
+    height: 126px;
+    margin: 26px auto 0;
+    width: 549px;
+}
+.w-select2 {
+    margin: 26px auto 0;
+    width: 420px;
+}
+.w-select a {
+    color: #424141;
+    float: left;
+    font-family: "Tahoma",arial;
+    height: auto;
+    margin: 0 9px;
+    padding-top: 98px;
+    width: 88px;
+}
+.w-select2 a {
+    margin: 0 26px;
+}
+.w-select a.s-android {
+    background: url(http://a.vpimg4.com/upload/actpics/act/app/android.png) no-repeat;
+}
+.w-select a.s-android:hover, .w-select a.s-android.hover {
+    background: url(http://a.vpimg4.com/upload/actpics/act/app/android-h.png) no-repeat;
+}
+.w-select a.s-iphone {
+    background: url(http://a.vpimg4.com/upload/actpics/act/app/iphone.png) no-repeat;
+}
+.w-select a.s-iphone:hover, .w-select a.s-iphone.hover {
+    background: url(http://a.vpimg4.com/upload/actpics/act/app/iphone-h.png) no-repeat;
+}
+.w-select a.s-ipad {
+    background: url(http://a.vpimg4.com/upload/actpics/act/app/ipad.png) no-repeat;
+}
+.w-select a.s-ipad:hover, .w-select a.s-ipad.hover {
+    background: url(http://a.vpimg4.com/upload/actpics/act/app/ipad-h.png) no-repeat;
+}
+.w-select a.s-windows {
+    background: url(images/windows.png) no-repeat;
+}
+.w-select a.s-windows:hover, .w-select a.s-windows.hover{
+    background: url(images/windows-h.png) no-repeat;
+}
+.w-select a.s-wap {
+    background: url(http://a.vpimg4.com/upload/actpics/act/app/wap.png) no-repeat;
+    margin-right: 0;
+}
+.w-select a.s-wap:hover, .w-select a.s-wap.hover {
+    background: url(http://a.vpimg4.com/upload/actpics/act/app/wap-h.png) no-repeat;
+}
+.w-info2 .w-stitle {
+    margin-top: 67px;
+}
+.w-info2 .w-stitle2 p {
+    width: 100%;
+}
+.w-info2 .w-2wm {
+    margin-top: 28px;
+}
+.w-arr1 {
+    left: 48px;
+    top: 125px;
+}
+.w-arr2 {
+    left: 155px;
+    top: 125px;
+}
+.w-arr3 {
+    left: 261px;
+    top: 125px;
+}
+.w-arr4 {
+    left: 39px;
+    top: 367px;
+}
+.d-hidden {
+    display: none;
+    z-index: 2222;
+}
+.w-down {
+   
+    height: 100%;
+    float:left;
+    width: 599px;
+}
+.fix-1 {
+    height: 100%;
+    left: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 198px;
+    width: 599px;
+}
+.fix-box {
+    float: left;
+    height: 100%;
+    width: 500%;
+    overflow:hidden;
+    position:relative;
+}
+.bg-color-placeholder {
+    position: absolute;
+    top: 204px;
+    left: 12px;
+    background-color: #e6e6e6;
+    height: 61px;
+    width: 617px;
+}
