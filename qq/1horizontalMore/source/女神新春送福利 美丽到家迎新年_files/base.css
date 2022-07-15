@@ -1,0 +1,381 @@
+/* BY wangguiqing   2015-1-28  */
+a:link,a:visited,a:active{color:#333; text-decoration:none;}
+a:hover{ text-decoration:underline;color:#9D2958;}
+a,area{blr:expression(this.onFocus=this.blur())};
+/*文字排版*/
+.f12{font-size:12px;}.f14{font-size:14px;}.f16{font-size:16px;}.f18{font-size:18px;}.f22{font-size:22px;}.f20{font-size:20px;}.f24{font-size:24px;}.f28{font-size:28px;}.f30{font-size:30px;}.f36{font-size:36px;}.f46{font-size:46px;}.f48{font-size:48px;}
+.fb{font-weight:bold;}.fn{font-weight:normal;}
+.t2{text-indent:2em;}
+.tc{ text-align:center;}.tr{text-align:right;}
+.unl,a.unl,body a.unl,body *.unl,body a.unl:link,body a.unl:visited{text-decoration:underline;}
+.no_unl{text-decoration:none;}
+.vm{vertical-align:middle;}
+.yahei{font-family:Microsoft YaHei;}
+.Arial{font-family:Arial}
+.italic{ font-style:italic;}
+.mr10{ margin-right:10px;}.mt6{margin-top:6px;}.mb10{margin-bottom:10px;}.mb5{ margin-bottom:5px;}.mb15{ margin-bottom:15px;}.mb20{ margin-bottom:20px;}.ml5{ margin-left:5px;}.ml10{ margin-left:10px;}.ml15{ margin-left:15px;}.mr15{ margin-right:15px;}.mt5{ margin-top:5px;}.mr5{ margin-right:5px;}.mt30{ margin-top:30px;}.mt60{ margin-top:60px;}.mt20{ margin-top:20px;}
+.p5{ padding:5px;}.p12{ padding:12px;}.p10{ padding:10px;}.p20{ padding:20px;}.p30{ padding:30px;}.pl10{ padding-left:10px;}.pl30{ padding-left:30px;}.pr30{ padding-right:30px;}.pl20{ padding-left:20px;}.pb15{ padding-bottom:15px;}.pt15{ padding-top:15px;}.pt10{ padding-top:10px;}.pt60{ padding-top:60px;}.pt80{ padding-top:80px;}.pb10{ padding-bottom:10px;}.pb20{ padding-bottom:20px;}
+.vm{vertical-align:middle;}
+/*解决图片 文字标签 表单 垂直对齐问题*/
+.vms{vertical-align:middle;display:inline-block;}
+.ovh{ overflow:hidden;}
+.pa{position:absolute;}.pr{ position:relative;}
+.fl{float:left;display:inline;}.fr{float:right;display:inline;}
+.lh25{ line-height:25px;}
+.clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*zoom:1;}
+.clearfix .clear{_height:0px;}
+.block{display:block;}
+.fOrg,.fOrg a,.fOrg a:link,.fOrg a:visited{color:#c2012e; text-decoration:none;}
+.fOrg a:hover{color:#c2012e; text-decoration:underline;}
+.white,.white a,.white a:link,.white a:visited{color:#fff; text-decoration:none;}
+.white a:hover{color:#9D2958; text-decoration:underline;}
+.fGary{ color:#CCCCCC;}
+.w970{ width:970px; margin:0px auto;}
+.w1040{ width:1040px; margin:0px auto;}
+.ImgStyle{overflow:hidden; line-height:0px; font-size:0px; display:block;}
+
+input{border:1px solid #CCCCCC; font-size:12px;}
+div,img,ul,li,dl,dd,form,p,h1,h2,h3,h4,h5,h6,h7,hr,span{margin:0;padding:0;border:0;}
+ul,li,dl,dd{list-style-type:none;list-style-image:none;}
+ol{}
+ol li{list-style-type:decimal;}
+ul,li{list-style-type:none;list-style-image:none;}
+html{}
+body{margin:0px;background:#000000; padding:0px; overflow-x:hidden; width:100%; margin:0px auto;font-size:12px; position:relative;}
+.w1000{width:1000px; margin-left:auto; margin-right:auto;}
+.blue{ color:#156054;}
+.white{ color:#FFFFFF;}
+.Purple{ color:#9d2958;}
+.none{display:none;}
+.pl10{padding-left:10px;}
+
+.bg_black{background:#000;}
+.bg_white{background:#ffffff;}
+.bg_efefef{background:#efefef;}
+.c_Header{height:30px;position:absolute;left:0px;top:0px;color:#fff!important;width:100%;z-index:1000;background:rgba(0,0,0,0.1)!important;filter:Alpha(opacity=10); background:#000;}
+.c_Footer{height:120px;position:absolute;left:0px;bottom:0px;color:#fff!important;width:100%;z-index:1000;background:rgba(0,0,0,0.1)!important;filter:Alpha(opacity=10); background:#000;}}
+.bodyWrap{height:650px;position:relative;background:#000;}
+.act_left{width:1px; height:1px; position:relative;float:left;}
+.Left_logo{position:absolute;left:50%; top:50%;margin:-335px 0px 0px -605px;z-index:11;}
+.Left_Share{position:absolute;left:50%; top:50%;text-align:right; width:200px;margin:335px 0px 0px 420px;}
+
+.act_right{margin-left:0px; overflow:hidden; position:relative;background:#000000;}
+.act_right .RightUl li{ height:650px; float:left;}
+
+.mod{width:1200px;height:650px; position:absolute; left:50%; top:50%; margin:-325px 0px 0px -600px;}
+.P01,.P02,.P03,.P04,.P05,.P06,.P07,.P08,.P09,.P10,.P11,.P12,.P13,.P14,.P15,.P16,.P17{width:100%;height:100%;}
+.P01{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/bg_01.jpg) no-repeat center center;}
+.P02{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_1.jpg) no-repeat center center;}
+.P03{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_2.jpg) no-repeat center center;}
+.P04{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_3.jpg) repeat-x -200px center;width:500%;;}
+.P05{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_4.jpg) no-repeat center center;}
+.P06{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_5.jpg) no-repeat center center;}
+.P07{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_6.jpg) no-repeat center center;}
+.P08{background:#000000;}
+.P09{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_8.jpg) no-repeat center center;}
+.P10{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_9.jpg) no-repeat center center;}
+.P11{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_10.jpg) no-repeat center center;}
+.P12{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_11.jpg) no-repeat center center;}
+.P13{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_12.jpg) no-repeat center center;}
+.P14{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_13.jpg) no-repeat center center;}
+.P15{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_14.jpg) no-repeat center center;}
+.P16{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_15.jpg) no-repeat center center;}
+.P17{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/bg_02.jpg) repeat-x -200px center;width:500%;}
+
+.cu{cursor:pointer;}
+
+.cur .P02{-webkit-animation:BgZoomB 10s 30 both ease-in;animation:BgZoomB 10s 30 both ease-in;-moz-animation:BgZoomB 10s 30 both ease-in;-o-animation:BgZoomB 10s 30 both ease-in;}
+
+.cur .P03{-webkit-animation:BgZoomS 10s 30 both ease-in;animation:BgZoomS 10s 30 both ease-in;-moz-animation:BgZoomS 10s 30 both ease-in;-o-animation:BgZoomS 10s 30 both ease-in;}
+.cur .P04{-webkit-animation:BgXs 20s 30 both ease-in;animation:BgXs 20s 30 both ease-in;-moz-animation:BgXs 20s 30 both ease-in;-o-animation:BgXs 20s 30 both ease-in;}
+.cur .P05{-webkit-animation:BgZoomB 10s 30 both ease-in;animation:BgZoomB 10s 30 both ease-in;-moz-animation:BgZoomB 10s 30 both ease-in;-o-animation:BgZoomB 10s 30 both ease-in;}
+.cur .P06{-webkit-animation:BgZoomB 10s 30 both ease-in;animation:BgZoomB 10s 30 both ease-in;-moz-animation:BgZoomB 10s 30 both ease-in;-o-animation:BgZoomB 10s 30 both ease-in;}
+.cur .P07{-webkit-animation:BgX 10s 30 both ease-in;animation:BgX 10s 30 both ease-in;-moz-animation:BgX 10s 30 both ease-in;-o-animation:BgX 10s 30 both ease-in;}
+.cur .P08{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/b_7.jpg) no-repeat center center;-webkit-animation:BgZoomS 10s 40 both ease-in;animation:BgZoomS 10s 40 both ease-in;-moz-animation:BgS 10s 40 both ease-in;-o-animation:BgS 10s 40 both ease-in;}
+@keyframes BgS{0%{transform:scale(0.7)}50%{transform:scale(1)}100%{transform:scale(0.7)}}
+@-webkit-keyframes BgS{0%{-webkit-transform:scale(0.7)}50%{-webkit-transform:scale(1)}100%{-webkit-transform:scale(0.7)}}
+@-moz-keyframes BgS{0%{-moz-transform:scale(0.7)}50%{-moz-transform:scale(1)}100%{-moz-transform:scale(0.7)}}
+@-o-keyframes BgS{0%{-o-transform:scale(0.7)}50%{-o-transform:scale(1)}100%{-o-transform:scale(0.7)}}
+.cur .P09{-webkit-animation:BgZoomB 10s 30 both ease-in;animation:BgZoomB 10s 30 both ease-in;-moz-animation:BgZoomB 10s 30 both ease-in;-o-animation:BgZoomB 10s 30 both ease-in;}
+.cur .P10{-webkit-animation:BgZoomB 10s 30 both ease-in;animation:BgZoomB 10s 30 both ease-in;-moz-animation:BgZoomB 10s 30 both ease-in;-o-animation:BgZoomB 10s 30 both ease-in;}
+.cur .P11{-webkit-animation:BgZoomS 10s 30 both ease-in;animation:BgZoomS 10s 30 both ease-in;-moz-animation:BgZoomS 10s 30 both ease-in;-o-animation:BgZoomS 10s 30 both ease-in;}
+.cur .P12{-webkit-animation:BgZoomB 10s 30 both ease-in;animation:BgZoomB 10s 30 both ease-in;-moz-animation:BgZoomB 10s 30 both ease-in;-o-animation:BgZoomB 10s 30 both ease-in;}
+.cur .P13{-webkit-animation:BgX 10s 30 both ease-in;animation:BgX 10s 30 both ease-in;-moz-animation:BgX 10s 30 both ease-in;-o-animation:BgX 10s 30 both ease-in;}
+.cur .P14{-webkit-animation:BgZoomB 10s 30 both ease-in;animation:BgZoomB 10s 30 both ease-in;-moz-animation:BgZoomB 10s 30 both ease-in;-o-animation:BgZoomB 10s 30 both ease-in;}
+.cur .P15{-webkit-animation:BgZoomS 10s 30 both ease-in;animation:BgZoomS 10s 30 both ease-in;-moz-animation:BgZoomS 10s 30 both ease-in;-o-animation:BgZoomS 10s 30 both ease-in;}
+.cur .P16{-webkit-animation:BgZoomB 10s 30 both ease-in;animation:BgZoomB 10s 30 both ease-in;-moz-animation:BgZoomB 10s 30 both ease-in;-o-animation:BgZoomB 10s 30 both ease-in;}
+.cur .P17{-webkit-animation:BgXs 20s 30 both ease-in;animation:BgXs 20s 30 both ease-in;-moz-animation:BgXs 20s 30 both ease-in;-o-animation:BgXs 20s 30 both ease-in;}
+
+.B_n{top:-173px;position:absolute;}
+.cur .B_n{-webkit-animation:B_n 10s 30 both ease-in;animation:B_n 10s 30 both ease-in;-moz-animation:B_n 10s 30 both ease-in;-o-animation:B_n 10s 30 both ease-in;}
+
+
+/* 放大 */
+@-webkit-keyframes BgZoomB{0%{-webkit-transform:scale(1)}50%{-webkit-transform:scale(1.25)}100%{-webkit-transform:scale(1)}}
+@keyframes BgZoomB{0%{transform:scale(1)}50%{transform:scale(1.25)}100%{transform:scale(1)}}
+@-moz-keyframes BgZoomB{0%{-moz-transform:scale(1)}50%{-moz-transform:scale(1.25)}100%{-moz-transform:scale(1)}}
+@-o-keyframes BgZoomB{0%{-o-transform:scale(1)}50%{-o-transform:scale(1.25)}100%{-o-transform:scale(1)}}
+/* 缩小 */
+@-webkit-keyframes BgZoomS{0%{-webkit-transform:scale(1.25)}50%{-webkit-transform:scale(1)}100%{-webkit-transform:scale(1.25)}}
+@keyframes BgZoomS{0%{transform:scale(1.25)}50%{transform:scale(1)}100%{transform:scale(1.25)}}
+@-moz-keyframes BgZoomS{0%{-moz-transform:scale(1.25)}50%{-moz-transform:scale(1)}100%{-moz-transform:scale(1.25)}}
+@-o-keyframes BgZoomS{0%{-o-transform:scale(1.25)}50%{-o-transform:scale(1)}100%{-o-transform:scale(1.25)}}
+/* 平移 */
+@-webkit-keyframes BgX{0%{-webkit-transform:scale(1.25) translateX(-150px)}50%{-webkit-transform:scale(1.25) translateX(0px)}100%{-webkit-transform:scale(1.25) translateX(-150px)}}
+@keyframes BgX{0%{transform:scale(1.25) translateX(-150px)}50%{transform:scale(1.25) translateX(0px)}100%{transform:scale(1.25) translateX(-150px)}}
+@-moz-keyframes BgX{0%{-moz-transform:scale(1.25) translateX(-150px)}50%{-moz-transform:scale(1.25) translateX(0px)}100%{-moz-transform:scale(1.25) translateX(-150px)}}
+@-o-keyframes BgX{0%{-o-transform:scale(1.25) translateX(-150px)}50%{-o-transform:scale(1.25) translateX(0px)}100%{-o-transform:scale(1.25) translateX(-150px)}}
+/* 平移1 */
+@-webkit-keyframes BgXs{0%{-webkit-transform:scale(1) translateX(-200px)}50%{-webkit-transform:scale(1) translateX(0px)}100%{-webkit-transform:scale(1) translateX(-200px)}}
+@keyframes BgXs{0%{transform:scale(1) translateX(-200px)}50%{transform:scale(1) translateX(0px)}100%{transform:scale(1) translateX(-200px)}}
+@-moz-keyframes BgXs{0%{-moz-transform:scale(1) translateX(-200px)}50%{-moz-transform:scale(1) translateX(0px)}100%{-moz-transform:scale(1) translateX(-200px)}}
+@-o-keyframes BgXs{0%{-o-transform:scale(1) translateX(-200px)}50%{-o-transform:scale(1) translateX(0px)}100%{-o-transform:scale(1) translateX(-100px)}}
+
+/* 平移2 */
+@-webkit-keyframes B_n{0%{-webkit-transform:scale(1) translateX(2000px)}100%{-webkit-transform:scale(1) translateX(-500px)}}
+@keyframes B_n{0%{transform:scale(1) translateX(2000px)}100%{transform:scale(1) translateX(-500px)}}
+@-moz-keyframes B_n{0%{-moz-transform:scale(1) translateX(2000px)}100%{-moz-transform:scale(1) translateX(-500px)}}
+@-o-keyframes B_n{0%{-o-transform:scale(1) translateX(2000px)}100%{-o-transform:scale(1) translateX(-500px)}}
+
+
+
+.cur .s_w{position:absolute;}
+.s1{left:367px;top:43px;}
+.s2{left:1121px;top:161px;}
+.s_w1{-webkit-animation:s_w 2s infinite both ease-in 1.7s;animation:s_w 2s infinite both ease-in 1.7s;-moz-animation:s_w 2s infinite both ease-in 1.7s;-o-animation:s_w 2s infinite both ease-in 1.7s;}
+.s_w2{-webkit-animation:s_w 3s infinite both ease-in 2.0s;animation:s_w 3s infinite both ease-in 2.0s;-moz-animation:s_w 3s infinite both ease-in 2.0s;-o-animation:s_w 3s infinite both ease-in 2.0s;}
+.s_w3{-webkit-animation:s_w 1.4s infinite both ease-in 1.4s;animation:s_w 1.4s infinite both ease-in 1.4s;-moz-animation:s_w 1.4s infinite both ease-in 1.4s;-o-animation:s_w 1.4s infinite both ease-in 1.4s;}
+.s_w4{-webkit-animation:s_w .8s infinite both ease-in 1.8s;animation:s_w .8s infinite both ease-in 1.8s;-moz-animation:s_w .8s infinite both ease-in 1.8s;-o-animation:s_w .8s infinite both ease-in 1.8s;}
+@keyframes s_w{0%{transform:scale(0.9);opacity:0.8;}50% {transform:scale(1.2);opacity:1; }100% {transform:scale(0.9);opacity:0.8;}}
+@-webkit-keyframes s_w{0% {-webkit-transform:scale(0.9);opacity:0.8;}50% {-webkit-transform:scale(1.2);opacity:1; }100% {-webkit-transform:scale(0.9);opacity:0.8;}}
+@-moz-keyframes s_w{0% {-moz-transform:scale(0.9);opacity:0.8;}50% {-moz-transform:scale(1.2);opacity:1; }100% {-moz-transform:scale(0.9);opacity:0.8;}}
+@-o-keyframes s_w{0% {-o-transform:scale(0.9);opacity:0.8;}50% {-o-transform:scale(1.2);opacity:1; }100% {-o-transform:scale(0.9);opacity:0.8;}}
+
+
+.T1_l{position:absolute; left:53px; top:466px;}
+.T1_r{position:absolute; left:222px; top:466px;}
+.T1_l{opacity:0;-webkit-animation:bounceOutLeft 0.8s both ease-in-out 0.5s;animation:bounceOutLeft 0.8s both ease-in-out 0.5s;-moz-animation:bounceOutLeft 0.8s both ease-in-out 0.5s;-o-animation:bounceOutLeft 0.8s both ease-in-out 0.5s;}
+.cur .T1_l{opacity:1;-webkit-animation:bounceInLeft 0.8s both ease-in-out 0.5s;animation:bounceInLeft 0.8s both ease-in-out 0.5s;-moz-animation:bounceInLeft 0.8s both ease-in-out 0.5s;-o-animation:bounceInLeft 0.8s both ease-in-out 0.5s;}
+.T1_r{opacity:0;-webkit-animation:bounceOutRight 0.8s both ease-in-out 0.5s;animation:bounceOutRight 0.8s both ease-in-out 0.5s;-moz-animation:bounceOutRight 0.8s both ease-in-out 0.5s;-o-animation:bounceOutRight 0.8s both ease-in-out 0.5s;}
+.cur .T1_r{opacity:1;-webkit-animation:bounceInRight 0.8s both ease-in-out 0.5s;animation:bounceInRight 0.8s both ease-in-out 1s;-moz-animation:bounceInRight 0.8s both ease-in-out 0.5s;-o-animation:bounceInRight 0.8s both ease-in-out 0.5s;}
+
+.bg_tm,.bg_2014{position:absolute; left:28px; top:4px;}
+.bg_tm,.bg_2014{width:1131px;height:463px;}
+.bg_2014{background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/bg_2014.png);}
+.bg_tm{opacity:0;}
+.T_0{width:384px;height:449px;}
+.P1{position:absolute;left:376px; top:17px;}
+
+.tab{position:absolute;bottom:0px; left:-10px;}
+.tab{width:1250px; height:30px;float:left;line-height:30px;}
+.tab span{width:50px;padding:0px 10px;float:left;cursor:pointer;background:#000;border:1px solid #3d3d3d;text-align:center;display:block;font-size:16px; margin-right:2px; color:#ffffff;}
+.tab span.cc{width:50px;padding:0px 10px;height:30px;float:left;display:block;color:#fff;background:#ce0019;border:1px solid #ce0019;}
+.tab{opacity:0;-webkit-animation:fadeOutDown 0.8s both ease-in-out 1s;animation:fadeOutDown 0.8s both ease-in-out 1s;-moz-animation:fadeOutDown 0.8s both ease-in-out 1s;-o-animation:fadeOutDown 0.8s both ease-in-out 1s;}
+.cur .tab{opacity:1;-webkit-animation:fadeIn 0.8s both ease-in-out 1s;animation:fadeIn 0.8s both ease-in-out 1s;-moz-animation:fadeIn 0.8s both ease-in-out 1s;-o-animation:fadeIn 0.8s both ease-in-out 1s;}
+
+.p_c{position:absolute;left:376px; top:17px;height:449px;}
+.p_c .c_a{width:384px;height:449px;position:absolute;}
+.p_c .c_a .Name{position:absolute; left:117px; top:386px;font-size:34px; color:#fff; font-family:"Microsoft YaHei","Arial";}
+.hide{display:none}
+#p5{width:90px;}
+#p15{width:110px;}
+
+.c_a .option{margin:0px;width:61px;height:53px; top:348px; left:54px;}
+.c_a .digg{text-align:center;font-size:12px;color:#ccc; float:left;line-height:20px;text-indent:-3333px; margin:0px 0px 0px 0px; background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/yzan.png) no-repeat 0px 0px; width:61px; height:53px;}
+.c_a .digg a{color:#555;text-decoration:none;background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/zan.png) no-repeat 0px 0px; width:61px; height:53px; display:block; text-indent:-3333px;}
+.c_a .digg a:hover{text-decoration:none;width:61px; height:53px; display:block;}
+.c_a .count{text-align:center;font-size:16px; float:left;color:#fff;font-family:"Arial";width:71px; height:16px; line-height:16px; margin:0px 0px 0px 0px;position:relative;left:-5px; top:6px;}
+
+
+.option{opacity:0;-webkit-transition:all 1s;transition:all 1s;transition:all 1s;transition:all 1s;-moz-transition:all 1s;transition:all 1s;-o-transition:all 1s;transition:all 1s;}
+.cur .option{opacity:1;-webkit-animation:zoomIn 0.8s both ease-in-out 0.6s;animation:zoomIn 0.8s both ease-in-out 0.6s;-webkit-animation:zoomIn 0.8s both ease-in-out 0.6s;-moz-animation:zoomIn 0.8s both ease-in-out 0.6s;-o-animation:zoomIn 0.8s both ease-in-out 0.6s;}
+
+
+
+.act_right{position:absolute;left:0px;margin:0;}
+.slider-pages{overflow:hidden;width:100%;height:650px;}
+.slider-page-con{position:relative;overflow:hidden;float:left;width:100%;height:650px;}
+.slider-pages-help{width:99999px;}
+
+.baobao-bg{position:absolute;top:0;left:0;width:100%;height:650px;}
+.nobg{background:none;}
+
+.c_1{position:absolute;left:303px;top:153px;}
+.r_1{position:absolute;left:-464px;top:-122px;}
+.m_1{position:absolute;left:411px;top:429px;}
+.p_1{position:absolute;left:749px;top:191px;}
+.t_b1{width:255px;height:215px;padding:12px 28px 0px 0px;}
+
+.c_2{position:absolute;left:277px;top:96px;}
+.r_2{position:absolute;left:-232px;top:-114px;}
+.m_2{position:absolute;left:503px;top:446px;}
+.p_2{position:absolute;left:725px;top:220px;}
+.t_b2{width:215px;height:215px;padding:12px 18px 0px 50px;}
+/*花瓣2*/
+@-webkit-keyframes mysnow1{ 0%{ bottom:100%; opacity:0;}50%{ opacity:1; -webkit-transform:rotate(10deg);} 100%{ -webkit-transform:rotate(0deg);opacity:0; bottom:0;}} 
+@keyframes mysnow1{ 0%{ bottom:100%; opacity:0;}50%{ opacity:1; transform:rotate(10deg);} 100%{ transform:rotate(0deg);opacity:0; bottom:0;}} 
+@-moz-keyframes mysnow1{ 0%{ bottom:100%; opacity:0;}50%{ opacity:1; -moz-transform:rotate(10deg);} 100%{ -moz-transform:rotate(0deg);opacity:0; bottom:0;}} 
+/*花瓣2*/
+@-webkit-keyframes mysnow2{ 0%{ bottom:100%; opacity:0;}50%{ opacity:1; -webkit-transform:rotate(1080deg);} 100%{ -webkit-transform:rotate(0deg);opacity:0; bottom:0;}} 
+@keyframes mysnow2{ 0%{ bottom:100%; opacity:0;}50%{ opacity:1; transform:rotate(1080deg);} 100%{ transform:rotate(0deg);opacity:0; bottom:0;}} 
+@-moz-keyframes mysnow2{ 0%{ bottom:100%; opacity:0;}50%{ opacity:1; -moz-transform:rotate(1080deg);} 100%{ -moz-transform:rotate(0deg);opacity:0; bottom:0;}} 
+/*花瓣5*/
+@-webkit-keyframes mysnow5{ 0%{ bottom:100%; opacity:0;}50%{ opacity:1; -webkit-transform:rotate(10deg);} 100%{ -webkit-transform:rotate(0deg);opacity:0; bottom:0;}} 
+@keyframes mysnow5{ 0%{ bottom:100%; opacity:0;}50%{ opacity:1; transform:rotate(10deg);} 100%{ transform:rotate(0deg);opacity:0; bottom:0;}} 
+@-moz-keyframes mysnow5{ 0%{ bottom:100%; opacity:0;}50%{ opacity:1; -moz-transform:rotate(10deg);} 100%{ -moz-transform:rotate(0deg);opacity:0; bottom:0;}} 
+.roll1{position:absolute;opacity:0;-webkit-animation:mysnow1 5s;animation:mysnow1 5s;-moz-animation:mysnow1 5s;} 
+.roll2{position:absolute;opacity:0;-webkit-animation:mysnow2 5s;animation:mysnow2 5s;-moz-animation:mysnow2 5s;} 
+.roll5{position:absolute;opacity:0;-webkit-animation:mysnow5 5s;animation:mysnow5 5s;-moz-animation:mysnow5 5s;} 
+
+
+.leafPic .div{position:absolute; } 
+.leafPic{display:block; z-index:100; width:100%; height:100%; left:0; top:0px;position:absolute; pointer-events:none;}
+
+.c_3{position:absolute;left:297px;top:117px;}
+.r_3{position:absolute;left:-95px;top:-52px;}
+.m_3{position:absolute;left:330px;top:472px;}
+.p_3{position:absolute;left:704px;top:266px;}
+.t_b3{width:245px;height:235px;padding:12px 18px 0px 20px;background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/t_bs.png) no-repeat!important;}
+.pro_i3{left:910px!important;top:222px!important;font-size:14px!important; line-height:20px!important;}
+
+
+
+.c_4{position:absolute;left:297px;top:117px;}
+.r_4{position:absolute;left:-353px;top:-148px;}
+.m_4{position:absolute;left:476px;top:429px;}
+.p_4{position:absolute;left:763px;top:203px;}
+.t_b4{width:235px;height:225px;padding:22px 18px 0px 30px;color:#ffffff!important;}
+.pro_i4{left:910px!important;top:245px!important;font-size:14px!important; color:#ffffff!important;line-height:20px!important;}
+
+
+.c_5{position:absolute;left:260px;top:106px;}
+.r_5{position:absolute;left:-258px;top:-97px;}
+.m_5{position:absolute;left:311px;top:420px;}
+.p_5{position:absolute;left:750px;top:154px;}
+.t_b5{width:245px;height:215px;padding:12px 28px 0px 10px;}
+.pro_i5{left:900px!important;}
+
+.c_6{position:absolute;left:256px;top:132px;}
+.r_6{position:absolute;left:-149px;top:-37px;}
+.m_6{position:absolute;left:318px;top:371px;}
+.p_6{position:absolute;left:644px;top:175px;}
+.t_b6{width:255px;height:205px;padding:22px 8px 0px 20px;}
+.pro_i6{left:886px!important;font-size:15px!important; line-height:20px!important;top:225px!important;}
+
+.c_7{position:absolute;left:281px;top:151px;}
+.r_7{position:absolute;left:-191px;top:-42px;}
+.m_7{position:absolute;left:545px;top:378px;}
+.p_7{position:absolute;left:660px;top:242px;}
+.t_b7{width:245px;height:215px;padding:12px 18px 0px 20px;color:#ffffff!important;}
+.pro_i7{left:910px!important;top:250px!important;color:#ffffff!important;line-height:20px!important;}
+
+.c_8{position:absolute;left:256px;top:132px;}
+.r_8{position:absolute;left:-224px;top:-83px;}
+.m_8{position:absolute;left:465px;top:422px;}
+.p_8{position:absolute;left:744px;top:183px;}
+.pbg_8{position:absolute;left:589px;top:-21px;}
+.t_b8{width:245px;height:215px;padding:12px 18px 0px 20px;}
+.pro_i8{left:910px!important;top:250px!important;line-height:20px!important;}
+
+.c_9{position:absolute;left:266px;top:94px;}
+.r_9{position:absolute;left:-191px;top:-151px;}
+.m_9{position:absolute;left:414px;top:404px;}
+.p_9{position:absolute;left:675px;top:276px;}
+.t_b9{width:225px;height:205px;padding:22px 18px 0px 40px;}
+.pro_i9{left:875px!important;top:235px!important;line-height:20px!important;}
+
+.c_10{position:absolute;left:309px;top:122px;}
+.r_10{position:absolute;left:-285px;top:-117px;}
+.m_10{position:absolute;left:294px;top:404px;}
+.p_10{position:absolute;left:637px;top:380px;}
+.t_b10{width:225px;height:225px;padding:2px 18px 0px 40px;}
+.pro_i10{line-height:20px!important;}
+
+.c_11{position:absolute;left:309px;top:122px;}
+.r_11{position:absolute;left:-308px;top:-111px;}
+.m_11{position:absolute;left:257px;top:437px;}
+.p_11{position:absolute;left:757px;top:236px;}
+.t_b11{width:245px;height:215px;padding:12px 28px 0px 10px;}
+.pro_i11{line-height:20px!important;left:900px!important;}
+
+
+.c_12{position:absolute;left:287px;top:96px;}
+.r_12{position:absolute;left:-124px;top:-166px;}
+.m_12{position:absolute;left:336px;top:416px;}
+.p_12{position:absolute;left:686px;top:174px;}
+.t_b12{width:265px;height:215px;padding:12px 18px 0px 0px;background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/t_bs.png) no-repeat!important;}
+.pro_i12{left:900px!important;top:220px!important;font-size:14px!important; line-height:20px!important;}
+
+.c_13{position:absolute;left:297px;top:117px;}
+.r_13{position:absolute;left:-251px;top:-58px;}
+.m_13{position:absolute;left:305px;top:432px;}
+.p_13{position:absolute;left:759px;top:188px;}
+.t_b13{width:245px;height:205px;padding:22px 28px 0px 10px;}
+.pro_i13{line-height:20px!important;left:900px!important;top:265px!important;}
+
+.c_14{position:absolute;left:311px;top:138px;}
+.r_14{position:absolute;left:-420px;top:-77px;}
+.m_14{position:absolute;left:187px;top:484px;}
+.p_14{position:absolute;left:640px;top:247px;}
+.t_b14{width:235px;height:205px;padding:22px 18px 0px 30px;}
+.pro_i14{line-height:20px!important;left:900px!important;top:225px!important;}
+
+.c_15{position:absolute;left:311px;top:127px;}
+.r_15{position:absolute;left:-228px;top:-161px;}
+.m_15{position:absolute;left:472px;top:405px;}
+.p_15{position:absolute;left:627px;top:193px;}
+.t_b15{width:245px;height:215px;padding:12px 28px 0px 10px;}
+
+
+.c_17_T{position:absolute;left:178px;top:37px;}
+.c_17_p01{position:absolute;left:140px;top:168px;}
+.c_17_p02{position:absolute;left:141px;top:549px;}
+.c_17_p04{position:absolute;left:-433px;top:-162px;}
+
+.c_x1{-webkit-animation:fadeOut 0.8s both ease-in-out 0.4s;animation:fadeOut 0.8s both ease-in-out 0.4s;-moz-animation:fadeOut 0.8s both ease-in-out 0.4s;-o-animation:fadeOut 0.8s both ease-in-out 0.4s;}
+.cur .c_x1{-webkit-animation:zoomIn 0.8s both ease-in-out 0.4s;animation:zoomIn 0.8s both ease-in-out 0.4s;-moz-animation:zoomIn 0.8s both ease-in-out 0.4s;-o-animation:zoomIn 0.8s both ease-in-out 0.4s;}
+.c_x2{-webkit-animation:fadeOut 0.8s both ease-in-out 0.8s;animation:fadeOut 0.8s both ease-in-out 0.8s;-moz-animation:fadeOut 0.8s both ease-in-out 0.8s;-o-animation:fadeOut 0.8s both ease-in-out 0.8s;}
+.cur .c_x2{-webkit-animation:zoomIn 0.8s both ease-in-out 0.8s;animation:zoomIn 0.8s both ease-in-out 0.8s;-moz-animation:zoomIn 0.8s both ease-in-out 0.8s;-o-animation:zoomIn 0.8s both ease-in-out 0.8s;}
+.c_x3{-webkit-animation:zoomOutDown 0.8s both ease-in-out 0.8s;animation:zoomOutDown 0.8s both ease-in-out 0.8s;-moz-animation:zoomOutDown 0.8s both ease-in-out 0.8s;-o-animation:zoomOutDown 0.8s both ease-in-out 0.8s;}
+.cur .c_x3{-webkit-animation:zoomInUp 0.8s both ease-in-out 2.5s;animation:zoomInUp 0.8s both ease-in-out 2.5s;-moz-animation:zoomInUp 0.8s both ease-in-out 2.5s;-o-animation:zoomInUp 0.8s both ease-in-out 2.5s;}
+
+
+.pro_i{position:absolute;left:917px;top:266px;font-size:16px;font-weight:bold;line-height:24px;}
+.pro_i em{font-size:13px;font-weight:lighter;line-height:26px;font-style:normal;}
+
+.tabC span{filter:progid:DXImageTransform.Microsoft.Shadow(color='#000',Direction=145,Strength=20);-webkit-box-shadow:2px 2px 20px #000;-moz-box-shadow:2px 2px 20px #000;box-shadow:2px 2px 20px #000;}
+.tabC{opacity:0;-webkit-animation:fadeOutDown 0.8s both ease-in-out 1s;animation:fadeOutDown 0.8s both ease-in-out 1s;-moz-animation:fadeOutDown 0.8s both ease-in-out 1s;-o-animation:fadeOutDown 0.8s both ease-in-out 1s;}
+.cur .tabC{opacity:1;-webkit-animation:fadeIn 0.8s both ease-in-out 0.5s;animation:fadeIn 0.8s both ease-in-out 0.5s;-moz-animation:fadeIn 0.8s both ease-in-out 0.5s;-o-animation:fadeIn 0.8s both ease-in-out 0.5s;}
+
+.t_b{position:absolute;left:907px;top:340px;background:url(http://mat1.gtimg.com/fashion/xujinzhi/beautystar/2014anniversary/t_b.png) no-repeat; font-size:13px;line-height:24px;}
+.tr{position:absolute;left:822px;top:0px;}
+.t{position:absolute;left:327px;top:20px;}
+.btn_home{position:absolute;right:0px;bottom:45px;z-index:100;cursor:pointer;}
+.btn_apply{position:absolute;left:980px;top:245px;cursor:pointer;}
+
+.btn_home{opacity:0;-webkit-animation:fadeOutRight 0.8s both ease-in-out 1s;animation:fadeOutRight 0.8s both ease-in-out 1s;-moz-animation:fadeOutRight 0.8s both ease-in-out 1s;-o-animation:fadeOutRight 0.8s both ease-in-out 1s;}
+.cur .btn_home{opacity:1;-webkit-animation:fadeInRight 0.8s both ease-in-out 3s;animation:fadeInRight 0.8s both ease-in-out 3s;-moz-animation:fadeInRight 0.8s both ease-in-out 3s;-o-animation:fadeInRight 0.8s both ease-in-out 3s;}
+.btn_home .home{width:115px;height:28px;display:block;}
+.cur .btn_home .home{-webkit-animation:home 2s linear infinite;animation:home 2s linear infinite;-moz-animation:home 2s linear infinite;-o-animation:home 2s linear infinite;}
+@-webkit-keyframes home{
+    0%{-webkit-transform:translateX(0px);}
+    50%{-webkit-transform:translateX(-20px);}
+    100%{-webkit-transform:translateX(0px);}
+}
+@keyframes home{
+    0%{transform:translateX(0px);}
+    50%{transform:translateX(-20px);}
+    100%{transform:translateX(0px);}
+}
+@-moz-keyframes home{
+    0%{-moz-transform:translateX(0px);}
+    50%{-moz-transform:translateX(-20px);}
+    100%{-moz-transform:translateX(0px);}
+}
+@-o-keyframes home{
+    0%{-o-transform:translateX(0px);}
+    50%{-o-transform:translateX(-20px);}
+    100%{-o-transform:translateX(0px);}
+}
+/*  |xGv00|1aa68d076dc089bffd812706ed9a2bf6 */

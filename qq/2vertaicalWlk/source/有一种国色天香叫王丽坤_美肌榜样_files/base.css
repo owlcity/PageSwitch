@@ -1,0 +1,353 @@
+/* BY wangguiqing   2015-02-1  */
+a:link,a:visited,a:active{color:#333; text-decoration:none;}
+a:hover{ text-decoration:underline;color:#9D2958;}
+a,area{blr:expression(this.onFocus=this.blur())};
+/*文字排版*/
+.f12{font-size:12px;}.f14{font-size:14px;}.f16{font-size:16px;}.f18{font-size:18px;}.f22{font-size:22px;}.f20{font-size:20px;}.f24{font-size:24px;}.f28{font-size:28px;}.f30{font-size:30px;}.f36{font-size:36px;}.f46{font-size:46px;}.f48{font-size:48px;}
+.fb{font-weight:bold;}.fn{font-weight:normal;}
+.t2{text-indent:2em;}
+.tc{ text-align:center;}.tr{text-align:right;}
+.unl,a.unl,body a.unl,body *.unl,body a.unl:link,body a.unl:visited{text-decoration:underline;}
+.no_unl{text-decoration:none;}
+.vm{vertical-align:middle;}
+.yahei{font-family:Microsoft YaHei;}
+.Arial{font-family:Arial}
+.italic{ font-style:italic;}
+.mr10{ margin-right:10px;}.mt6{margin-top:6px;}.mb10{margin-bottom:10px;}.mb5{ margin-bottom:5px;}.mb15{ margin-bottom:15px;}.mb20{ margin-bottom:20px;}.ml5{ margin-left:5px;}.ml10{ margin-left:10px;}.ml15{ margin-left:15px;}.mr15{ margin-right:15px;}.mt5{ margin-top:5px;}.mr5{ margin-right:5px;}.mt30{ margin-top:30px;}.mt60{ margin-top:60px;}.mt20{ margin-top:20px;}
+.p5{ padding:5px;}.p12{ padding:12px;}.p10{ padding:10px;}.p20{ padding:20px;}.p30{ padding:30px;}.pl10{ padding-left:10px;}.pl30{ padding-left:30px;}.pr30{ padding-right:30px;}.pl20{ padding-left:20px;}.pb15{ padding-bottom:15px;}.pt15{ padding-top:15px;}.pt10{ padding-top:10px;}.pt60{ padding-top:60px;}.pt80{ padding-top:80px;}.pb10{ padding-bottom:10px;}.pb20{ padding-bottom:20px;}
+.vm{vertical-align:middle;}
+/*解决图片 文字标签 表单 垂直对齐问题*/
+.vms{vertical-align:middle;display:inline-block;}
+.ovh{ overflow:hidden;}
+.pa{position:absolute;}.pr{ position:relative;}
+.fl{float:left;display:inline;}.fr{float:right;display:inline;}
+.lh25{ line-height:25px;}
+.clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*zoom:1;}
+.clearfix .clear{_height:0px;}
+.block{display:block;}
+.fOrg,.fOrg a,.fOrg a:link,.fOrg a:visited{color:#c2012e; text-decoration:none;}
+.fOrg a:hover{color:#c2012e; text-decoration:underline;}
+.white,.white a,.white a:link,.white a:visited{color:#fff; text-decoration:none;}
+.white a:hover{color:#9D2958; text-decoration:underline;}
+.fGary{ color:#CCCCCC;}
+.w970{ width:970px; margin:0px auto;}
+.w1040{ width:1040px; margin:0px auto;}
+.ImgStyle{overflow:hidden; line-height:0px; font-size:0px; display:block;}
+#ClCache{display:none;} /*去除工行第三方插件BUG*/
+
+input{border:1px solid #CCCCCC; font-size:12px;}
+div,img,ul,li,dl,dd,form,p,h1,h2,h3,h4,h5,h6,h7,hr,span{margin:0;padding:0;border:0;}
+ul,li,dl,dd{list-style-type:none;list-style-image: none;}
+ol{}
+ol li{list-style-type: decimal;}
+ul,li{list-style-type:none;list-style-image: none;}
+html,body{font-family:"Microsoft Yahei";}
+body{margin:0px; padding:0px; width:100%; margin:0px auto;font-size:12px; position:relative;font-family:Arial,"Microsoft Yahei";}
+.w1000{width:1000px; margin-left:auto; margin-right:auto;}
+.blue{ color:#156054;}
+.white{ color:#FFFFFF;}
+.none{display:none;}
+.pb30{ padding-bottom:30px;}
+
+
+.bg_black{ background:#000;}
+.bg_white{ background:#ffffff;}
+.tr{ text-align:right;}
+
+.bodyWrap{color:#5e5e5e;background:#ffffff; font-family:Arial,"Microsoft Yahei";}
+.section {color:#666;}
+.c_header,.c_footer{height:30px;width:100%; line-height:30px;text-align:center;}
+.c_header{z-index:11;}
+.c_footer{height:100px;}
+body,.pr{position:relative;}
+
+.nav{width:65px;position:fixed;right:5px; top:50%;font-size:17px; z-index:1999;margin-top:-190px;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/r_nav.png) no-repeat 0px 21px;}
+.nav li{height:61px; line-height:61px;text-align:center; cursor:pointer;color:#6f8ba8;}
+.nav li:hover{text-decoration:none}
+.nav li.cur{color:#ffffff;font-weight:bold;}
+
+
+.fpcontainer{width:100%;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/bg.jpg) repeat-x top;}
+.section{width:100%;height:1000px;overflow:hidden; background-position:center top;background-repeat:no-repeat;position:relative;}
+.section1{background-image:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/bg_1.jpg);}
+.section2{background-image:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/bg_2.jpg);}
+.section2 .w1000{height:1000px;}
+.section3{background-image:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/bg_3.jpg);}
+.section4{background-image:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/bg_4.jpg);}
+.section5{background-image:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/bg_5.jpg);}
+.section6{background-image:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/bg_6.jpg);}
+
+.w1000{width:1000px;margin:0px auto;}
+
+.c_A_p1{position:absolute;left:500px;top:66px;}
+.c_A_p2{position:absolute;left:225px;top:215px;}
+.c_A_p3{position:absolute;left:672px;top:534px;color:#718ea9;}
+.c_A_p4{position:absolute;left:478px;top:800px;}
+
+#wrapper{top:0;padding-top:0;min-height:0!important;height:auto;background:0;position:relative;-webkit-transition:all .4s ease-out;-moz-transition:all .4s ease-out;-ms-transition:all .4s ease-out;-o-transition:all .4s ease-out;transition:all .4s ease-out}
+.static-flower-wrapper,.static-flower-wrapper-2{position:absolute;top:13%;left:0;width:100%;height:0;padding-top:110%;margin-top:35%}
+.static-flower-wrapper{z-index:4}
+.static-flower-wrapper-2{z-index:5;top:30%}
+.static-flower{position:absolute;z-index:2;height:auto}
+.static-flower-wrapper-11 { width: 100%; height:1000px; top:0; left:0;}
+.static-flower-1 { width:14%; left: 25%; top:0; -webkit-transform: translate(0, -100%) }
+.static-flower-2 { width:18%; left:12%; top:0; -webkit-transform: translate(0, -100%) }
+.static-flower-3 { width:10%; left:23%; top:0; -webkit-transform: translate(0, -100%) }
+.static-flower-4 { width:8%; left:11%; top:0; -webkit-transform: translate(0, -100%) }
+.static-flower-5 { top:0; right:12%; width:13.5%; -webkit-transform: translate(0, -100%) }
+.static-flower-6 { top:0; right:14%; width:14%; -webkit-transform: translate(0, -100%) }
+.static-flower-7 { width:17%; top:0; right:7%; -webkit-transform: translate(0, -100%) }
+.static-flower-11 { width: 80%; left:10%; bottom:40%; }
+.flowering .static-flower-1 {
+    animation: flower-1 4s;
+    -moz-animation: flower-1 4s;    /* Firefox */
+    -webkit-animation: flower-1 2s linear;  /* Safari Chrome */
+    -o-animation: flower-1 4s;  /* Opera */
+    top: 10%;
+    -webkit-transform: scale(1);
+}
+@-webkit-keyframes flower-1
+{
+    0%   { top: 0px; opacity:0; -webkit-transform: scale(0.5); }
+    50%   { top: 5%; opacity:1;}
+    100% { top: 10%; -webkit-transform: scale(1);}
+}
+.flowering .static-flower-2 {
+    animation: flower-2 3s;
+    -moz-animation: flower-2 3s;    /* Firefox */
+    -webkit-animation: flower-2 1s linear;  /* Safari Chrome */
+    -o-animation: flower-2 1s;  /* Opera */
+    top: 32%;
+    -webkit-transform: scale(1);
+    
+}
+@-webkit-keyframes flower-2
+{
+    0%   { top: 0px; opacity:0; -webkit-transform: scale(0.5);}
+    50%   { top: 16%; opacity:1 }
+    100% { top: 32%; -webkit-transform: scale(1);}
+}
+.flowering .static-flower-3 {
+    animation: flower-3 4s;
+    -moz-animation: flower-3 4s;    /* Firefox */
+    -webkit-animation: flower-3 2s linear;  /* Safari Chrome */
+    -o-animation: flower-3 4s;  /* Opera */
+    top: 52%;
+    -webkit-transform: scale(1);
+}
+@-webkit-keyframes flower-3
+{
+    0%   { top: 0px; opacity:0; -webkit-transform: scale(0.3);}
+    50%   { top: 26%; opacity:1;}
+    100% { top: 52%; -webkit-transform: scale(1);}
+}
+.flowering .static-flower-4 {
+    animation: flower-4 5s;
+    -moz-animation: flower-4 5s;    /* Firefox */
+    -webkit-animation: flower-4 3s linear;  /* Safari Chrome */
+    -o-animation: flower-4 5s;  /* Opera */
+    top: 62%;
+    -webkit-transform: scale(1);
+}
+@-webkit-keyframes flower-4
+{
+    0%   { top: 0px; opacity:0; -webkit-transform: scale(0.7);}
+    50%   { top: 31%; opacity:1; }
+    100% { top: 62%; -webkit-transform: scale(1); }
+}
+
+.flowering .static-flower-5 {
+    animation: flower-5 3s;
+    -moz-animation: flower-5 3s;    /* Firefox */
+    -webkit-animation: flower-5 1s linear;  /* Safari Chrome */
+    -o-animation: flower-5 3s;  /* Opera */
+    top: 8%;
+    -webkit-transform: scale(1);
+}
+@-webkit-keyframes flower-5
+{
+    0%   { top: 0px; opacity:0; -webkit-transform: scale(0.6);}
+    50%   { top: 4%; opacity:1;}
+    100% { top: 8%;-webkit-transform: scale(1);}
+}
+
+.flowering .static-flower-6 {
+    animation: flower-6 5s;
+    -moz-animation: flower-6 5s;    /* Firefox */
+    -webkit-animation: flower-6 3s linear;  /* Safari Chrome */
+    -o-animation: flower-6 5s;  /* Opera */
+    top: 30%;
+    -webkit-transform: scale(1);
+}
+@-webkit-keyframes flower-6
+{
+    0%   { top: 0px; opacity:0; -webkit-transform: scale(0.7);}
+    50%   { top: 15%; opacity:1;}
+    100% { top:30%; -webkit-transform: scale(1);}
+}
+
+.flowering .static-flower-7 {
+    animation: flower-6 5s;
+    -moz-animation: flower-7 5s;    /* Firefox */
+    -webkit-animation: flower-7 3s linear;  /* Safari Chrome */
+    -o-animation: flower-7 5s;  /* Opera */
+    top: 54%;
+    -webkit-transform: scale(1);
+}
+@-webkit-keyframes flower-7
+{
+    0%   { top: 0px; opacity:0; -webkit-transform: scale(0.5);}
+    50%   { top: 27%; opacity:1;}
+    100% { top: 54%; -webkit-transform: scale(1);}
+}
+
+.c_B_p1{position:absolute;right:0px;top:322px;}
+.c_B_p2{position:absolute;left:179px;top:44px;}
+.c_B_p3{position:absolute;left:26px;top:86px;}
+.c_B_p4{position:absolute;left:-95px;top:170px;}
+.c_B_m1{position:absolute;left:37px;top:268px;cursor:pointer;}
+.c_B_m2{position:absolute;left:-33px;top:566px;cursor:pointer;}
+.c_B_m3{position:absolute;left:136px;top:703px;cursor:pointer;}
+.c_B_m4{position:absolute;left:704px;top:220px;cursor:pointer;}
+.c_B_m5{position:absolute;left:662px;top:494px;cursor:pointer;}
+.c_B_m6{position:absolute;left:681px;top:689px;cursor:pointer;}
+
+.c_B_m1{opacity:0;}
+.c_B_m2{opacity:0;}
+.c_B_m3{opacity:0;}
+.c_B_m4{opacity:0;}
+.c_B_m5{opacity:0;}
+.c_B_m6{opacity:0;}
+.current .c_B_m1{opacity:1;-webkit-animation:fadeInLeft .5s both ease-in-out 0.8s;animation:fadeInLeft .5s both ease-in-out 0.8s;}
+.current .c_B_m2{opacity:1;-webkit-animation:fadeInLeft .5s both ease-in-out 1.0s;animation:fadeInLeft .5s both ease-in-out 1.0s;}
+.current .c_B_m3{opacity:1;-webkit-animation:fadeInLeft .5s both ease-in-out 1.2s;animation:fadeInLeft .5s both ease-in-out 1.2s;}
+.current .c_B_m4{opacity:1;-webkit-animation:fadeInRight .5s both ease-in-out 0.8s;animation:fadeInRight .5s both ease-in-out 0.8s;}
+.current .c_B_m5{opacity:1;-webkit-animation:fadeInRight .5s both ease-in-out 1.0s;animation:fadeInRight .5s both ease-in-out 1.0s;}
+.current .c_B_m6{opacity:1;-webkit-animation:fadeInRight .5s both ease-in-out 1.2s;animation:fadeInRight .5s both ease-in-out 1.2s;}
+
+
+/*
+.current .c_B_m6{opacity:1;-webkit-transform:translateZ(0) scale(1) rotate(0deg);transform:translateZ(0) scale(1) rotate(0deg);-webkit-transition:all 1.5s ease-in-out;transition:all 1.5s ease-in-out;-webkit-transform-origin:0 50%;transform-origin:0 50%;}
+.current .w_Z1{-webkit-animation:fadeInUp .5s both ease-in-out 1.2s;animation:fadeInUp .5s both ease-in-out 1.2s;}
+*/
+
+
+.B_Con{width:581px;height:300px;display:none; padding:29px 25px; position:absolute;left:50%;top:50%;margin:-180px 0px 0px -315px;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/B_Con.png) no-repeat 0px 0px;}
+.B_Con .B_c{width:580px;height:300px;overflow:hidden;position:relative;}
+.B_Con2{height:250px;margin:-155px 0px 0px -315px;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/B_Con2.png) no-repeat 0px 0px;}
+.B_Con2 .B_c{height:250px;}
+.B_Con3{height:180px;margin:-120px 0px 0px -315px;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/B_Con3.png) no-repeat 0px 0px;}
+.B_Con3 .B_c{height:300px;}
+
+
+.B_Con .B_c p.Q{color:#84bebc;font-size:16px;line-height:36px;padding-left:50px;padding-right:10px;font-weight:bold;position:relative;margin-top:10px;margin-bottom:10px;}
+.B_Con .B_c p.Q i{width:36px;height:36px;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/Q.png) no-repeat;float:left; position:absolute;left:5px; top:0px;}
+.B_Con .B_c p.A{color:#a5a5a5;font-size:15px;line-height:26px;padding-left:50px;padding-right:10px;position:relative;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/A.png) no-repeat 20px 3px;}
+.B_Con .B_c p.A i{}
+.jscroll-h{border:0px!important;}
+a.a_Close{width:30px;height:30px;font-family:Helvetica;font-size:18px;color:#777777; text-decoration:none; text-align:center;line-height:30px; background:#ffffff;border:1px solid #7cbab8;position:absolute; right:-1px;top:-31px;}
+a.a_Close:hover{background:#7cbab8;color:#ffffff;}
+
+
+
+.c_C_p1{position:absolute;left:307px;top:83px;}
+.c_C_p4{position:absolute;left:0px;top:210px;}
+.c_C_p5{position:absolute;left:210px;top:320px;}
+a.c_C_01{position:absolute; left:324px; top:177px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/c_C_a01.png) no-repeat 0px 0px; width:226px; height:118px;}
+.curS a.c_C_01{position:absolute; left:324px; top:177px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/c_C_a01.png) no-repeat -226px 0px; width:226px; height:118px;}
+a.c_C_02{position:absolute; left:376px; top:343px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/c_C_a02.png) no-repeat 0px 0px; width:240px; height:146px;}
+.curS a.c_C_02{position:absolute; left:376px; top:343px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/c_C_a02.png) no-repeat -240px 0px; width:240px; height:146px;}
+a.c_C_03{position:absolute; left:305px; top:548px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/c_C_a03.png) no-repeat 0px 0px; width:229px; height:118px;}
+.curS a.c_C_03{position:absolute; left:305px; top:548px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/c_C_a03.png) no-repeat -229px 0px; width:229px; height:118px;}
+a.c_C_04{position:absolute; left:684px; top:210px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/c_C_a04.png) no-repeat 0px 0px; width:332px; height:143px;}
+.curS a.c_C_04{position:absolute; left:684px; top:210px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/c_C_a04.png) no-repeat -332px 0px; width:332px; height:143px;}
+a.c_C_05{position:absolute; left:807px; top:471px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/c_C_a05.png) no-repeat 0px 0px; width:155px; height:118px;}
+.curS a.c_C_05{position:absolute; left:807px; top:471px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/c_C_a05.png) no-repeat -155px 0px; width:155px; height:118px;}
+.c_C{position:absolute;left:5px; top:268px;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/c_C_p2.png) no-repeat 0px 0px;}
+.c_C .divBox{padding:235px 0px 0px 35px;width:200px;font-size:15px;line-height:26px;color:#464646;}
+.c_C .divBox i{position:absolute;width:34px;height:23px;float:left;right:-20px;bottom:-20px;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/c_C_p3.png) no-repeat 0px 0px;}
+
+.c_C{opacity:0;}
+.current .c_C{opacity:1;-webkit-animation:fadeInUp .5s both ease-in-out 0.2s;animation:fadeInUp .5s both ease-in-out 0.2s;}
+a.c_C_01{opacity:0;}
+a.c_C_02{opacity:0;}
+a.c_C_03{opacity:0;}
+a.c_C_04{opacity:0;}
+a.c_C_05{opacity:0;}
+.current a.c_C_01{opacity:1;-webkit-animation:fadeInLeft .5s both ease-in-out 0.5s;animation:fadeInLeft .5s both ease-in-out 0.5s;}
+.current a.c_C_02{opacity:1;-webkit-animation:fadeInLeft .5s both ease-in-out 1.0s;animation:fadeInLeft .5s both ease-in-out 1.0s;}
+.current a.c_C_03{opacity:1;-webkit-animation:fadeInLeft .5s both ease-in-out 1.2s;animation:fadeInLeft .5s both ease-in-out 1.2s;}
+.current a.c_C_04{opacity:1;-webkit-animation:fadeInRight .5s both ease-in-out 0.8s;animation:fadeInRight .5s both ease-in-out 0.8s;}
+.current a.c_C_05{opacity:1;-webkit-animation:fadeInRight .5s both ease-in-out 1.0s;animation:fadeInRight .5s both ease-in-out 1.0s;}
+
+
+.c_D_p1{position:absolute;left:533px;top:77px;}
+.c_D_p2{position:absolute;left:-117px;top:141px;}
+.c_D_p3{position:absolute;left:450px;top:174px;}
+.c_D_p4{position:absolute;left:-382px;top:119px;}
+
+.c_D{position:absolute;left:0px;top:0px;}
+.c_D_01{position:absolute;left:517px; top:355px;width:178px; height:466px;}
+.c_D_02{position:absolute;left:700px; top:223px;width:105px; height:437px;}
+.c_D_03{position:absolute;left:799px; top:198px;width:126px; height:347px;}
+.c_D_04{position:absolute;left:909px; top:280px;width:184px; height:518px;}
+.c_D_05{position:absolute;left:583px; top:660px;width:416px; height:247px;}
+
+.NBox{width:300px;height:250px;padding:95px 37px 95px 37px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/30/c_D_w.png) no-repeat 0px 0px;position:absolute;left:586px;top:344px;}
+
+
+.divD01{margin:0px 0px 0px -100px;}
+.divD02{margin:0px 0px 0px -170px;}
+.divD03{margin:0px 0px 0px -120px;}
+.divD04{margin:0px 0px 0px -100px;}
+.divD05{margin:-70px 0px 0px 20px;}
+.section4 .NBox{position:absolute;z-index:111;left:0px; top:0px;font-family:Arial,"Microsoft Yahei";cursor:pointer;}
+.section4 .NBox h4{font-size:20px;color:#ffa145;padding:0px 0px 10px 0px;text-align:center; line-height:24px; border-bottom:1px solid #ffa145;}
+.section4 .NBox h4 em{font-size:14px; font-weight:lighter;}
+.section4 .NBox p{font-size:14px; line-height:24px;padding-top:10px;}
+
+
+.c_E_p1{position:absolute;left:-158px;top:222px;}
+.c_E_p2{position:absolute;left:248px;top:55px;}
+.c_E_p3{position:absolute;left:347px;top:392px;}
+.c_E_p4{position:absolute;left:0px;top:649px;}
+.c_E_a1{position:absolute;left:85px;top:157px;}
+.c_E_a2{position:absolute;left:171px;top:272px;}
+.c_E_a3{position:absolute;left:361px;top:204px;}
+.c_E_a4{position:absolute;left:1px;top:382px;}
+.c_E_a5{position:absolute;left:146px;top:486px;}
+
+.c_E_a2{opacity:0;}
+.current .c_E_a2{opacity:1;-webkit-animation:rotateInUpLeft .5s both ease-in-out 0.5s;animation:rotateInUpLeft .5s both ease-in-out 0.5s;}
+.c_E_a3{opacity:0;}
+.current .c_E_a3{opacity:1;-webkit-animation:rotateInUpLeft .5s both ease-in-out 0.7s;animation:rotateInUpLeft .5s both ease-in-out 0.7s;}
+.c_E_a1{opacity:0;}
+.current .c_E_a1{opacity:1;-webkit-animation:rotateInUpLeft .5s both ease-in-out 0.9s;animation:rotateInUpLeft .5s both ease-in-out 0.9s;}
+.c_E_a5{opacity:0;}
+.current .c_E_a5{opacity:1;-webkit-animation:rotateInUpLeft .5s both ease-in-out 0.8s;animation:rotateInUpLeft .5s both ease-in-out 0.8s;}
+.c_E_a4{opacity:0;}
+.current .c_E_a4{opacity:1;-webkit-animation:rotateInUpLeft .5s both ease-in-out 1.1s;animation:rotateInUpLeft .5s both ease-in-out 1.1s;}
+
+.c_E_p3{opacity:0;}
+.current .c_E_p3{opacity:1;-webkit-animation:fadeIn .5s both ease-in-out 1.2s;animation:fadeIn .5s both ease-in-out 1.2s;}
+.c_E_p4{opacity:0;}
+.current .c_E_p4{opacity:1;-webkit-animation:zoomIn .5s both ease-in-out 1.5s;animation:zoomIn .5s both ease-in-out 1.5s;}
+
+
+
+.c_F_p1{position:absolute;left:557px;top:154px;}
+.c_F_p2{position:absolute;left:562px;top:411px;}
+.c_F_p3{position:absolute;left:562px;top:560px;}
+.c_F_p4{position:absolute;left:0px;top:832px;}
+
+.c_F_p4{opacity:0;}
+.current .c_F_p4{opacity:1;-webkit-animation:zoomInUp .5s both ease-in-out 1.5s;animation:zoomInUp .5s both ease-in-out 1.5s;}
+
+@media only screen and (min-height:450px) and (max-height:700px){
+
+}
+@media \0screen\,screen\9{
+
+} 
+/*  |xGv00|fee0a18d73dcad1952921f669bcc8135 */

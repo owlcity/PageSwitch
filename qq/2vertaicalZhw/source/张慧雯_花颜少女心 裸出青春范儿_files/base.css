@@ -1,0 +1,533 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors wgqth (wgqth@qq.com)
+ * @date    2015-08-10 08:37:14
+ */
+body{overflow-x:hidden;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {margin: 0;padding: 0;border: 0;font: inherit;font-size: 100%;vertical-align: baseline}
+html {line-height: 1}
+ol,ul {list-style: none}
+table {border-collapse: collapse;border-spacing: 0}
+caption,th,td {text-align: left;font-weight: normal;vertical-align: middle}
+q,blockquote {quotes: none}
+q:before,q:after,blockquote:before,blockquote:after {content: "";content: none}
+a img {border: none}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display: block}
+@keyframes prompt-motion {
+    0% {
+        -moz-transform:translate(0px,0px);
+        -ms-transform:translate(0px,0px);
+        -webkit-transform:translate(0px,0px);
+        transform:translate(0px,0px)
+    }
+    50% {
+        -moz-transform:translate(0px,-5px);
+        -ms-transform:translate(0px,-5px);
+        -webkit-transform:translate(0px,-5px);
+        transform:translate(0px,-5px)
+    }
+    100% {
+        -moz-transform:translate(0px,0px);
+        -ms-transform:translate(0px,0px);
+        -webkit-transform:translate(0px,0px);
+        transform:translate(0px,0px)
+    }
+}
+
+@-webkit-keyframes prompt-motion {
+    0% {
+        -moz-transform:translate(0px,0px);
+        -ms-transform:translate(0px,0px);
+        -webkit-transform:translate(0px,0px);
+        transform:translate(0px,0px)
+    }
+    50% {
+        -moz-transform:translate(0px,-5px);
+        -ms-transform:translate(0px,-5px);
+        -webkit-transform:translate(0px,-5px);
+        transform:translate(0px,-5px)
+    }
+    100% {
+        -moz-transform:translate(0px,0px);
+        -ms-transform:translate(0px,0px);
+        -webkit-transform:translate(0px,0px);
+        transform:translate(0px,0px)
+    }
+}
+.pt15{padding-top: 15px;}
+body {background-color:#ffffff;color: white;font-family:"Microsoft YaHei";}
+
+.wrapper {font-size: 13px;line-height: 1.8}
+body.pc .wrapper {font-size: 15px;letter-spacing: 1px}
+
+.wrap{width:1200px;margin:0px auto;position:relative;}
+.c_A_hd>i{width:203px;height:186px;display:block;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/hd11.png) no-repeat;}
+.c_A_hd i.hd1{background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/hd1.png) no-repeat;}
+.c_A_hd i.hd2{background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/hd2.png) no-repeat;}
+.c_A_hd i.hd3{background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/hd3.png) no-repeat;}
+.c_A_hd i.hd4{background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/hd4.png) no-repeat;}
+.c_A_hd i.hd5{background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/hd5.png) no-repeat;}
+.c_A_hd i.hd6{background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/hd6.png) no-repeat;}
+.c_A_hd i.hd7{background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/hd7.png) no-repeat;}
+.c_A_hd i.hd8{background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/hd8.png) no-repeat;}
+.c_A_hd i.hd9{background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/hd9.png) no-repeat;}
+.c_A_hd i.hd10{background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/hd10.png) no-repeat;}
+.c_A_hd{position:absolute;left:955px;top:600px;z-index:2;}
+.c_A_hd{-webkit-animation:hd 30s ease-in infinite 0.2s;animation:hd 30s ease-in infinite 0.2s;-moz-animation:hd 30s ease-in infinite 0.2s;-o-animation:hd 30s ease-in infinite 0.2s;}
+
+@keyframes hd {
+  0% {transform:translate(0px,0px) rotate(-0deg);}
+  25% {transform:translate(-20px,0px) rotate(-5deg);}
+  50% {transform:translate(-40px,-5px) rotate(-20deg);}
+  75% {transform:translate(-20px,0px) rotate(-5deg);}
+  100% {transform:translate(0px,0px) rotate(-0deg);}
+}
+
+@-webkit-keyframes hd {
+  0% {-webkit-transform:translate(0px,0px) rotate(-0deg);}
+  25% {-webkit-transform:translate(-20px,0px) rotate(-1deg);}
+  50% {-webkit-transform:translate(-40px,-5px) rotate(-15deg);}
+  75% {-webkit-transform:translate(-20px,0px) rotate(-1deg);}
+  100% {-webkit-transform:translate(0px,0px) rotate(-0deg);}
+}
+
+.c_A_t1{position:absolute;left:50%;top:121px;margin-left:227px; z-index:2; }
+.c_A_t2{position:absolute;left:50%;top:121px;margin-left:227px; z-index:2; }
+.c_A_t1{-webkit-animation:tt 5s ease-in-out infinite 0.7s;animation:tt 5s ease-in-out infinite 0.7s;-moz-animation:tt 5s ease-in-out infinite 0.7s;-o-animation:tt 5s ease-in-out infinite 0.7s;}
+.c_A_t2{-webkit-animation:tt 5s ease-in-out infinite 0.2s;animation:tt 5s ease-in-out infinite 0.2s;-moz-animation:tt 5s ease-in-out infinite 0.2s;-o-animation:tt 5s ease-in-out infinite 0.2s;}
+
+@keyframes tt {
+  0% {
+    -moz-transform:translate(0px,0px);
+    -ms-transform:translate(0px,0px);
+    -webkit-transform:translate(0px,0px);
+    transform:translate(0px,0px)
+  }
+  50% {
+    -moz-transform:translate(0px,-45px);
+    -ms-transform:translate(0px,-45px);
+    -webkit-transform:translate(0px,-45px);
+    transform:translate(0px,-45px)
+  }
+  100% {
+    -moz-transform:translate(0px,0px);
+    -ms-transform:translate(0px,0px);
+    -webkit-transform:translate(0px,0px);
+    transform:translate(0px,0px)
+  }
+}
+
+@-webkit-keyframes tt {
+  0% {
+    -moz-transform:translate(0px,0px);
+    -ms-transform:translate(0px,0px);
+    -webkit-transform:translate(0px,0px);
+    transform:translate(0px,0px)
+  }
+  50% {
+    -moz-transform:translate(0px,-45px);
+    -ms-transform:translate(0px,-45px);
+    -webkit-transform:translate(0px,-45px);
+    transform:translate(0px,-45px)
+  }
+  100% {
+    -moz-transform:translate(0px,0px);
+    -ms-transform:translate(0px,0px);
+    -webkit-transform:translate(0px,0px);
+    transform:translate(0px,0px)
+  }
+}
+
+
+.header{position:relative;overflow:hidden;text-align:center;background: #ffffff;}
+.header__inner{position:absolute;top:0%;width:100%;height:1227px;left:0px;}
+
+.header__title {left:50%;width:159px;height:103px; z-index:2; background:url("http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_A_logo.png") no-repeat;-moz-background-size:100%;-o-background-size:100%;-webkit-background-size:100%;background-size:100%}
+.header__title span {display:none}
+
+.header-content{height:1227px;width:100%;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_A_bg.jpg)  no-repeat center top;}
+body.pc .header {}
+body.pc .header__inner {height:1227px;}
+body.pc .header__title {position:absolute;left:50%;top:10%;width:159px;height:103px;background-image:url("http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_A_logo.png");-moz-background-size: 100%;-o-background-size: 100%;-webkit-background-size: 100%;background-size: 100%;margin-left:-600px;}
+
+
+/* 
+.gnav {position:fixed;top:50%;margin-top:-100px; left:10px;overflow: hidden;font-size:10px;letter-spacing:2px;width:100px;}
+.gnav__item {display: block;float: left;}
+.gnav__item a {display: none;margin-left:0px;color:#ff3996;text-decoration: none;width:90px;line-height:40px;}
+.gnav__item a.is-active {display: block;font-weight: bold;}
+body.pc .gnav {font-size: 14px}
+body.pc .gnav__item a {display: block;margin-left:10px;filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);opacity: 0.5}
+body.pc .gnav__item a.is-active {display: block;filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);opacity: 1}
+ */
+
+.gnav{width:299px;height:584px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/nav.png) no-repeat 0px 0px;position:fixed;top:50%;margin-top:-300px; left:-50px;overflow:hidden;}
+.gnav a{width:90px;height:45px;text-indent:-2000px;}
+.gnav a span{background-image:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/nav1.png);display:block;position:absolute;width:90px;height:45px;}
+.gnav a span.a{left:120px;top:85px;background-position:-120px -85px;}
+.gnav a span.b{left:210px;top:160px;background-position:-210px -160px;}
+.gnav a span.c{left:85px;top:210px;background-position:-85px -210px;}
+.gnav a span.d{left:195px;top:260px;background-position:-195px -260px;}
+.gnav a span.e{left:55px;top:295px;background-position:-55px -295px;}
+.gnav a span.f{left:180px;top:325px;background-position:-180px -325px;}
+.gnav a span.g{left:60px;top:390px;background-position:-60px -390px;}
+.gnav a span.h{left:140px;top:440px;background-position:-140px -440px;}
+
+.gnav a.is-active span{background-image:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/nav2.png);}
+.gnav a.is-active span.a{left:120px;top:85px;background-position:-120px -85px;}
+.gnav a.is-active span.b{left:210px;top:160px;background-position:-210px -160px;}
+.gnav a.is-active span.c{left:85px;top:210px;background-position:-85px -210px;}
+.gnav a.is-active span.d{left:195px;top:260px;background-position:-195px -260px;}
+.gnav a.is-active span.e{left:55px;top:295px;background-position:-55px -295px;}
+.gnav a.is-active span.f{left:180px;top:325px;background-position:-180px -325px;}
+.gnav a.is-active span.g{left:60px;top:390px;background-position:-60px -390px;}
+.gnav a.is-active span.h{left:140px;top:440px;background-position:-140px -440px;}
+
+@media only screen and (max-width:1280px){
+.gnav{width:150px;height:566px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/2nav.png) no-repeat 0px 0px;position:fixed;top:50%;margin-top:-300px; left:-10px;overflow:hidden;}
+.gnav a{width:90px;height:45px;text-indent:-2000px;}
+.gnav a span{background-image:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/2nav1.png); display:block;position:absolute;width:90px;height:45px;}
+.gnav a span.a{left: 45px;top: 30px;background-position: -45px -30px;}
+.gnav a span.b{left: -10px;top: 80px;background-position: 10px -80px;}
+.gnav a span.c{left:60px;top:150px;background-position:-60px -145px;}
+.gnav a span.d{left: 0px;top: 200px;background-position: 0px -200px;}
+.gnav a span.e{left: 50px;top:290px;background-position:-60px -300px;}
+.gnav a span.f{left: 0px;top: 405px;background-position: 0px -405px;}
+.gnav a span.g{left:60px;top: 445px;background-position: -60px -445px;}
+.gnav a span.h{left: 0px;top: 495px;background-position: 0px -495px;}
+
+.gnav a.is-active span{background-image:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/2nav2.png);}
+.gnav a.is-active span.a{left: 45px;top: 30px;background-position: -45px -30px;}
+.gnav a.is-active span.b{left: -10px;top: 80px;background-position: 10px -80px;}
+.gnav a.is-active span.c{left:60px;top:150px;background-position:-60px -145px;}
+.gnav a.is-active span.d{left: 0px;top: 200px;background-position: 0px -200px;}
+.gnav a.is-active span.e{left: 50px;top:290px;background-position:-60px -300px;}
+.gnav a.is-active span.f{left: 0px;top: 405px;background-position: 0px -405px;}
+.gnav a.is-active span.g{left:60px;top: 445px;background-position: -60px -445px;}
+.gnav a.is-active span.h{left: 0px;top: 495px;background-position: 0px -495px;}
+
+}
+
+#A{}
+.c_A_title{position: absolute;left:349px;top:763px; opacity:0;  }
+.c_A_con{position: absolute;left:205px;top:889px; opacity:0; }
+.c_A_p01{position: absolute;left:0px;top:0px;}
+.c_A_p02{position: absolute;right:0px;top:0px;}
+.cur .c_A_title{top:693px; opacity:1;  -webkit-transition:All 1.0s 1.0s;-moz-transition:All 1.0s 1.0s;transition:All 1.0s 1.0s;}
+.cur .c_A_con{top:829px; opacity:1;  -webkit-transition:All 1.0s 1.6s;-moz-transition:All 1.0s 1.6s;transition:All 1.0s 1.6s;}
+
+
+
+.B{position:relative;width:100%;height:777px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_B_bg.jpg)  no-repeat  center;}
+.c_B_p1{position: absolute;left:359px;top:59px;}
+.DB_tab25 {width:1200px;height:777px;}
+.DB_tab25 .DB_bgSet li{position:absolute;width:1200px;height:777px;display:none}
+.DB_tab25 .DB_imgSet{position:absolute;width:1200px;left:0;top:0px;}
+.DB_tab25 .DB_imgSet li{display:none}
+.DB_tab25 .DB_imgSet .c_B_a1{position:absolute;left:859px;top:96px;}
+.DB_tab25 .DB_imgSet .c_B_b2{position:absolute;left:96px;top:639px}
+.DB_tab25 .DB_imgSet .c_B_a2{position:absolute;left:859px;top:96px;}
+.DB_tab25 .DB_imgSet .c_B_b2{position:absolute;left:96px;top:639px}
+.DB_tab25 .DB_imgSet .c_B_a3{position:absolute;left:859px;top:96px;}
+.DB_tab25 .DB_imgSet .c_B_b3{position:absolute;left:96px;top:639px}
+.DB_tab25 .DB_imgSet .c_B_a4{position:absolute;left:859px;top:96px;}
+.DB_tab25 .DB_imgSet .c_B_b4{position:absolute;left:96px;top:639px}
+.DB_tab25 .DB_menuWrap{position:absolute;width:1200px;left:0;}
+.DB_tab25 .DB_menuWrap .DB_menuSet{position:absolute;left:0;top:0;font-size:0}
+.DB_tab25 .DB_menuWrap .DB_menuSet li.menu1{cursor:pointer;width:129px;height:128px;display:inline;position:absolute;left:170px;top:112px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_B_t1.png) no-repeat 0px 0px;}
+.DB_tab25 .DB_menuWrap .DB_menuSet li.menu2{cursor:pointer;width:129px;height:128px;display:inline;position:absolute;left:466px;top:84px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_B_t2.png) no-repeat 0px 0px;}
+.DB_tab25 .DB_menuWrap .DB_menuSet li.menu3{cursor:pointer;width:146px;height:148px;display:inline;position:absolute;left:69px;top:296px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_B_t3.png) no-repeat 0px 0px;}
+.DB_tab25 .DB_menuWrap .DB_menuSet li.menu4{cursor:pointer;width:129px;height:128px;display:inline;position:absolute;left:284px;top:256px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_B_t4.png) no-repeat 0px 0px;}
+.DB_tab25 .DB_menuWrap .DB_menuSet li.menu1.select{cursor:pointer;width:129px;height:128px;display:inline;position:absolute;left:170px;top:112px; background-position:right 0px;}
+.DB_tab25 .DB_menuWrap .DB_menuSet li.menu2.select{cursor:pointer;width:129px;height:128px;display:inline;position:absolute;left:466px;top:84px; background-position:right 0px;}
+.DB_tab25 .DB_menuWrap .DB_menuSet li.menu3.select{cursor:pointer;width:146px;height:148px;display:inline;position:absolute;left:69px;top:296px; background-position:right 0px;}
+.DB_tab25 .DB_menuWrap .DB_menuSet li.menu4.select{cursor:pointer;width:129px;height:128px;display:inline;position:absolute;left:284px;top:256px; background-position:right 0px;}
+
+.DB_tab25 .DB_prev{position:absolute;left:-100px;top:120px;cursor:pointer;display:none}
+.DB_tab25 .DB_next{position:absolute;right:-100px;top:120px;cursor:pointer;display:none}
+
+.current .c_B_p1{}
+
+/* Wobble Vertical */
+@-webkit-keyframes hvr {
+  16.65% {-webkit-transform: translateY(8px);transform: translateY(8px);}
+  33.3% {-webkit-transform: translateY(-6px);transform: translateY(-6px);}
+  49.95% {-webkit-transform: translateY(4px);transform: translateY(4px);}
+  66.6% {-webkit-transform: translateY(-2px);transform: translateY(-2px);}
+  83.25% {-webkit-transform: translateY(1px);transform: translateY(1px);}
+  100% {-webkit-transform: translateY(0);transform: translateY(0);}
+}
+@keyframes hvr {
+  16.65% {-webkit-transform: translateY(8px);transform: translateY(8px);}
+  33.3% {-webkit-transform: translateY(-6px);transform: translateY(-6px);}
+  49.95% {-webkit-transform: translateY(4px);transform: translateY(4px);}
+  66.6% {-webkit-transform: translateY(-2px);transform: translateY(-2px);}
+  83.25% {-webkit-transform: translateY(1px);transform: translateY(1px);}
+  100% {-webkit-transform: translateY(0);transform: translateY(0);}
+}
+.hvr{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr:hover,.hvr:focus,.hvr:active,
+.menu1.select,
+.menu2.select,
+.menu3.select,
+.menu4.select
+{
+  -webkit-animation-name: hvr;
+  animation-name: hvr;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count:3;
+  animation-iteration-count:3;
+}
+
+
+.C{position:relative;width:100%;height:1097px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_C_bg.jpg)  no-repeat  center;}
+
+.c_C_Q1{position: absolute;left:88px;top:240px;cursor:pointer;}
+.c_C_Q2{position: absolute;left:193px;top:624px;cursor:pointer;}
+.c_C_Q3{position: absolute;left: 800px;top: 125px;cursor:pointer;}
+.c_C_Q4{position: absolute;left: 860px;top: 379px;cursor:pointer;}
+.c_C_Q5{position: absolute;left: 993px;top: 660px;cursor:pointer;}
+.c_C_Q6{position: absolute;left: 731px;top: 844px;cursor:pointer;}
+
+.current .c_C_Q1{opacity:1;-webkit-animation:qx 0.5s both ease-in-out 0.5s;animation:qx 0.5s both ease-in-out 0.5s;}
+.current .c_C_Q2{opacity:1;-webkit-animation:qx 0.5s both ease-in-out 0.6s;animation:qx 0.5s both ease-in-out 0.6s;}
+.current .c_C_Q3{opacity:1;-webkit-animation:qx 0.5s both ease-in-out 0.7s;animation:qx 0.5s both ease-in-out 0.7s;}
+.current .c_C_Q4{opacity:1;-webkit-animation:qx 0.5s both ease-in-out 0.8s;animation:qx 0.5s both ease-in-out 0.8s;}
+.current .c_C_Q5{opacity:1;-webkit-animation:qx 0.5s both ease-in-out 0.9s;animation:qx 0.5s both ease-in-out 0.9s;}
+.current .c_C_Q6{opacity:1;-webkit-animation:qx 0.5s both ease-in-out 1.0s;animation:qx 0.5s both ease-in-out 1.0s;}
+
+@-webkit-keyframes qx {
+    0% {-webkit-transform:rotate(-25deg);}
+    100% {-webkit-transform:rotate(0deg);}
+}
+@keyframes qx{
+    0% {transform:rotate(-25deg);}
+    100% {transform:rotate(0deg);}
+}
+
+
+
+/* Wobble Horizontal */
+@-webkit-keyframes l_r {
+  16.65% {-webkit-transform: translateX(8px);transform: translateX(8px);}
+  33.3% {-webkit-transform: translateX(-6px);transform: translateX(-6px);}
+  49.95% {-webkit-transform: translateX(4px);transform: translateX(4px);}
+  66.6% {-webkit-transform: translateX(-2px);transform: translateX(-2px);}
+  83.25% {-webkit-transform: translateX(1px);transform: translateX(1px);}
+  100% {-webkit-transform: translateX(0);transform: translateX(0);}
+}
+@keyframes l_r {
+  16.65% {-webkit-transform: translateX(8px);transform: translateX(8px);}
+  33.3% {-webkit-transform: translateX(-6px);transform: translateX(-6px);}
+  49.95% {-webkit-transform: translateX(4px);transform: translateX(4px);}
+  66.6% {-webkit-transform: translateX(-2px);transform: translateX(-2px);}
+  83.25% {-webkit-transform: translateX(1px);transform: translateX(1px);}
+  100% {-webkit-transform: translateX(0);transform: translateX(0);}
+}
+
+.l_r {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.l_r:hover, .l_r:focus, .l_r:active {
+  -webkit-animation-name: l_r;
+  animation-name: l_r;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+.C_Con{width:614px;height:230px;display:none; padding:25px 25px; position:absolute;left:50%;top:400px;margin:0px 0px 0px -320px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_C_A.png) no-repeat 0px 0px;}
+.C_Con .C_c{width:614px;height:230px;overflow:hidden;position:relative;}
+
+
+
+.C_Con .C_c p.Q{color:#dcbe86;font-size:16px;line-height:36px;padding-left:50px;padding-right:0px;font-weight:bold;position:relative;margin-top:10px;margin-bottom:10px;}
+.C_Con .C_c p.Q i{width:36px;height:36px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/Q.png) no-repeat;float:left; position:absolute;left:5px; top:0px;}
+.C_Con .C_c p.A{color:#a5a5a5;font-size:15px;line-height:26px;padding-left:50px;padding-right:10px;position:relative;}
+.C_Con .C_c p.A i{}
+.jscroll-h{border:0px!important;}
+a.a_Close{width:30px;height:30px;display:none; font-family:Helvetica;font-size:18px;color:#777777; text-decoration:none; text-align:center;line-height:30px; background:#ffffff;position:absolute; right:-1px;top:-31px;}
+a.a_Close:hover{background:#d26060;color:#ffffff;}
+
+
+
+
+.D{position:relative;width:100%;height:879px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_D_bg.jpg)  no-repeat  center;}
+.c_D_p1{position: absolute;left:543px;top:198px;}
+.c_D_p2{position: absolute;left:44px;top:0px;}
+.c_D_v0{position: absolute;left:44px;top:0px;cursor: pointer;}
+.c_D_v1{position: absolute;left:556px;top:138px;cursor: pointer;}
+.c_D_v2{position: absolute;left:600px;top:287px;cursor: pointer;}
+.c_D_v3{position: absolute;left:510px;top:437px;cursor: pointer;}
+.c_D_v4{position: absolute;left:1061px;top:154px;cursor: pointer;}
+.c_D_v5{position: absolute;left:966px;top:407px;cursor: pointer;}
+.c_D_c0{position: absolute;left:60px;top:226px;}
+.c_D_c1{position: absolute;left:60px;top:226px;}
+.c_D_c2{position: absolute;left:60px;top:226px;}
+.c_D_c3{position: absolute;left:60px;top:226px;}
+.c_D_c4{position: absolute;left:60px;top:226px;}
+.c_D_c5{position: absolute;left:60px;top:226px;}
+.DCon{display:none;}
+.c_D_v1{opacity:0;}
+.c_D_v2{opacity:0;}
+.c_D_v3{opacity:0;}
+.c_D_v4{opacity:0;}
+.c_D_v5{opacity:0;}
+.c_D_p1{opacity:0;}
+.c_D_p2{opacity:0;}
+.DCon{opacity:0;}
+.current .c_D_v1{opacity:1;-webkit-animation:fadeInLeft .5s both ease-in-out 0.5s;animation:fadeInLeft .5s both ease-in-out 0.5s;}
+.current .c_D_v2{opacity:1;-webkit-animation:fadeInLeft .5s both ease-in-out 1.0s;animation:fadeInLeft .5s both ease-in-out 1.0s;}
+.current .c_D_v3{opacity:1;-webkit-animation:fadeInLeft .5s both ease-in-out 1.4s;animation:fadeInLeft .5s both ease-in-out 1.4s;}
+.current .c_D_v4{opacity:1;-webkit-animation:fadeInRight .5s both ease-in-out 1.0s;animation:fadeInRight .5s both ease-in-out 1.0s;}
+.current .c_D_v5{opacity:1;-webkit-animation:fadeInRight .5s both ease-in-out 1.4s;animation:fadeInRight .5s both ease-in-out 1.4s;}
+.current .c_D_p1{opacity:1;-webkit-animation:fadeIn 0.5s both ease-in-out 0.5s;animation:fadeIn 0.5s both ease-in-out 0.5s;}
+.current .c_D_p2{opacity:1;-webkit-animation:fadeInUp 0.5s both ease-in-out 1.0s;animation:fadeInUp 0.5s both ease-in-out 1.0s;}
+.current .DCon{opacity:1;-webkit-animation:fadeIn 0.5s both ease-in-out 0.2s;animation:fadeIn 0.5s both ease-in-out 0.2s;}
+
+
+
+.E{position:relative;width:100%;height:668px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_E_bg.jpg)  no-repeat  center;}
+.c_E_p1{position:absolute;left:-100px;top:69px;}
+.c_E_p2{position:absolute;left:0px;top:190px;}
+.c_E{position:absolute;left:660px;top:140px;opacity:0;}
+.c_E{opacity:1; -webkit-animation:fadeIn 0.8s ease-in-out both 1.6s;animation:fadeIn 0.8s ease-in-out both 1.6s;-moz-animation:fadeIn 0.8s ease-in-out both 1.6s;-o-animation:fadeIn 0.8s ease-in-out both 1.6s;}
+
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background:#80d2c9!important;border:0px!important;-webkit-border-radius:2px;}
+.mCSB_scrollTools a+.mCSB_draggerContainer{margin:0px!important;}
+.mCSB_scrollTools .mCSB_draggerRail{background:#282828!important;}
+.mCSB_container{margin-right:20px!important;}
+.mCustomScrollBox{z-index:111;}
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_buttonDown,
+.mCSB_scrollTools .mCSB_buttonLeft,
+.mCSB_scrollTools .mCSB_buttonRight{background-image:none!important;}
+
+.E .tittle_div1{width:540px;height:350px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/line.gif) repeat-y 18px top; color:#000;font-size:16px; line-height:24px; text-align:left;overflow:auto;z-index:50}
+.E .tittle_div1 p{padding-right:15px;padding-left:50px;}
+.E .tittle_div1 b{font-weight:lighter; display:inline-block;padding-left:2px;margin:1px 0;margin-right:2px;}
+.E .tittle_div1 p.Q{color:#6cada6;position: relative;left:0px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_E_q.png) no-repeat left top;}
+.E .tittle_div1 p.A{color:#666666;margin-top:5px;margin-bottom: 10px; position: relative;left:0px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_E_a.png) no-repeat left top;}
+
+
+.F{position:relative;width:100%;height:830px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_F_bg.jpg)  no-repeat  center;}
+/*.F .wrap{overflow-x:hidden;height:830px;}
+*/
+.c_F_p4{position: absolute;left:65px;top:0px;}
+.c_F_p2{position: absolute;left:80px;top:110px;}
+
+.c_F_p3{position: absolute;right:0px;top:0px;}
+.c_F_p1{position: absolute;left:519px;top:80px;}
+.c_F_cbg{position: absolute;left:78px;top:148px;width:539px;height:539px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_F_cbg.png) no-repeat 0px 0px;}
+.current .c_F_p2{left:-54px;top:31px;-webkit-transition:All 1.0s 1.0s;-moz-transition:All 1.0s 1.0s;transition:All 1.0s 1.0s;}
+.current .c_F_cbg{-webkit-animation:cbg 5s infinite ease-in;animation:cbg 5s infinite ease-in;}
+@-webkit-keyframes cbg{
+    0%{-webkit-transform:rotate(0);}
+    25%{-webkit-transform:rotate(60deg);}
+    50%{-webkit-transform:rotate(0);}
+    75%{-webkit-transform:rotate(-60deg);}
+    100%{-webkit-transform:rotate(0);}
+}
+@keyframes cbg{
+    0%{transform:rotate(0);}
+    25%{transform:rotate(60deg);}
+    50%{transform:rotate(0);}
+    75%{transform:rotate(-60deg);}
+    100%{transform:rotate(0);}
+}
+.FCon{display:none;position: absolute;left:78px;top:148px;width:350px;height:405px;padding:134px 69px 0px 120px; color:#555555;}
+.c_F_m1{position: absolute;left:0px;top:543px;cursor: pointer;opacity:0;}
+.c_F_m2{position: absolute;left:305px;top:594px;cursor: pointer;opacity:0;}
+.c_F_m3{position: absolute;left:443px;top:493px;cursor: pointer;opacity:0;}
+.c_F_m4{position: absolute;left:600px;top:251px;cursor: pointer;opacity:0;}
+.c_F_m5{position: absolute;left:385px;top:97px;cursor: pointer;opacity:0;}
+.current .c_F_m1{opacity:1;-webkit-animation:fadeInUp 1s both ease-in-out 0.8s;animation:fadeInUp 1s both ease-in-out 0.8s;}
+.current .c_F_m2{opacity:1;-webkit-animation:fadeInUp 1s both ease-in-out 1.0s;animation:fadeInUp 1s both ease-in-out 1.0s;}
+.current .c_F_m3{opacity:1;-webkit-animation:fadeInUp 1s both ease-in-out 1.2s;animation:fadeInUp 1s both ease-in-out 1.2s;}
+.current .c_F_m4{opacity:1;-webkit-animation:fadeInUp 1s both ease-in-out 1.4s;animation:fadeInUp 1s both ease-in-out 1.4s;}
+.current .c_F_m5{opacity:1;-webkit-animation:fadeInUp 1s both ease-in-out 1.6s;animation:fadeInUp 1s both ease-in-out 1.6s;}
+.c_F_m1s{position:absolute;left: 105px;top: 650px;cursor:pointer;line-height:0px;}
+.c_F_m2s{position:absolute;left: 340px;top:594px;cursor:pointer;line-height:0px;}
+.c_F_m3s{position:absolute;left: 525px;top: 575px;cursor:pointer;line-height:0px;}
+.c_F_m4s{position:absolute;left: 610px;top: 430px;cursor:pointer;line-height:0px;}
+.c_F_m5s{position:absolute;left: 510px;top: 130px;cursor:pointer;line-height:0px;}
+.c_F_m1s img,
+.c_F_m2s img,
+.c_F_m3s img,
+.c_F_m4s img,
+.c_F_m5s img{width:29px;height:29px;}
+.current .c_F_m1s,.current .c_F_m2s,.current .c_F_m3s,.current .c_F_m4s,.current .c_F_m5s{-webkit-animation:fadeIn 1s both ease-in-out 2s;animation:fadeIn 1s both ease-in-out 2s;}
+.current .c_F_m1s img{-webkit-animation:step1 4s 2s linear infinite;animation:step1 4s 2s linear infinite;}
+.current .c_F_m2s img{-webkit-animation:step2 4s 2s linear infinite;animation:step2 4s 2s linear infinite;}
+.current .c_F_m3s img{-webkit-animation:step3 4s 2s linear infinite;animation:step3 4s 2s linear infinite;}
+.current .c_F_m4s img{-webkit-animation:step4 4s 2s linear infinite;animation:step4 4s 2s linear infinite;}
+.current .c_F_m5s img{-webkit-animation:step5 4s 2s linear infinite;animation:step5 4s 2s linear infinite;}
+@-webkit-keyframes step1 {0%{-webkit-transform:scale(1)}10%{-webkit-transform:scale(1.2)}20%{-webkit-transform:scale(1)}30%{-webkit-transform:scale(1)}40%{-webkit-transform:scale(1)}50%{-webkit-transform:scale(1)}60%{-webkit-transform:scale(1)}70%{-webkit-transform:scale(1)}80%{-webkit-transform:scale(1)}90%{-webkit-transform:scale(1)}100%{-webkit-transform:scale(1)}}
+@-webkit-keyframes step2 {0%{-webkit-transform:scale(1)}10%{-webkit-transform:scale(1)}20%{-webkit-transform:scale(1)}30%{-webkit-transform:scale(1.2)}40%{-webkit-transform:scale(1)}50%{-webkit-transform:scale(1)}60%{-webkit-transform:scale(1)}70%{-webkit-transform:scale(1)}80%{-webkit-transform:scale(1)}90%{-webkit-transform:scale(1)}100%{-webkit-transform:scale(1)}}
+@-webkit-keyframes step3 {0%{-webkit-transform:scale(1)}10%{-webkit-transform:scale(1)}20%{-webkit-transform:scale(1)}30%{-webkit-transform:scale(1)}40%{-webkit-transform:scale(1)}50%{-webkit-transform:scale(1.2)}60%{-webkit-transform:scale(1)}70%{-webkit-transform:scale(1)}80%{-webkit-transform:scale(1)}90%{-webkit-transform:scale(1)}100%{-webkit-transform:scale(1)}}
+@-webkit-keyframes step4 {0%{-webkit-transform:scale(1)}10%{-webkit-transform:scale(1)}20%{-webkit-transform:scale(1)}30%{-webkit-transform:scale(1)}40%{-webkit-transform:scale(1)}50%{-webkit-transform:scale(1)}60%{-webkit-transform:scale(1)}70%{-webkit-transform:scale(1.2)}80%{-webkit-transform:scale(1)}90%{-webkit-transform:scale(1)}100%{-webkit-transform:scale(1)}}
+@-webkit-keyframes step5 {0%{-webkit-transform:scale(1)}10%{-webkit-transform:scale(1)}20%{-webkit-transform:scale(1)}30%{-webkit-transform:scale(1)}40%{-webkit-transform:scale(1)}50%{-webkit-transform:scale(1)}60%{-webkit-transform:scale(1)}70%{-webkit-transform:scale(1)}80%{-webkit-transform:scale(1)}90%{-webkit-transform:scale(1.2)}100%{-webkit-transform:scale(1)}}
+@keyframes step1 {0%{transform:scale(1)}10%{transform:scale(1.2)}20%{transform:scale(1)}30%{transform:scale(1)}40%{transform:scale(1)}50%{transform:scale(1)}60%{transform:scale(1)}70%{transform:scale(1)}80%{transform:scale(1)}90%{transform:scale(1)}100%{transform:scale(1)}}
+@keyframes step2 {0%{transform:scale(1)}10%{transform:scale(1)}20%{transform:scale(1)}30%{transform:scale(1.2)}40%{transform:scale(1)}50%{transform:scale(1)}60%{transform:scale(1)}70%{transform:scale(1)}80%{transform:scale(1)}90%{transform:scale(1)}100%{transform:scale(1)}}
+@keyframes step3 {0%{transform:scale(1)}10%{transform:scale(1)}20%{transform:scale(1)}30%{transform:scale(1)}40%{transform:scale(1)}50%{transform:scale(1.2)}60%{transform:scale(1)}70%{transform:scale(1)}80%{transform:scale(1)}90%{transform:scale(1)}100%{transform:scale(1)}}
+@keyframes step4 {0%{transform:scale(1)}10%{transform:scale(1)}20%{transform:scale(1)}30%{transform:scale(1)}40%{transform:scale(1)}50%{transform:scale(1)}60%{transform:scale(1)}70%{transform:scale(1.2)}80%{transform:scale(1)}90%{transform:scale(1)}100%{transform:scale(1)}}
+@keyframes step5 {0%{transform:scale(1)}10%{transform:scale(1)}20%{transform:scale(1)}30%{transform:scale(1)}40%{transform:scale(1)}50%{transform:scale(1)}60%{transform:scale(1)}70%{transform:scale(1)}80%{transform:scale(1)}90%{transform:scale(1.2)}100%{transform:scale(1)}}
+
+
+
+.FCon h4,.FCon h5,.FCon p{padding-left: 15px;margin:0px;}
+.FCon h4{background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_F_i.png) no-repeat 0px center;color:#0d924b;font-size:18px;font-weight: bold;font-family:"Microsoft YaHei",Arial;}
+.FCon h5{font-size: 12px;font-weight: lighter;padding-bottom: 15px;}
+.FCon p{line-height:24px;}
+
+.G{position:relative;width:100%;height:731px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_G_bg.jpg)  no-repeat  center;}
+.c_G_p1{position: absolute;left:126px;top:87px;opacity:0}
+.c_G_p2{position: absolute;left: 307px;top:0px;opacity:0}
+.c_G_p3{position: absolute;left: 222px;top:365px;opacity:0}
+.current .c_G_p1{opacity:1;-webkit-animation:fadeInLeft 1s both ease-in-out 0.2s;animation:fadeInLeft 1s both ease-in-out 0.2s;}
+.current .c_G_p2{opacity:1;-webkit-animation:fadeIn 1s both ease-in-out 0.5s;animation:fadeIn 1s both ease-in-out 0.5s;}
+.current .c_G_p3{opacity:1;-webkit-animation:fadeInRight 1s both ease-in-out 0.8s;animation:fadeInRight 1s both ease-in-out 0.8s;}
+
+
+.H{position:relative;width:100%;height:810px;background:url(http://mat1.gtimg.com/fashion/mengyi/meijibangyang/33/c_H_bg.jpg)  no-repeat  center top;}
+.c_H_p1{position: absolute;left:123px;top:14px;}
+.c_H_p2{position: absolute;left: 600px;top:0px;}
+.c_H_p3{position: absolute;left: 106px;top:740px;}
+
+.c_H_m1{position: absolute;left:592px;top:76px;}
+.c_H_m2{position: absolute;left:616px;top:403px;}
+.c_H_m3{position: absolute;left:1079px;top:88px;}
+.c_H_m4{position: absolute;left:1121px;top:288px;}
+.c_H_m5{position: absolute;left:1011px;top:424px;}
+
+.c_footer{height:120px;background:#ffffff;}
+.flink{width:100%;height:50px;line-height:50px;text-align:center;color:#666666;}
+.flink strong{font-weight: lighter;color:#ff3996;margin:0px 0px 0px 20px;}
+.c_header{height:30px;background:#ffffff;width:100%;position:absolute;z-index:1}
+
+/*  |xGv00|1f923147c436f4b2e302893999f1ecb5 */
