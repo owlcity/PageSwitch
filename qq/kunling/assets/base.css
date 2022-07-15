@@ -1,0 +1,241 @@
+﻿/* BY wangguiqing   2015-4-23  */
+a:link,a:visited,a:active{color:#333; text-decoration:none;}
+a:hover{ text-decoration:underline;color:#9D2958;}
+a,area{blr:expression(this.onFocus=this.blur())};
+/*文字排版*/
+.f12{font-size:12px;}.f14{font-size:14px;}.f16{font-size:16px;}.f18{font-size:18px;}.f22{font-size:22px;}.f20{font-size:20px;}.f24{font-size:24px;}.f28{font-size:28px;}.f30{font-size:30px;}.f36{font-size:36px;}.f46{font-size:46px;}.f48{font-size:48px;}
+.fb{font-weight:bold;}.fn{font-weight:normal;}
+.t2{text-indent:2em;}
+.tc{ text-align:center;}.tr{text-align:right;}
+.unl,a.unl,body a.unl,body *.unl,body a.unl:link,body a.unl:visited{text-decoration:underline;}
+.no_unl{text-decoration:none;}
+.vm{vertical-align:middle;}
+.yahei{font-family:Microsoft YaHei;}
+.Arial{font-family:Arial}
+.italic{ font-style:italic;}
+.mr10{ margin-right:10px;}.mt6{margin-top:6px;}.mb10{margin-bottom:10px;}.mb5{ margin-bottom:5px;}.mb15{ margin-bottom:15px;}.mb20{ margin-bottom:20px;}.ml5{ margin-left:5px;}.ml10{ margin-left:10px;}.ml15{ margin-left:15px;}.mr15{ margin-right:15px;}.mt5{ margin-top:5px;}.mr5{ margin-right:5px;}.mt30{ margin-top:30px;}.mt60{ margin-top:60px;}.mt20{ margin-top:20px;}
+.p5{ padding:5px;}.p12{ padding:12px;}.p10{ padding:10px;}.p20{ padding:20px;}.p30{ padding:30px;}.pl10{ padding-left:10px;}.pl30{ padding-left:30px;}.pr30{ padding-right:30px;}.pl20{ padding-left:20px;}.pb15{ padding-bottom:15px;}.pt15{ padding-top:15px;}.pt10{ padding-top:10px;}.pt60{ padding-top:60px;}.pt80{ padding-top:80px;}.pb10{ padding-bottom:10px;}.pb20{ padding-bottom:20px;}
+.vm{vertical-align:middle;}
+/*解决图片 文字标签 表单 垂直对齐问题*/
+.vms{vertical-align:middle;display:inline-block;}
+.ovh{ overflow:hidden;}
+.pa{position:absolute;}.pr{ position:relative;}
+.fl{float:left;display:inline;}.fr{float:right;display:inline;}
+.lh25{ line-height:25px;}
+.clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*zoom:1;}
+.clearfix .clear{_height:0px;}
+.block{display:block;}
+.fOrg,.fOrg a,.fOrg a:link,.fOrg a:visited{color:#c2012e; text-decoration:none;}
+.fOrg a:hover{color:#c2012e; text-decoration:underline;}
+.white,.white a,.white a:link,.white a:visited{color:#fff; text-decoration:none;}
+.white a:hover{color:#9D2958; text-decoration:underline;}
+.fGary{ color:#CCCCCC;}
+.w970{ width:970px; margin:0px auto;}
+.w1040{ width:1040px; margin:0px auto;}
+.ImgStyle{overflow:hidden; line-height:0px; font-size:0px; display:block;}
+
+input{border:1px solid #CCCCCC; font-size:12px;}
+div,img,ul,li,dl,dd,form,p,h1,h2,h3,h4,h5,h6,h7,hr,span{margin:0;padding:0;border:0;}
+ul,li,dl,dd{list-style-type:none;list-style-image: none;}
+ol{}
+ol li{list-style-type: decimal;}
+ul,li{list-style-type:none;list-style-image: none;}
+html{}
+body{margin:0px; padding:0px; width:100%; margin:0px auto;font-size:12px; position:relative;}
+.w1000{width:1000px; margin-left:auto; margin-right:auto;}
+.blue{ color:#156054;}
+.white{ color:#FFFFFF;}
+.Purple{ color:#9d2958;}
+.none{display:none;}
+.pb30{ padding-bottom:30px;}
+
+.bg_black{ background:#000;}
+.bg_white{ background:#ffffff;}
+.bg_efefef{ background:#efefef;}
+
+.bodyWrap{height:1000px; position:relative;}
+.act_left{width:1px; height:1000px;position: relative;float:right;z-index:11;}
+
+.act_left .Left_Tips{position:absolute; right:10px; top:50%;margin-top:-251px; width:125px;height:441px;padding:27px 0px 34px 0px;}
+.Left_Tips .t{height:27px;width:125px;display:block;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/menu.png) no-repeat 0px 0px;position:absolute;top:0px;}
+.Left_Tips .b{height:34px;width:125px;display:block;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/menu.png) no-repeat 0px bottom;position:absolute;bottom:0px;}
+.act_left .Left_Tips li{display:block;text-indent:-2000px; overflow:hidden;position:absolute;}
+.act_left .Left_Tips li.i01{width:125px; height:70px;left:0px; top:27px;}
+.act_left .Left_Tips li.i02{width:125px; height:75px;left:0px; top:97px;}
+.act_left .Left_Tips li.i03{width:125px; height:76px;left:0px; top:172px;}
+.act_left .Left_Tips li.i04{width:125px; height:76px;left:0px; top:248px;}
+.act_left .Left_Tips li.i05{width:125px; height:74px;left:0px; top:324px;}
+.act_left .Left_Tips li.i06{width:125px; height:70px;left:0px; top:398px;}
+
+.act_left .Left_Tips li a,
+.act_left .Left_Tips li a:link,
+.act_left .Left_Tips li a:visited{display:block;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/menu.png) no-repeat 0px 0px;overflow:hidden;}
+.act_left .Left_Tips li.i01 a,.act_left .Left_Tips li.i01 a:link,.act_left .Left_Tips li.i01 a:visited{width:125px; height:70px;display:block;background-position:-125px -27px;}
+.act_left .Left_Tips li.i02 a,.act_left .Left_Tips li.i02 a:link,.act_left .Left_Tips li.i02 a:visited{width:125px; height:75px;display:block;background-position:-125px -97px;}
+.act_left .Left_Tips li.i03 a,.act_left .Left_Tips li.i03 a:link,.act_left .Left_Tips li.i03 a:visited{width:125px; height:76px;display:block;background-position:-125px -172px;}
+.act_left .Left_Tips li.i04 a,.act_left .Left_Tips li.i04 a:link,.act_left .Left_Tips li.i04 a:visited{width:125px; height:76px;display:block;background-position:-125px -248px;}
+.act_left .Left_Tips li.i05 a,.act_left .Left_Tips li.i05 a:link,.act_left .Left_Tips li.i05 a:visited{width:125px; height:74px;display:block;background-position:-125px -324px;}
+.act_left .Left_Tips li.i06 a,.act_left .Left_Tips li.i06 a:link,.act_left .Left_Tips li.i06 a:visited{width:125px; height:70px;display:block;background-position:-125px -398px;}
+.act_left .Left_Tips li.i01 a:hover,.act_left .Left_Tips li.i01 a.cur{background-position:0px -27px;}
+.act_left .Left_Tips li.i02 a:hover,.act_left .Left_Tips li.i02 a.cur{background-position:0px -97px;}
+.act_left .Left_Tips li.i03 a:hover,.act_left .Left_Tips li.i03 a.cur{background-position:0px -172px;}
+.act_left .Left_Tips li.i04 a:hover,.act_left .Left_Tips li.i04 a.cur{background-position:0px -248px;}
+.act_left .Left_Tips li.i05 a:hover,.act_left .Left_Tips li.i05 a.cur{background-position:0px -324px;}
+.act_left .Left_Tips li.i06 a:hover,.act_left .Left_Tips li.i06 a.cur{background-position:0px -398px;}
+
+
+.act_right{margin-left:0px; overflow:hidden; position:relative;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/bg.jpg) no-repeat center center;}
+.act_right .RightUl li{height:1000px; float:left;overflow-x:hidden;}
+
+.act_right .h_B{position:absolute;bottom:-10px;left:50%;margin-left:-1100px;}
+.act_right .h_T{position:absolute;top:0px;left:50%;margin-left:-1100px;}
+
+.act_right{position:absolute;left:0px;margin:0;}
+.slider-pages{overflow:hidden;width:100%;height:1000px;}
+.slider-page-con{position:relative;overflow:hidden;float:left;width:100%;height:1000px;}
+.slider-pages-help{width:99999px;}
+
+.baobao-bg{position:absolute;top:0;left:0;width:100%;height:1000px;}
+.nobg{background:none;}
+
+
+.Page01,.Page02,.Page03,.Page04,.Page05,.Page06,.Page07{}
+
+.c{position:absolute;z-index:3}
+.c_Wrap{width:1000px;height:700px;position:absolute; left:50%;top:50%;margin:-350px 0px 0px -500px;}
+.c_A_p1{left:100px;top:-18px;width:749px;height:754px;}
+
+.logo{left:72px;top:19px;}
+.c_A_t1{left:332px;top:132px;}
+.c_A_t2{left:400px;top:173px;}
+.c_A_t3{left:500px;top:167px;}
+.c_A_t4{left:315px;top:203px;}
+.c_A_c{left:306px;top:358px;}
+.c_A_z{left:434px;top:533px;}
+.iShareNew{left:403px;top:345px;}
+
+.cur .c_A_p1{-webkit-animation:fadeIn 0.5s both ease-in-out 0.8s;animation:fadeIn 0.5s both ease-in-out 0.8s;}
+.cur .logo{-webkit-animation:fadeInDown 0.5s both ease-in-out 0.8s;animation:fadeInDown 0.5s both ease-in-out 0.8s;}
+.cur .c_A_t1{-webkit-animation:fadeIn 0.5s both ease-in-out 1.0s;animation:fadeIn 0.5s both ease-in-out 1.0s;}
+.cur .c_A_t2{-webkit-animation:fadeInUp 0.5s both ease-in-out 1.2s;animation:fadeInUp 0.5s both ease-in-out 1.2s;}
+.cur .c_A_t3{-webkit-animation:fadeInRight 0.5s both ease-in-out 1.5s;animation:fadeInRight 0.5s both ease-in-out 1.5s;}
+.cur .c_A_t4{-webkit-animation:fadeInRight 0.5s both ease-in-out 1.5s;animation:fadeInRight 0.5s both ease-in-out 1.5s;}
+.cur .iShareNew{-webkit-animation:fadeInLeft 0.5s both ease-in-out 2.0s;animation:fadeInLeft 0.5s both ease-in-out 2.0s;}
+.cur .c_A_c{-webkit-animation:fadeIn 0.5s both ease-in-out 2.0s;animation:fadeIn 0.5s both ease-in-out 2.0s;}
+.cur .c_A_z{-webkit-animation:fadeIn 0.5s both ease-in-out 2.5s;animation:fadeIn 0.5s both ease-in-out 2.5s;}
+
+.cur .c_A_p1 b{width:749px;height:754px;display:block;}
+.cur .c_A_p1 b{
+    animation: ci01 3s ease-in-out infinite;
+    -webkit-animation: ci01 3s ease-in-out infinite;
+}
+@keyframes ci01{0% {transform: scale(1);}50% {transform: scale(1.02);}100% {transform: scale(1);}}
+@-webkit-keyframes ci01 {0% {-webkit-transform: scale(1);}50% {-webkit-transform: scale(1.02);}100% {-webkit-transform: scale(1);}}
+
+.c_B_h1{left:153px;top:50%;margin-top:-600px;}
+.c_B_h2{left:-102px;top:616px;}
+.cur .c_B_h1{-webkit-animation:fadeInDown 0.5s both ease-in-out 0.3s;animation:fadeInDown 0.5s both ease-in-out 0.3s;}
+.cur .c_B_h2{-webkit-animation:fadeInUp 0.5s both ease-in-out 0.5s;animation:fadeInUp 0.5s both ease-in-out 0.5s;}
+.c_B_p1{left:232px;top:64px;}
+
+.BTab,.iBox{ left:0px;top:0px;position:absolute;}
+.BTab .c_B_i01{left:93px;top:73px;cursor:pointer;z-index:100;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_B_i01.png) no-repeat 0px 0px; width:169px; height:225px;}
+.BTab .c_B_i02{left:11px;top:334px;cursor:pointer;z-index:100;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_B_i02.png) no-repeat 0px 0px; width:169px; height:226px;}
+.BTab .c_B_i03{left:785px;top:109px;cursor:pointer;z-index:100;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_B_i03.png) no-repeat 0px 0px; width:169px; height:226px;}
+.BTab .c_B_i04{left:832px;top:402px;cursor:pointer;z-index:100;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_B_i04.png) no-repeat 0px 0px; width:169px; height:225px;}
+.BTab .c_B_i01.curS{left:93px;top:73px;cursor:pointer;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_B_i01.png) no-repeat right 0px; width:169px; height:225px;}
+.BTab .c_B_i02.curS{left:11px;top:334px;cursor:pointer;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_B_i02.png) no-repeat right 0px; width:169px; height:226px;}
+.BTab .c_B_i03.curS{left:785px;top:109px;cursor:pointer;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_B_i03.png) no-repeat right 0px; width:169px; height:226px;}
+.BTab .c_B_i04.curS{left:832px;top:402px;cursor:pointer;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_B_i04.png) no-repeat right 0px; width:169px; height:225px;}
+.BBox {display:none;}
+.BBox div{position:absolute; left:251px;top:431px;padding:65px 85px; font-size:30px;width:262px;height:162px;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_B_c.png) no-repeat;}
+.BBox div p{font-size:15px;line-height:24px;}
+
+
+
+.c_C_h1{left:-383px;top:501px;}
+.c_C_h2{left:153px;top:677px;}
+.cur .c_C_h1{-webkit-animation:fadeInUp 0.5s both ease-in-out 0.3s;animation:fadeInUp 0.5s both ease-in-out 0.3s;}
+.cur .c_C_h2{-webkit-animation:fadeInUp 0.5s both ease-in-out 0.5s;animation:fadeInUp 0.5s both ease-in-out 0.5s;}
+
+.c_C_p1{left:-213px;top:109px;}
+
+.c_C_C{left:217px;top:20px;}
+.c_C_C dl{padding-bottom:10px;}
+.c_C_C dl dt{height:62px;font-weight:bold;line-height:62px; padding-left:60px;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_C_Q.png) no-repeat 0px 0px;font-size:18px;color:#762c86;}
+.c_C_C dl dd{height:auto;margin-left:40px; padding-bottom:15px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/line.png) repeat-x 0px bottom;font-size:18px;color:#232323;}
+.c_C_C dl dd p{padding-left:60px;background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_C_A.png) no-repeat 0px 0px;}
+
+.c_D_h1{left:-227px;top:484px;}
+.c_D_h2{left:619px;top:643px;}
+.cur .c_D_h1{-webkit-animation:fadeInUp 0.5s both ease-in-out 0.2s;animation:fadeInUp 0.5s both ease-in-out 0.2s;}
+.cur .c_D_h2{-webkit-animation:fadeInUp 0.5s both ease-in-out 0.5s;animation:fadeInUp 0.5s both ease-in-out 0.5s;}
+.c_D_p1{left:285px;top:-16px;}
+.cur .c_D_p1{-webkit-animation:zoomIn 0.5s both ease-in-out 1.0s;animation:zoomIn 0.5s both ease-in-out 1.0s;}
+.c_D_p2{left:353px;top:122px;}
+.cur .c_D_p2{-webkit-animation:fadeIn 0.5s both ease-in-out 1.2s;animation:fadeIn 0.5s both ease-in-out 1.2s;}
+.c_D_p3{left:20px;top:20px;}
+.cur .c_D_p3{-webkit-animation:zoomIn 0.5s both ease-in-out 1.5s;animation:zoomIn 0.5s both ease-in-out 1.5s;}
+
+.PeoTab{position:absolute;left:0px;top:0px;}
+.c_D_iC{position:absolute;left:0px;top:0px;}
+a.c_D_i01{position:absolute; left:292px; top:55px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_D_i01.png) no-repeat 0px 0px; width:101px; height:106px;z-index:100}
+.curS a.c_D_i01{position:absolute; left:292px; top:55px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_D_i01.png) no-repeat right 0px; width:101px; height:106px;z-index:100}
+a.c_D_i02{position:absolute; left:271px; top:215px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_D_i02.png) no-repeat 0px 0px; width:101px; height:106px;z-index:100}
+.curS a.c_D_i02{position:absolute; left:271px; top:215px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_D_i02.png) no-repeat right 0px; width:101px; height:106px;z-index:100}
+a.c_D_i03{position:absolute; left:895px; top:30px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_D_i03.png) no-repeat 0px 0px; width:101px; height:106px;z-index:100}
+.curS a.c_D_i03{position:absolute; left:895px; top:30px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_D_i03.png) no-repeat right 0px; width:101px; height:106px;z-index:100}
+a.c_D_i04{position:absolute; left:945px; top:147px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_D_i04.png) no-repeat 0px 0px; width:101px; height:106px;z-index:100}
+.curS a.c_D_i04{position:absolute; left:945px; top:147px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_D_i04.png) no-repeat right 0px; width:101px; height:106px;z-index:100}
+a.c_D_i05{position:absolute; left:951px; top:330px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_D_i05.png) no-repeat 0px 0px; width:101px; height:106px;z-index:100}
+.curS a.c_D_i05{position:absolute; left:951px; top:330px; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_D_i05.png) no-repeat right 0px; width:101px; height:106px;z-index:100}
+.c_D_iC .divBox{position:absolute;width:260px;left:-22px; top:265px;z-index:11;font-size:15px;display:none;line-height:30px;}
+
+
+.c_E_h1{left:-182px;top:542px;}
+.c_E_h2{left:209px;top:592px;}
+.cur .c_E_h1{-webkit-animation:fadeInUp 0.5s both ease-in-out 0.2s;animation:fadeInUp 0.5s both ease-in-out 0.2s;}
+.cur .c_E_h2{-webkit-animation:fadeInUp 0.5s both ease-in-out 0.5s;animation:fadeInUp 0.5s both ease-in-out 0.5s;}
+.cur .c_E_h3{-webkit-animation:fadeInUp 0.5s both ease-in-out 0.6s;animation:fadeInUp 0.5s both ease-in-out 0.6s;}
+.c_E_h3{left:703px;top:493px;}
+.c_E_t1{left:331px;top:20px;}
+.c_E_p1{left:-64px;top:73px;}
+.c_E_p2{left:307px;top:122px;}
+.cur .c_E_p2{-webkit-animation:zoomIn 0.5s both ease-in-out 0.8s;animation:zoomIn 0.5s both ease-in-out 0.8s;}
+
+
+a.c_E_i1{position:absolute; left:268px; top:210px;z-index:10;}
+a.c_E_i2{position:absolute; left:342px; top:161px;z-index:10;}
+a.c_E_i3{position:absolute; left:729px; top:390px;z-index:10;}
+a.c_E_i4{position:absolute; left:914px; top:115px;z-index:10;}
+a.c_E_i5{position:absolute; left:738px; top:91px;z-index:10;}
+.c_E_iC{width:300px;height:390px; padding:100px 140px 70px 140px; position:absolute;left:397px;top:109px;z-index:9; background:url(http://mat1.gtimg.com/fashion/lijie/zhuanti/meijibangyang/4.28kunling/c_E_wrap.png) no-repeat 0px 0px;}
+.c_E_iC .NBox{display:none;}
+.c_E_iC .NBox h2{color:#000000; font-size:12px; line-height:24px;padding-left:40px; position:relative;padding-bottom:15px;}
+.c_E_iC .NBox h2 code{font-size:55px; font-family:Arial;position:absolute; left:-10px; top:10px; color:#9e62a1; display:inline-block;}
+.c_E_iC .NBox h2 strong{ font-size:20px; font-weight:bold;padding-right:10px; position:relative;}
+.c_E_iC .NBox h2 em{font-size:14px; font-weight:lighter;color:#b696d9; font-style:normal;}
+.c_E_iC .NBox p{ font-size:15px;line-height:28px; color:#000000;padding-top:5px;padding-right:50px;}
+
+
+.c_F_h1{left:-394px;top:334px;}
+.c_F_h2{left:911px;top:726px;}
+.c_F_p1{left:-54px;top:-18px;}
+.c_F_p2{left:276px;top:41px;}
+.c_F_p3{left:320px;top:640px;}
+.c_F_i1{left:316px;top:330px;}
+.c_F_i2{left:447px;top:480px;}
+.c_F_i3{left:612px;top:330px;}
+.c_F_i4{left:645px;top:497px;}
+.c_F_i5{left:823px;top:427px;}
+
+.cur .c_F_h1{-webkit-animation:fadeInUp 0.5s both ease-in-out 0.2s;animation:fadeInUp 0.5s both ease-in-out 0.2s;}
+.cur .c_F_h2{-webkit-animation:fadeInUp 0.5s both ease-in-out 0.5s;animation:fadeInUp 0.5s both ease-in-out 0.5s;}
+
+.cur .c_F_i1{-webkit-animation:zoomInDown 0.5s both ease-in-out 1.0s;animation:zoomInDown 0.5s both ease-in-out 1.0s;}
+.cur .c_F_i2{-webkit-animation:zoomInDown 0.5s both ease-in-out 1.2s;animation:zoomInDown 0.5s both ease-in-out 1.2s;}
+.cur .c_F_i3{-webkit-animation:zoomInDown 0.5s both ease-in-out 1.4s;animation:zoomInDown 0.5s both ease-in-out 1.4s;}
+.cur .c_F_i4{-webkit-animation:zoomInDown 0.5s both ease-in-out 1.6s;animation:zoomInDown 0.5s both ease-in-out 1.6s;}
+.cur .c_F_i5{-webkit-animation:zoomInDown 0.5s both ease-in-out 1.8s;animation:zoomInDown 0.5s both ease-in-out 1.8s;}
+/*  |xGv00|7d41b9e9fe9f7c7423e9b8fe2d3b0bdc */

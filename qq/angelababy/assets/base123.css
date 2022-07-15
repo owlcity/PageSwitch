@@ -1,0 +1,282 @@
+﻿/* BY wangguiqing   2014-04-01  */
+a:link,a:visited,a:active{color:#333; text-decoration:none;}
+a:hover{ text-decoration:underline;color:#9D2958;}
+a,area{blr:expression(this.onFocus=this.blur())};
+/*文字排版*/
+.f12{font-size:12px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f22{font-size:22px;}
+.f20{font-size:20px;}
+.f24{font-size:24px;}
+.f28{font-size:28px;}
+.f30{font-size:30px;}
+.f36{font-size:36px;}
+.f46{font-size:46px;}
+.f48{font-size:48px;}
+.fb{font-weight:bold;}
+.fn{font-weight:normal;}
+.t2{text-indent:2em;}
+.tc{ text-align:center;}
+.unl,a.unl,body a.unl,body *.unl,body a.unl:link,body a.unl:visited{text-decoration:underline;}
+.no_unl{text-decoration:none;}
+.vm{vertical-align:middle;}
+.yahei{font-family:Microsoft YaHei;}
+.Arial{font-family:Arial}
+.italic{ font-style:italic;}
+.mr10{ margin-right:10px;}
+.mb5{ margin-bottom:5px;}
+.mb15{ margin-bottom:15px;}
+.mb20{ margin-bottom:20px;}
+.ml5{ margin-left:5px;}
+.ml10{ margin-left:10px;}
+.ml15{ margin-left:15px;}
+.mr15{ margin-right:15px;}
+.mt5{ margin-top:5px;}
+.mr5{ margin-right:5px;}
+.mt30{ margin-top:30px;}
+.mt60{ margin-top:60px;}
+.mt20{ margin-top:20px;}
+.p5{ padding:5px;}
+.p12{ padding:12px;}
+.p10{ padding:10px;}
+.p20{ padding:20px;}
+.p30{ padding:30px;}
+.pl10{ padding-left:10px;}
+.pl30{ padding-left:30px;}
+.pr30{ padding-right:30px;}
+.pl20{ padding-left:20px;}
+.pb15{ padding-bottom:15px;}
+.pt15{ padding-top:15px;}
+.pt10{ padding-top:10px;}
+.pt60{ padding-top:60px;}
+.pt80{ padding-top:80px;}
+.pb10{ padding-bottom:10px;}
+.pb20{ padding-bottom:20px;}
+.mt6{margin-top:6px;}
+.mb10{margin-bottom:10px;}
+.vm{vertical-align:middle;}
+/*解决图片 文字标签 表单 垂直对齐问题*/
+.vms{vertical-align:middle;display:inline-block;}
+
+.ovh{ overflow:hidden;}
+.pa{
+	position:absolute;
+}
+.pr{ position:relative;}
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.lh25{ line-height:25px;}
+.clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*zoom:1;}
+.clearfix .clear{_height:0px;}
+.block{display:block;}
+.fPurple,.fPurple a,.fPurple a:link,.fPurple a:visited{color:#8c66ad; text-decoration:none;}
+.fPurple a:hover{color:#8c66ad; text-decoration:underline;}
+.fBlue,.fBlue a,.fBlue a:link,.fBlue a:visited,a.fBlue:link,a.fBlue:visited,a.fBlue:active{color:#a678d6; text-decoration:none;}
+.fBlue a:hover,a.fBlue:hover{color:#a678d6; text-decoration:underline;}
+.fOrg,.fOrg a,.fOrg a:link,.fOrg a:visited{color:#c2012e; text-decoration:none;}
+.fOrg a:hover{color:#c2012e; text-decoration:underline;}
+.white,.white a,.white a:link,.white a:visited{color:#fff; text-decoration:none;}
+.white a:hover{color:#9D2958; text-decoration:underline;}
+.fGary{ color:#CCCCCC;}
+.w970{ width:970px; margin:0px auto;}
+.w1040{ width:1040px; margin:0px auto;}
+.ImgStyle{overflow:hidden; line-height:0px; font-size:0px; display:block;}
+
+input{border:1px solid #CCCCCC; font-size:12px;}
+div,img,ul,li,dl,dd,form,p,h1,h2,h3,h4,h5,h6,h7,hr,span{margin:0;padding:0;border:0;}
+ul,li,dl,dd{list-style-type:none;list-style-image: none;}
+ol{}
+ol li{list-style-type: decimal;}
+ul,li{list-style-type:none;list-style-image: none;}
+html{}
+body{margin:0px; padding:0px; width:100%; margin:0px auto;font-size:12px; position:relative;}
+.w1000{width:1000px; margin-left:auto; margin-right:auto;}
+.blue{ color:#156054;}
+.white{ color:#FFFFFF;}
+.Purple{ color:#9d2958;}
+.none{display:none;}
+.pb30{ padding-bottom:30px;}
+
+
+.bg_black{ background:#000;}
+.bg_white{ background:#ffffff;}
+.bg_red{background:#bc0309;}
+.bg_blue{background:#156054;}
+.bg_efefef{ background:#efefef;}
+.tr{ text-align:right;}
+
+.bodyWrap{height:650px; position:relative;background:#fff url(http://mat1.gtimg.com/fashion/fg/425/071/422/A_P05.jpg) no-repeat 0px 0px;}
+.act_left{width:1px; height:650px; position: relative;float:left;z-index:11;}
+.act_left .Left_logo{ position:absolute; left:20px; top:0px;}
+.act_left .left_Info{position:absolute; line-height:24px;width:185px; left:30px; top:140px;}
+.act_left .dj_logo{position:absolute;left:30px; top:320px;}
+.act_left .Left_Share{position:absolute; left:32px; top:600px;width:200px;}
+.act_left .Left_Tips{position:absolute; left:30px; top:400px; width:289px;height:191px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/bg_leftMenu.png) no-repeat top;*background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/bg_leftMenu-ie7.png) no-repeat top;}
+.act_left .Left_Tips li{padding:0px 0px 3px 0px; height:29px; font-weight:bold; line-height:29px; overflow:hidden; text-align:right; color:#FFF;}
+.act_left .Left_Tips li a,.act_left .Left_Tips li a:hover{ color:#FFF; text-decoration:none;}
+.act_left .Left_Tips li a.cur{background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/left_cur.png) no-repeat right;*background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/left_cur-ie7.png) no-repeat left;height:29px; display:block;line-height:29px; }
+
+.act_left .Left_Tips li.S01{ padding-right:60px; width:229px;}
+.act_left .Left_Tips li.S02{ padding-right:50px; width:239px;}
+.act_left .Left_Tips li.S03{ padding-right:40px; width:249px;}
+.act_left .Left_Tips li.S04{ padding-right:26px; width:263px;}
+.act_left .Left_Tips li.S05{ padding-right:15px; width:274px;}
+.act_left .Left_Tips li.S06{ padding-right:0px; width:289px;}
+.act_left .Left_Tips li.S01 a{ padding-right:49px; width:180px;}
+.act_left .Left_Tips li.S02 a{ padding-right:59px; width:180px;}
+.act_left .Left_Tips li.S03 a{ padding-right:69px; width:180px;}
+.act_left .Left_Tips li.S04 a{ padding-right:83px; width:180px;}
+.act_left .Left_Tips li.S05 a{ padding-right:94px; width:180px;}
+.act_left .Left_Tips li.S06 a{ padding-right:106px; _padding-right:112px; width:180px;}
+
+
+.act_right{margin-left:0px; overflow:hidden; position: relative;}
+.act_right .RightUl li{ height:650px; float:left;}
+
+
+.Page01{background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/A_P01.png) no-repeat 0px 0px;}
+.Page02{background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/A_P02.png) no-repeat 0px 0px;}
+.Page03{background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/A_P03.png) no-repeat 0px 0px;}
+.Page04{background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/A_P04.png) no-repeat 0px 0px;}
+.Page05{}
+.Page06{background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/A_P06.png) no-repeat 0px 0px;}
+.Page07{}
+.Page08{}
+.Page09{}
+.Page10{}
+.Page11{}
+
+
+.C_B{ z-index:111;}
+.C_s{ z-index:112;}
+.T1{ position:absolute; z-index:114; left:500px; top:545px;}
+
+.PageTitle01_1{position:absolute; left:249px; top:70px; z-index:122}
+.PageTitle01_2{position:absolute; left:249px; top:146px; z-index:122}
+.PageTitle01_3{position:absolute; left:242px; top:70px; z-index:122}
+.PageTitle01_4{position:absolute; left:241px; top:62px; z-index:122}
+.A_y_P01,.A_y_P02,.A_y_P03,.A_y_P04{ position:absolute; left:836px; top:453px;}
+.A_y_P01,.A_y_P02,.A_y_P03,.A_y_P04{ z-index:6;}
+
+.PageTitle02_1{ position:absolute; left:246px; top:48px; z-index:112}
+.PageTitle02_2{ position:absolute; left:566px; top:340px; z-index:115}
+.PageTitle02{ position:absolute; left:668px; top:45px;}
+.video{ position:absolute; left:682px; top:173px; border:8px solid #FFF; z-index:116}
+
+.PageTitle03{ position:absolute; left:722px; top:479px; z-index:115}
+.Pic3_02{ position:absolute; left:333px; top:371px; z-index:117}
+
+.PageTitle04{ position:absolute; left:674px; top:55px;}
+.Pic4_01{ position:absolute; left:714px; top:187px;}
+.Pic4_02{ position:absolute; left:316px; top:51px; z-index:112}
+
+.PageTitle05{ position:absolute; left:761px; top:36px;}
+.Pic5_01{ position:absolute; top:22px; left:233px; z-index:118}
+
+
+.PageTitle06{ position:absolute;  left:700px; top:50px;}
+.PageTitle07{ position:absolute;  left:509px; top:64px;}
+.Pic7_01{ position:absolute; left:425px; top:70px;}
+.Pic7_02{ position:absolute; left:254px; top:22px; z-index:116}
+
+
+#btn_Next{width:94px; height:142px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/btn_Next.png) no-repeat;position:absolute;right:0px;top:70%;z-index:991;}
+#btn_Return{width:71px; height:71px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/btn_Return.png) no-repeat;position:absolute;right:65px;top:80%;z-index:990;}
+
+
+.Bag_btn{position:absolute; left:1132px; top:113px; cursor:pointer; z-index:112}
+.Bag_btn2{position:absolute; left:329px; top:207px; cursor:pointer; z-index:112}
+
+a.pic5_01{position:absolute; left:786px; top:52px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/Pro01.png) no-repeat 0px 0px; width:150px; height:85px;}
+.cur a.pic5_01{position:absolute; left:786px; top:52px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/Pro01.png) no-repeat -150px 0px; width:150px; height:85px;}
+a.pic5_02{position:absolute; left:736px; top:171px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/Pro02.png) no-repeat 0px 0px; width:188px; height:104px;}
+.cur a.pic5_02{position:absolute; left:736px; top:171px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/Pro02.png) no-repeat -188px 0px; width:188px; height:104px;}
+a.pic5_03{position:absolute; left:778px; top:362px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/Pro03.png) no-repeat 0px 0px; width:180px; height:85px; z-index:11;}
+.cur a.pic5_03{position:absolute; left:778px; top:362px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/Pro03.png) no-repeat -180px 0px; width:180px; height:85px; z-index:11;}
+a.pic5_04{position:absolute; left:1145px; top:108px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/Pro04.png) no-repeat 0px 0px; width:183px; height:103px;}
+.cur a.pic5_04{position:absolute; left:1145px; top:108px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/Pro04.png) no-repeat -183px 0px; width:183px; height:103px;}
+a.pic5_05{position:absolute; left:1086px; top:388px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/Pro05.png) no-repeat 0px 0px; width:162px; height:101px;}
+.cur a.pic5_05{position:absolute; left:1086px; top:388px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/Pro05.png) no-repeat -162px 0px; width:162px; height:101px;}
+
+.pic5_C .divBox{position:absolute;left:370px; top:33px; z-index:116;}
+.Pic3_03_0{position:absolute; left:370px; top:33px; z-index:115}
+
+
+.ps_01{position:absolute; left:267px; top:364px; width:204px; height:216px; z-index:116;}
+.ps_02{position:absolute; left:431px; top:425px; width:228px; height:204px; z-index:115;}
+.ps_03{position:absolute; left:635px; top:279px; width:127px; height:371px; z-index:114;}
+.ps_04{position:absolute; left:793px; top:309px; width:123px; height:329px; z-index:113;}
+.ps_05{position:absolute; left:925px; top:446px; width:173px; height:175px; z-index:112;}
+.ps_06{position:absolute; left:1085px; top:300px; width:184px; height:266px; z-index:114;}
+
+a.p8_01{position:absolute;left:267px;top: 364px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/P01.png) no-repeat 100px 180px; width:185px; height:234px; z-index:118}
+.cur a.p8_01{position:absolute; left:267px; top:364px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/P01.png) no-repeat -456px 180px; width:185px; height:234px; z-index:118}
+a.p8_02{position:absolute; left:431px; top:390px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/P02.png) no-repeat 140px 0px; width:230px; height:230px; z-index:117}
+.cur a.p8_02{position:absolute; left:431px; top:390px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/P02.png) no-repeat -416px 0px; width:230px; height:230px; z-index:117}
+a.p8_03{position:absolute; left:635px; top:279px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/P03.png) no-repeat 93px 100px; width:135px; height:360px;z-index:116}
+.cur a.p8_03{position:absolute; left:635px; top:279px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/P03.png) no-repeat -464px 100px;  width:135px; height:360px;z-index:116}
+a.p8_04{position:absolute; left:793px; top:309px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/P04.png) no-repeat 76px 80px; width:130px; height:325px;z-index:115}
+.cur a.p8_04{position:absolute; left:793px; top:309px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/P04.png) no-repeat -480px 80px; width:130px; height:325px;z-index:115}
+a.p8_05{position:absolute; left:925px; top:446px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/P05.png) no-repeat 165px 110px; width:240px; height:175px;z-index:114}
+.cur a.p8_05{position:absolute; left:925px; top:446px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/P05.png) no-repeat -392px 110px; width:240px; height:175px;z-index:114}
+a.p8_06{position:absolute; left:1085px; top:290px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/P06.png) no-repeat 115px 0px; width:180px; height:290px; z-index:116;}
+.cur a.p8_06{position:absolute; left:1085px; top:290px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/P06.png) no-repeat -440px 0px; width:180px; height:290px; z-index:116;}
+
+
+.p8_C{width:463px; height:auto;position:absolute;left:695px;top:132px;}
+.ProB{background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/bg_p8_C.png) no-repeat; width:431px; height:166px; padding:20px 30px 10px 30px;}
+.ProB h2{color:#944658; font-size:12px; line-height:30px;}
+.ProB h2 code{font-size:36px; line-height:30px; font-family:Arial; color:#333; display:inline-block;}
+.ProB h2 strong{ font-size:20px; font-weight:bold; display:inline-block;top:-2px; position:relative;}
+.ProB p{ font-size:14px; line-height:24px;}
+.ProB p a{ padding-left:10px;}
+
+
+.NBox .option{margin:0px;width:83px;height:139px; top:15px; left:-105px;}
+.NBox .digg{text-align:center;font-size:12px;color:#ccc; float:left;line-height:20px;text-indent:-3333px; margin:0px 0px 0px 0px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/btn_voteCur.png) no-repeat 0px 0px; width:83px; height:100px;}
+.NBox .digg a{color:#555;text-decoration:none;background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/btn_vote.png) no-repeat 0px 0px; width:83px; height:100px; display:block; text-indent:-3333px;}
+.NBox .digg a:hover{text-decoration:none;width:83px; height:100px; display:block;}
+.NBox .count{text-align:center;font-family:"Verdana";font-size:16px; float:left;color:#000;width:83px; height:16px; line-height:16px; margin:0px 0px 0px 0px; padding-bottom:16px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/bg_VoteNum.png) no-repeat 0px 0px;}
+
+.Pic5a{ position:absolute; left:667px; top:97px; z-index:117}
+.Pic5b{ position:absolute; left:682px; top:234px; z-index:117}
+.Pic5c{ position:absolute; left:623px; top:383px; z-index:117}
+.Pic5d{ position:absolute; left:685px; top:478px; z-index:117}
+
+
+
+
+
+.P_weibo{position:absolute; left:485px; top:390px;}
+.P_Info{position:absolute; width:410px; left:375px; top:95px; font-size:16px; line-height:26px;}
+.weiboBox{width:420px; height:120px; border:10px solid #e5e5e5;background:#FFF;}
+.P_weixin{ position:absolute; left:955px; top:420px;}
+.P_Team{ margin:0px; position:absolute; z-index:119; left:411px; top:550px; width:670px; padding-left:120px; background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/mh.png) no-repeat 0px 12px;}
+.Staff{margin-top:15px; margin-left:10px;}
+.pStaff{ margin-bottom:1px;color:#000;}
+.pStaff p{ float:left; margin-right:15px;-webkit-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+-moz-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0; }
+.pStaff p span{ background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/icon_bg_mh.png) no-repeat right; height:19px; line-height:19px; padding-right:12px; display:inline-block; margin-right:5px;}
+.pStaff p span code{background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/icon_bg_mh.png) no-repeat left; padding-left:10px; display:inline-block;height:19px; color:#fff; margin-left:-7px;-webkit-text-shadow:#fff 0 0 0,#fff 0 0 0,#fff 0 0 0,#fff 0 0 0;
+-moz-text-shadow:#fff 0 0 0,#fff 0 0 0,#fff 0 0 0,#fff 0 0 0;
+text-shadow:#fff 0 0 0,#fff 0 0 0,#fff 0 0 0,#fff 0 0 0;}
+.pStaff p a{display:inline-block; margin-right:8px;}
+
+.Pic6_01{position:absolute; left:1161px; top:98px;}
+.Pic6_02{position:absolute; left:265px; top:0px; z-index:116}
+.Pic6_01C{ position:absolute; left:630px; top:130px; font-size:13px; color:#944658; line-height:30px;}
+.Pic6_01C p{ padding-bottom:12px;}
+.Pic_dj{ background:url(http://mat1.gtimg.com/fashion/fg/425/071/422/dj.png) no-repeat 0px center; padding-left:170px; position:absolute; left:850px; top:500px;}
+
+.act_right{position:absolute;left:0px;margin:0;}
+.slider-pages{overflow:hidden;width:100%;height:650px;}
+.slider-page-con{position:relative;overflow:hidden;float:left;width:100%;height:650px;}
+.slider-pages-help{width:99999px;}
+
+.baobao-bg{position:absolute;top:0;left:0;width:100%;height:650px;}
+.nobg{background:none;}
+/*  |xGv00|3ac99d0c0f2dff935e53c2d7ca3a8e74 */

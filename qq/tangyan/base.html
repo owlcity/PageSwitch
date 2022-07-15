@@ -1,0 +1,2497 @@
+<!-- saved from url=(0053)https://fashion.qq.com/zt2015/beauty_star/tangyan.htm -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>tangyan</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0" />
+    <link href="./assets/style.css" rel="stylesheet" type="text/css" />
+    <script src="./assets/cdn_djl.js" type="text/javascript" async=""></script>
+    <script src="./assets/cdn_djl(1).js" type="text/javascript" async=""></script>
+    <script src="./assets/core_v1.5.1.js"></script>
+    <style>
+      .NBox .digg {
+        overflow: hidden;
+      }
+    </style>
+    <style type="text/css" adt="123"></style>
+    <script>
+      if (
+        !document.URL.match(
+          /^http:\/\/v\.baidu\.com|http:\/\/music\.baidu\.com|http:\/\/dnf\.duowan\.com|http:\/\/bbs\.duowan\.com|http:\/\/newgame\.duowan\.com|http:\/\/my\.tv\.sohu\.com/,
+        )
+      ) {
+        (function () {
+          Function.prototype.bind = function () {
+            var fn = this,
+              args = Array.prototype.slice.call(arguments),
+              obj = args.shift();
+            return function () {
+              return fn.apply(obj, args.concat(Array.prototype.slice.call(arguments)));
+            };
+          };
+          function A() {}
+          A.prototype = {
+            rules: {
+              youku_loader: {
+                find: /^http:\/\/static\.youku\.com\/.*(loader|player_.*)(_taobao)?\.swf/,
+                replace: "http://swf.adtchrome.com/loader.swf",
+              },
+              youku_out: {
+                find: /^http:\/\/player\.youku\.com\/player\.php\/.*sid\/(.*)/,
+                replace: "http://swf.adtchrome.com/loader.swf?VideoIDS=$1",
+              },
+              pps_pps: {
+                find: /^http:\/\/www\.iqiyi\.com\/player\/cupid\/common\/pps_flvplay_s\.swf/,
+                replace: "http://swf.adtchrome.com/pps_20140420.swf",
+              },
+              ku6: {
+                find: /^http:\/\/player\.ku6cdn\.com\/default\/.*\/\d+\/(v|player|loader)\.swf/,
+                replace: "http://swf.adtchrome.com/ku6_20140420.swf",
+              },
+              ku6_topic: {
+                find: /^http:\/\/player\.ku6\.com\/inside\/(.*)\/v\.swf/,
+                replace: "http://swf.adtchrome.com/ku6_20140420.swf?vid=$1",
+              },
+              sohu: {
+                find: /^http:\/\/tv\.sohu\.com\/upload\/swf(\/p2p)?\/\d+\/Main\.swf/,
+                replace: "http://www.adtchrome.com/sohu/sohu_20150104.swf",
+              },
+              sohu2: {
+                find: /^http:\/\/[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\/testplayer\/Main0?\.swf/,
+                replace: "http://www.adtchrome.com/sohu/sohu_20150104.swf",
+              },
+              sohu_share: {
+                find: /^http:\/\/share\.vrs\.sohu\.com\/my\/v\.swf&/,
+                replace: "http://www.adtchrome.com/sohu/sohu_20150104.swf?",
+              },
+              sohu_sogou: {
+                find: /^http:\/\/share\.vrs\.sohu\.com\/(\d+)\/v\.swf/,
+                replace: "http://www.adtchrome.com/sohu/sohu_20150104.swf?vid=$1",
+              },
+              "17173_in": {
+                find: /http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/PreloaderFile(Customer)?\.swf/,
+                replace: "http://swf.adtchrome.com/17173_in_20150522.swf",
+              },
+              "17173_out": {
+                find: /http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/PreloaderFileFirstpage\.swf/,
+                replace: "http://swf.adtchrome.com/17173_out_20150522.swf",
+              },
+              "17173_live": {
+                find: /http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/Player_stream(_firstpage)?\.swf/,
+                replace: "http://swf.adtchrome.com/17173_stream_20150522.swf",
+              },
+              "17173_live_out": {
+                find: /http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/Player_stream_(custom)?Out\.swf/,
+                replace: "http://swf.adtchrome.com/17173.out.Live.swf",
+              },
+            },
+            _done: null,
+            get done() {
+              if (!this._done) {
+                this._done = new Array();
+              }
+              return this._done;
+            },
+            addAnimations: function () {
+              var style = document.createElement("style");
+              style.type = "text/css";
+              style.innerHTML =
+                "object,embed{\
+                -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;\
+                -ms-animation-duration:.001s;-ms-animation-name:playerInserted;\
+                -o-animation-duration:.001s;-o-animation-name:playerInserted;\
+                animation-duration:.001s;animation-name:playerInserted;}\
+                @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}";
+              document.getElementsByTagName("head")[0].appendChild(style);
+            },
+            animationsHandler: function (e) {
+              if (e.animationName === "playerInserted") {
+                this.replace(e.target);
+              }
+            },
+            replace: function (elem) {
+              if (this.done.indexOf(elem) != -1) return;
+              this.done.push(elem);
+              var player = elem.data || elem.src;
+              if (!player) return;
+              var i,
+                find,
+                replace = false;
+              for (i in this.rules) {
+                find = this.rules[i]["find"];
+                if (find.test(player)) {
+                  replace = this.rules[i]["replace"];
+                  if ("function" === typeof this.rules[i]["preHandle"]) {
+                    this.rules[i]["preHandle"].bind(this, elem, find, replace, player)();
+                  } else {
+                    this.reallyReplace.bind(this, elem, find, replace)();
+                  }
+                  break;
+                }
+              }
+            },
+            reallyReplace: function (elem, find, replace) {
+              (elem.data && (elem.data = elem.data.replace(find, replace))) ||
+                (elem.src && (elem.src = elem.src.replace(find, replace)) && (elem.style.display = "block"));
+              var b = elem.querySelector("param[name='movie']");
+              this.reloadPlugin(elem);
+            },
+            reloadPlugin: function (elem) {
+              var nextSibling = elem.nextSibling;
+              var parentNode = elem.parentNode;
+              parentNode.removeChild(elem);
+              var newElem = elem.cloneNode(true);
+              this.done.push(newElem);
+              if (nextSibling) {
+                parentNode.insertBefore(newElem, nextSibling);
+              } else {
+                parentNode.appendChild(newElem);
+              }
+            },
+            init: function () {
+              var desc = navigator.mimeTypes["application/x-shockwave-flash"].description.toLowerCase();
+              if (document.URL.indexOf("tv.sohu.com") <= 0) {
+                delete this.rules["sohu"];
+              }
+              var handler = this.animationsHandler.bind(this);
+              document.body.addEventListener("webkitAnimationStart", handler, false);
+              document.body.addEventListener("msAnimationStart", handler, false);
+              document.body.addEventListener("oAnimationStart", handler, false);
+              document.body.addEventListener("animationstart", handler, false);
+              this.addAnimations();
+            },
+          };
+          new A().init();
+        })();
+      }
+      // 20140730
+      (function cnbeta() {
+        if (document.URL.indexOf("cnbeta.com") >= 0) {
+          var elms = document.body.querySelectorAll("p>embed");
+          Array.prototype.forEach.call(elms, function (elm) {
+            elm.style.marginLeft = "0px";
+          });
+        }
+      })();
+      // 20150108
+      setTimeout(function () {
+        if (document.URL.indexOf("www.baidu.com") >= 0) {
+          var a = function () {
+            Array.prototype.forEach.call(
+              document.body.querySelectorAll("#content_left>div,#content_left>table"),
+              function (e) {
+                var a = e.getAttribute("style");
+                if (a && /display:(table|block)\s!important/.test(a)) {
+                  e.removeAttribute("style");
+                }
+              },
+            );
+          };
+          a();
+          document.getElementById("su").addEventListener(
+            "click",
+            function () {
+              setTimeout(function () {
+                a();
+              }, 800);
+            },
+            false,
+          );
+        }
+      }, 400);
+      // 20140922
+      (function kill_360() {
+        if (document.URL.indexOf("so.com") >= 0) {
+          document.getElementById("e_idea_pp").style.display = none;
+        }
+      })();
+    </script>
+    <style type="text/css">
+      #yddContainer {
+        display: block;
+        font-family: Microsoft YaHei;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: -4px;
+        left: -4px;
+        font-size: 12px;
+        border: 1px solid;
+      }
+      #yddTop {
+        display: block;
+        height: 22px;
+      }
+      #yddTopBorderlr {
+        display: block;
+        position: static;
+        height: 17px;
+        padding: 2px 28px;
+        line-height: 17px;
+        font-size: 12px;
+        color: #5079bb;
+        font-weight: bold;
+        border-style: none solid;
+        border-width: 1px;
+      }
+      #yddTopBorderlr .ydd-sp {
+        position: absolute;
+        top: 2px;
+        height: 0;
+        overflow: hidden;
+      }
+      .ydd-icon {
+        left: 5px;
+        width: 17px;
+        padding: 0px 0px 0px 0px;
+        padding-top: 17px;
+        background-position: -16px -44px;
+      }
+      .ydd-close {
+        right: 5px;
+        width: 16px;
+        padding-top: 16px;
+        background-position: left -44px;
+      }
+      #yddKeyTitle {
+        float: left;
+        text-decoration: none;
+      }
+      #yddMiddle {
+        display: block;
+        margin-bottom: 10px;
+      }
+      .ydd-tabs {
+        display: block;
+        margin: 5px 0;
+        padding: 0 5px;
+        height: 18px;
+        border-bottom: 1px solid;
+      }
+      .ydd-tab {
+        display: block;
+        float: left;
+        height: 18px;
+        margin: 0 5px -1px 0;
+        padding: 0 4px;
+        line-height: 18px;
+        border: 1px solid;
+        border-bottom: none;
+      }
+      .ydd-trans-container {
+        display: block;
+        line-height: 160%;
+      }
+      .ydd-trans-container a {
+        text-decoration: none;
+      }
+      #yddBottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 22px;
+        line-height: 22px;
+        overflow: hidden;
+        background-position: left -22px;
+      }
+      .ydd-padding010 {
+        padding: 0 10px;
+      }
+      #yddWrapper {
+        color: #252525;
+        z-index: 10001;
+        background: url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ab20.png);
+      }
+      #yddContainer {
+        background: #fff;
+        border-color: #4b7598;
+      }
+      #yddTopBorderlr {
+        border-color: #f0f8fc;
+      }
+      #yddWrapper .ydd-sp {
+        background-image: url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprite.png);
+      }
+      #yddWrapper a,
+      #yddWrapper a:hover,
+      #yddWrapper a:visited {
+        color: #50799b;
+      }
+      #yddWrapper .ydd-tabs {
+        color: #959595;
+      }
+      .ydd-tabs,
+      .ydd-tab {
+        background: #fff;
+        border-color: #d5e7f3;
+      }
+      #yddBottom {
+        color: #363636;
+      }
+      #yddWrapper {
+        min-width: 250px;
+        max-width: 400px;
+      }
+    </style>
+    <script charset="utf-8" type="text/javascript" src="./assets/mi.MiniNav__v1.0.0.js"></script>
+    <link type="text/css" rel="stylesheet" id="coreCSS" href="./assets/isharenew_v1.0.css" />
+    <script src="./assets/cdn_dianjiliu.js"></script>
+    <script charset="utf-8" type="text/javascript" src="./assets/mi.MiniNav__v1.0.0(1).js"></script>
+    <script src="./assets/cdn_dianjiliu(1).js"></script>
+    <script src="./assets/cdn_dianjiliu(2).js"></script>
+    <style type="text/css">
+      :root img[data-module="advertisement"],
+:root div[pbflag="coolsitefeed_ad"],
+:root div[pbflag="bt_newsb_ad"],
+:root div[class^="page-top-banner"],
+:root [href^="http://www.10100000.com/"],
+:root .yw-gg-float,
+:root .xxskj,
+:root .txp_ad_link,
+:root .topbanner,
+:root .tmallskin,
+:root .tmallredpacket,
+:root .tl_ad,
+:root .tb12-activity,
+:root .tb-activity-list,
+:root .style_modal-wrap__UnbtS,
+:root .site_words,
+:root .sider_ad,
+:root .seeking-gg,
+:root .rv-js-root,
+:root .qiye-Article-QQ,
+:root .player_bg_ad,
+:root .mod_stridead,
+:root .mod_custom_ad,
+:root .mod_ad_square,
+:root .mod_ad_side,
+:root .mod_ad_main,
+:root .mod-ad-full,
+:root .mian-ad,
+:root .member_ads,
+:root .masker_1111,
+:root .main_ad_top,
+:root .main_ad_bottom,
+:root .m[pbflag="guess"],
+:root .m[pbflag="bt_mai"],
+:root .l_qq_com,
+:root .jpBanner,
+:root .in-top-ad,
+:root .g-qzp-bottom,
+:root .fixed-ad,
+:root .father-ad,
+:root .dongfengad,
+:root .cs_right_hw,
+:root .cs_dropbox[pbflag="xialaresou"],
+:root .cps_inner,
+:root .business-Article-QQ,
+:root .body-Top-Ad,
+:root .banner_1111,
+:root .banner-vda,
+:root .adword,
+:root .advs,
+:root .adv1000,
+:root .ads,
+:root .adcent,
+:root .adbutton-Aritcle-QQ,
+:root .ad_670_90,
+:root .ad-text-box,
+:root .ad-long-pic,
+:root .ad-foot,
+:root .action_ad,
+:root .aaddvv__list,
+:root ._switchad,
+:root .AdTop-Article-QQ,
+:root .AdBox-Article-QQ,
+:root #r_ad,
+:root #qqmail_AD_container,
+:root #qqadv,
+:root #pop_apps_sponsors,
+:root #nqsnqsad02,
+:root #iwanAD2,
+:root #image_ad,
+:root #fr_ad,
+:root #focus_jordon,
+:root #emailLogin > .hd-slider,
+:root #coo_qqBrowser,
+:root #comic_ad,
+:root #bottom-sponsor,
+:root #barrageBase,
+:root #ay-tips-close + h2,
+:root #ay-bottom-tips > .bd > .pic-box,
+:root #advertisement,
+:root #advert,
+:root #adImgHref,
+:root #ad-fullscreen,
+:root #AdRight-Article-QQ,
+:root #menu + script + #topBox,
+:root #menu + #topBox,
+:root .container > a.mid-wrapper,
+:root .container > a[href^="http"] > .ads,
+:root .container > .slide-baidu,
+:root .container > .index-ad,
+:root .container > .ads,
+:root .wrap + #midBox,
+:root .wrap + #btmBox,
+:root .wrap.mt10.clearfix > .box.top_box {
+        display: none !important;
+      }
+    </style>
+    <script charset="utf-8" type="text/javascript" src="./assets/mi.MiniNav__v1.0.0(1).js"></script>
+    <style>
+      /* cyrillic-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+          U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* cyrillic-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+          U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* cyrillic-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+          U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* cyrillic-ext */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* greek-ext */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format("woff2");
+        unicode-range: U+1F00-1FFF;
+      }
+      /* greek */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format("woff2");
+        unicode-range: U+0370-03FF;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+          U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* cyrillic-ext */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* greek-ext */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format("woff2");
+        unicode-range: U+1F00-1FFF;
+      }
+      /* greek */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format("woff2");
+        unicode-range: U+0370-03FF;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+          U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* cyrillic-ext */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2) format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2) format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* greek-ext */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2) format("woff2");
+        unicode-range: U+1F00-1FFF;
+      }
+      /* greek */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2) format("woff2");
+        unicode-range: U+0370-03FF;
+      }
+      /* vietnamese */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2) format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+          U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
+    <input type="hidden" id="_w_marrow" data-inspect-config="3" />
+    <script
+      type="text/javascript"
+      src="chrome-extension://dbjbempljhcmhlfpfacalomonjpalpko/scripts/inspector.js"
+    ></script>
+  </head>
+  <!--[if lte IE 6]>
+    <script language="javascript" type="text/javascript" src="http://fashion.qq.com/fg/zhuanti/iepng.js"></script>
+    <script type="text/javascript">
+      EvPNG.fix("div,span,ul,img,li,input,a");
+    </script>
+  <![endif]-->
+
+  <body>
+    <span id="warning-container"><i data-reactroot=""></i></span>
+    <!-- ȫվ����ͳ�ƴ��� ��ʼ -->
+    <!--ol20130819--><!--pgv 20140225v1.0.3 by Austinjin-->
+    <script language="javascript" src="./assets/ping.js"></script>
+
+    <script>
+      (function () {
+        var _href = location.href,
+          _search = location.search.toLowerCase().replace(/adtag=client\.qq\.\d+_\.0/, "from=tips"),
+          arr = ["aio", "tips"],
+          type = "",
+          from = "",
+          _arr = [];
+        if (_href.search(/from=/) !== -1) {
+          _arr = _href.split("&");
+          for (var j = 0, len = _arr.length; j < len; j++) {
+            if (_arr[j].indexOf("qqcom_pgv_from=") > -1) {
+              from = _arr[j].indexOf("#") > -1 ? _arr[j].substring(5, _arr[i].indexOf("#")) : _arr[j].substring(5);
+            }
+          }
+        }
+        if (window["ARTICLE_INFO"] && ARTICLE_INFO["catalog_full"]) {
+          for (var i = 0, len = arr.length; i < len; i++) {
+            if (_search.search(arr[i]) !== -1) {
+              type = arr[i];
+              addEvent(document, "click", function (e) {
+                _formFun(e, type);
+              });
+            }
+          }
+          newPgvDetail();
+        } else {
+          if (typeof pgvMain == "function") {
+            if (typeof whatCatalog != "undefined") {
+              pvCSTM = whatCatalog;
+            }
+            pgvInfo = "F." + from || "def";
+            pgvMain({ pgUserType: pgvInfo });
+          }
+        }
+        function newPgvDetail() {
+          var catalogPathR1 = ARTICLE_INFO.catalog_full.toString().replace(/-/g, ".");
+          var catalogPath = catalogPathR1.toString().replace(/_/g, "-");
+          if (ARTICLE_INFO.topic.name.length > 0) {
+            var L = "L.",
+              Z = "Z." + catalogPath + "." + ARTICLE_INFO.topic.name;
+          } else {
+            var L = "L." + catalogPath,
+              Z = "Z.";
+          }
+          var W = "W." + ARTICLE_INFO.type,
+            M = "M." + ARTICLE_INFO.tpl.type + ARTICLE_INFO.tpl.stype,
+            P = "P." + ARTICLE_INFO.site.toString().replace(/_/g, "-"),
+            F = "F." + from || "def",
+            pgvInfo = L + "_" + Z + "_" + W + "_" + M + "_" + P + "_" + F;
+          if (typeof pgvMain == "function") {
+            if (typeof pgvInfo != "undefined") {
+              pgvMain({ pgUserType: pgvInfo });
+            }
+          }
+        }
+        function addEvent(node, type, listener) {
+          if (node.addEventListener) {
+            node.addEventListener(type, listener, false);
+            return true;
+          } else if (node.attachEvent) {
+            node["e" + type + listener] = listener;
+            node[type + listener] = function () {
+              node["e" + type + listener](window.event);
+            };
+            node.attachEvent("on" + type, node[type + listener]);
+            return true;
+          }
+          return false;
+        }
+        function _formFun(e, t) {
+          var e = window.event || e,
+            target = e.srcElement || e.target,
+            tag = target.tagName.toLowerCase(),
+            href = target.href,
+            str = "",
+            arr = [];
+          if (tag == "img") {
+            target = target.parentNode;
+            tag = target.tagName.toLowerCase();
+            href = target.href;
+          }
+          if (href.indexOf("qqcom_pgv_from=") > -1) return;
+          if (tag == "a" && target.href.indexOf("qq.com") > -1) {
+            if (target.href.indexOf("?") == -1) {
+              str = href + "?qqcom_pgv_from=" + t;
+            } else {
+              arr = href.split("?");
+              str = arr[0] + "?qqcom_pgv_from=" + t + "&" + arr[1];
+            }
+            target.href = str;
+          }
+        }
+      })();
+    </script>
+    <!--pgv 20140225v1.0.3 end-->
+    <!-- ��Ƶ��Դptag -->
+    <script src="./assets/ptag_1.1.js" async="true"></script>
+    <!--[if !IE]>|xGv00|8c1fdc44d118845e49a64996e4f5ea29<!
+    [endif]--><!--[if !IE]>|xGv00|1a3a193a0249b0401b1fc3f77d548441<![endif]-->
+    <!-- ȫվ����ͳ�ƴ��� ���� -->
+    <div class="bg_white clearfix">
+      <style type="text/css">
+        /*��һ����¼ȫվ���㵼�� v20130219 loginall @goldenchen*/
+        .mininav {
+          width: 100%;
+          height: 28px;
+          background: #fdfdfd url(http://mat1.gtimg.com/www/images/qq2012/mininav.png) repeat-x top center;
+          border-bottom: 1px solid #ebebeb;
+        }
+        .mininavInner {
+          width: 1000px;
+          height: 28px;
+          margin: 0 auto !important;
+        }
+        .mininavInner a {
+          color: #666;
+          text-decoration: none;
+          font-family: "����";
+        }
+        .mininavInner a:hover {
+          color: #2d374b;
+        }
+        .mininavInner .mininavLeft {
+          float: left;
+          margin-top: 8px;
+          color: #c7c7c7;
+          font-size: 12px;
+        }
+        .mininavInner .mininavLeft .fl {
+          color: #c7c7c7;
+        }
+      </style>
+      <div class="mininav" id="topNav">
+        <div class="mininavInner">
+          <div class="mininavLeft">
+            <div class="fl">
+              <a href="http://www.qq.com/" target="_blank" id="qqindex" bosszone="qqindex">��Ѷ����ҳ</a> |
+              <a href="http://www.qq.com/map/" target="_blank" id="webmap" bosszone="webmap">��վ��ͼ</a>
+            </div>
+          </div>
+
+          <style type="text/css">
+            ul,
+            li {
+              margin: 0;
+              padding: 0;
+            }
+            li {
+              list-style: none;
+            }
+            .fl {
+              float: left;
+            }
+            .fr {
+              float: right;
+            }
+            .dis {
+              display: block;
+            }
+            .undis {
+              display: none;
+            }
+            .loginSmartTop,
+            .loginSmartBottom {
+              background-image: url(http://mat1.gtimg.com/www/images/qq2012/qqbg_1.5.2.png);
+              background-repeat: no-repeat;
+            }
+            a.login,
+            a.login:hover,
+            a.weiboLogin,
+            a.weiboLogin:hover,
+            a.qzoneLogin,
+            a.qzoneLogin:hover,
+            a.mailLogin,
+            a.mailLogin:hover,
+            a.pengyouLogin,
+            a.pengyouLogin:hover,
+            .mininavRight .weibo,
+            .mininavRight .weibo:hover,
+            .mininavRight .qzone,
+            .mininavRight .qzone:hover,
+            .mininavRight .mail,
+            .mininavRight .mail:hover,
+            .mininavRight .pengyou,
+            .mininavRight .pengyou:hover {
+              background-image: url(http://mat1.gtimg.com/www/images/qq2012/loginall_1.2.png);
+              background-repeat: no-repeat;
+            }
+            a.login {
+              width: 70px;
+              height: 28px;
+              display: block;
+              float: right;
+              background-position: left -450px;
+            }
+            a.login:hover {
+              background-position: left -500px;
+            }
+            a.weiboLogin {
+              width: 30px;
+              height: 28px;
+              display: block;
+              float: right;
+              background-position: left -50px;
+            }
+            a.weiboLogin:hover {
+              background-position: right -50px;
+            }
+            a.qzoneLogin {
+              width: 30px;
+              height: 28px;
+              display: block;
+              float: right;
+              background-position: left -100px;
+            }
+            a.qzoneLogin:hover {
+              background-position: right -100px;
+            }
+            a.mailLogin {
+              width: 30px;
+              height: 28px;
+              display: block;
+              float: right;
+              background-position: left -150px;
+            }
+            a.mailLogin:hover {
+              background-position: right -150px;
+            }
+            a.pengyouLogin {
+              width: 28px;
+              height: 28px;
+              display: block;
+              float: right;
+              background-position: left -200px;
+            }
+            a.pengyouLogin:hover {
+              background-position: right -200px;
+            }
+            .mininavRight {
+              font-size: 12px;
+            }
+            .mininavRight .weibo {
+              background-position: 7px -243px;
+            }
+            .mininavRight .weibo:hover {
+              background-position: -79px -243px;
+            }
+            .mininavRight .qzone {
+              background-position: 7px -294px;
+            }
+            .mininavRight .qzone:hover {
+              background-position: -74px -294px;
+            }
+            .mininavRight .mail {
+              background-position: 7px -340px;
+            }
+            .mininavRight .mail:hover {
+              background-position: -77px -340px;
+            }
+            .mininavRight .pengyou {
+              background-position: 7px -394px;
+            }
+            .mininavRight .pengyou:hover {
+              background-position: -76px -394px;
+            }
+            .mininavRight {
+              float: right;
+              color: #c7c7c7;
+              line-height: 28px;
+            }
+            .mininavRight a {
+              color: #666;
+            }
+            .mininavRight .qqNameLayout {
+              margin-right: 4px;
+              color: #c7c7c7;
+            }
+            .mininavRight .qqName {
+              margin-right: 12px;
+              color: #666;
+              float: left;
+            }
+            .mininavRight .weibo {
+              font-family: Tahoma, "����";
+              padding: 0 7px;
+              display: block;
+              height: 28px;
+              float: left;
+              text-indent: 17px;
+            }
+            .mininavRight .weibo:hover {
+              color: #fff;
+              background-color: #458fce;
+            }
+            .mininavRight .qzone {
+              font-family: Tahoma, "����";
+              padding: 0 7px;
+              display: block;
+              height: 28px;
+              float: left;
+              text-indent: 22px;
+            }
+            .mininavRight .qzone:hover {
+              color: #fff;
+              background-color: #458fce;
+            }
+            .mininavRight .mail {
+              font-family: Tahoma, "����";
+              padding: 0 7px;
+              display: block;
+              height: 28px;
+              float: left;
+              text-indent: 19px;
+            }
+            .mininavRight .mail:hover {
+              color: #fff;
+              background-color: #458fce;
+            }
+            .mininavRight .pengyou {
+              font-family: Tahoma, "����";
+              padding: 0 7px;
+              display: block;
+              height: 28px;
+              float: left;
+              text-indent: 20px;
+            }
+            .mininavRight .pengyou:hover {
+              color: #fff;
+              background-color: #458fce;
+            }
+            .loginSmartBox {
+              width: 120px;
+              height: auto;
+              background: #fffbef;
+              position: absolute;
+              top: 28px;
+              z-index: 100;
+            }
+            .loginSmartTop {
+              width: 120px;
+              height: 3px;
+              overflow: hidden;
+              background-position: -350px -210px;
+            }
+            .loginSmartBottom {
+              width: 120px;
+              height: 3px;
+              overflow: hidden;
+              background-position: -350px -230px;
+            }
+            .loginSmartContent {
+              width: 118px;
+              border-left: 1px solid #f1f1f1;
+              border-right: 1px solid #f1f1f1;
+            }
+            .loginSmartInner {
+              width: 116px;
+              border-left: 1px solid #f4d9a4;
+              border-right: 1px solid #f4d9a4;
+            }
+            .loginSmartInner ul {
+              width: 100%;
+              padding: 2px 0;
+            }
+            .loginSmartInner li {
+              width: 100%;
+              height: 20px;
+              line-height: 20px;
+              color: #666;
+              text-indent: 8px;
+              text-align: left;
+            }
+            .loginSmartInner li a {
+              color: #666;
+            }
+            .loginSmartInner li a:hover span {
+              color: #cd0200;
+            }
+            .loginSmartInner li a span,
+            .loginSmartInner li a:hover span {
+              font-family: Tahoma;
+            }
+            #pengyouIcon {
+              position: relative;
+              z-index: 10000;
+            }
+            #mailIcon {
+              position: relative;
+              z-index: 10000;
+            }
+            #qzoneIcon {
+              position: relative;
+              z-index: 10000;
+            }
+            #weiboIcon {
+              position: relative;
+              z-index: 10000;
+            }
+            #loginOut:hover {
+              text-decoration: underline;
+              color: #cd0200;
+            }
+            .loginBg {
+              width: 100%;
+              min-width: 1024px;
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: 8888;
+              display: none;
+              background: url(http://mat1.gtimg.com/www/images/qq2012/alphabg.png);
+              _background: #000;
+              _opacity: 0.3_;
+              filter: alpha(opacity=30);
+            }
+
+            .mininavRight .qzone {
+              width: auto;
+            }
+            .mininavLeft div {
+              line-height: 14px;
+            }
+            .mininavRight div {
+              line-height: 28px;
+            }
+          </style>
+
+          <div class="mininavRight" id="logkey" bosszone="logkey">
+            <div id="loginAll" class="fr">
+              <a href="http://mail.qq.com/" class="mailLogin" id="qmail" target="_blank" bosszone="qmail"></a>
+              <a href="http://qzone.qq.com/" class="qzoneLogin" id="qzone" target="_blank" bosszone="qzone"></a>
+              <a
+                href="http://t.qq.com/?pref=qqcom.home.weiboIN"
+                class="weiboLogin"
+                id="weibo"
+                target="_blank"
+                bosszone="weibo"
+              ></a>
+              <a
+                href="javascript:void(0);"
+                class="login"
+                onclick="userLogin();"
+                target="_self"
+                id="onekey"
+                bosszone="onekey"
+              ></a>
+            </div>
+            <div id="logined" class="fr" style="display: none">
+              <div id="mailIcon" class="fr" bosszone="qmailinfor">
+                <a href="http://mail.qq.com/" class="mail" id="mailNum" style="padding: 0 15px" target="_blank"></a>
+                <div class="loginSmartBox undis" id="mailSmart" style="right: 0">
+                  <div class="loginSmartTop"></div>
+                  <div class="loginSmartContent">
+                    <div class="loginSmartInner">
+                      <ul>
+                        <li id="mailTitle">QQ����:</li>
+                        <li id="inboxLi" class="undis">
+                          <a href="http://mail.qq.com/" target="_blank">δ���ʼ� (<span id="inboxNum"></span>)</a>
+                        </li>
+                        <li id="bottleLi" class="undis">
+                          <a href="http://mail.qq.com/" target="_blank">Ư��ƿ (<span id="bottleNum"></span>)</a>
+                        </li>
+                        <li id="gmailLi" class="undis">
+                          <a href="http://mail.qq.com/" target="_blank">Ⱥ�ʼ� (<span id="gmailNum"></span>)</a>
+                        </li>
+                        <li id="dmailLi" class="undis">
+                          <a href="http://mail.qq.com/" target="_blank">�ļ��� (<span id="dmailNum"></span>)</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="loginSmartBottom"></div>
+                </div>
+              </div>
+              <div id="qzoneIcon" class="fr" bosszone="qzoneinfor">
+                <a href="http://qzone.qq.com/" class="qzone" id="qzoneNum" style="padding: 0 16px" target="_blank"></a>
+                <div class="loginSmartBox undis" id="qzoneSmart" style="right: 0">
+                  <div class="loginSmartTop"></div>
+                  <div class="loginSmartContent">
+                    <div class="loginSmartInner">
+                      <ul>
+                        <li id="qzoneTitle">QQ�ռ�:</li>
+                        <li id="passiveLi" class="undis">
+                          <a href="http://qzone.qq.com/" target="_blank">�ҵĶ�̬ (<span id="passiveNum"></span>)</a>
+                        </li>
+                        <li id="InitLi" class="undis">
+                          <a href="http://qzone.qq.com/" target="_blank">���Ѷ�̬ (<span id="InitNum"></span>)</a>
+                        </li>
+                        <li id="AboutLi" class="undis">
+                          <a href="http://qzone.qq.com/" target="_blank">�ҵĲ��� (<span id="AboutNum"></span>)</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="loginSmartBottom"></div>
+                </div>
+              </div>
+              <div id="weiboIcon" class="fr" bosszone="weiboinfor">
+                <a
+                  href="http://t.qq.com/?pref=qqcom.home.weiboenter"
+                  class="weibo"
+                  id="weiboNum"
+                  style="padding: 0 14px"
+                  target="_blank"
+                ></a>
+                <div class="loginSmartBox undis" id="weiboSmart" style="left: 0">
+                  <div class="loginSmartTop"></div>
+                  <div class="loginSmartContent">
+                    <div class="loginSmartInner">
+                      <ul>
+                        <li id="weiboTitle">��Ѷ΢��:</li>
+                        <li id="msgLi" class="undis">
+                          <a href="http://t.qq.com/messages/inbox?pref=qqcom.home.wbinbox" target="_blank"
+                            >˽�� (<span id="msgNum"></span>)</a
+                          >
+                        </li>
+                        <li id="atLi" class="undis">
+                          <a href="http://t.qq.com/at?pref=qqcom.home.wbat" target="_blank"
+                            >�ᵽ�ҵ� (<span id="atNum"></span>)</a
+                          >
+                        </li>
+                        <li id="fansLi" class="undis">
+                          <a href="http://t.qq.com/follower.php?pref=qqcom.home.wbfollow" target="_blank"
+                            >�������� (<span id="fansNum"></span>)</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="loginSmartBottom"></div>
+                </div>
+              </div>
+              <div class="qqNameLayout fr">
+                <span class="qqName"
+                  >���ã�<span id="userName"></span> <span>[</span
+                  ><a href="javascript:void(0);" id="loginOut" target="_self" bosszone="logquit">�˳�</a
+                  ><span>]</span></span
+                >|
+              </div>
+            </div>
+          </div>
+
+          <div id="loginBg" class="loginBg"></div>
+          <div
+            id="login_div"
+            style="
+              position: fixed;
+              _position: absolute;
+              width: 400px;
+              height: 382px;
+              padding: 0;
+              margin: 0;
+              top: 50%;
+              left: -9999px;
+              margin: -165px 0 0 -276px;
+              _margin-top: 0;
+              z-index: 99999;
+              visibility: hidden;
+            "
+          >
+            <iframe
+              id="login_frame"
+              height="100%"
+              scrolling="auto"
+              width="100%"
+              frameborder="0"
+              src="./assets/saved_resource.html"
+            ></iframe>
+          </div>
+
+          <script type="text/javascript">
+            var MI = {};
+            (function (b) {
+              var a = document.createElement("script");
+              a.setAttribute("charset", "utf-8");
+              a.setAttribute("type", "text/javascript");
+              a.setAttribute("src", b);
+              document.getElementsByTagName("head")[0].appendChild(a);
+            })("http://mat1.gtimg.com/www/mb/js/portal/mi.MiniNav__v1.0.0.js");
+          </script>
+
+          <script type="text/javascript">
+            //<![CDATA[
+            document.domain = "qq.com";
+            function ptlogin2_onResize(width, height) {
+              //��ø���Div����
+              login_wnd = document.getElementById("login_div");
+              if (login_wnd) {
+                //�������ô�Сע�⣬һ��Ҫ��px������firefox��������
+                login_wnd.style.width = width + "px";
+                login_wnd.style.height = height + "px";
+                //������µ�����¼���λ�ã� �����....
+                //�����أ�����ʾ���������Ա���������ĳ���
+                login_wnd.style.visibility = "hidden";
+                login_wnd.style.visibility = "visible";
+                login_wnd.style.marginLeft = "-" + parseInt(width / 2) + "px";
+                login_wnd.style.marginTop = "-" + parseInt(height / 2) + "px";
+              }
+            }
+            function ptlogin2_onClose() {
+              document.getElementById("login_div").style.left = "-9999px";
+              document.getElementById("loginBg").style.display = "none";
+            }
+            function userLogin() {
+              document.getElementById("login_frame").src =
+                "http://ui.ptlogin2.qq.com/cgi-bin/login?hide_title_bar=0&low_login=0&qlogin_auto_login=1&no_verifyimg=1&link_target=blank&appid=636014201&target=self&s_url=http%3A//www.qq.com/qq2012/loginSuccess.htm";
+              document.getElementById("login_div").style.left = "50%";
+              document.getElementById("loginBg").style.display = "block";
+              document.getElementById("loginBg").style.width = document.body.clientWidth + "px";
+              document.getElementById("loginBg").style.height = document.body.clientHeight + "px";
+            }
+            /*һ����¼����*/
+            function loginAll(obj) {
+              if (obj.result == 0) {
+                MblogTotalnum = obj.info.Mblog.totalnum || 0;
+                QQ.localData.set("Mblog-totalnum", obj.info.Mblog.totalnum);
+                MblogMsgnum = obj.info.Mblog.msgnum || 0;
+                QQ.localData.set("Mblog-msgnum", obj.info.Mblog.msgnum);
+                MblogAtnum = obj.info.Mblog.atnum || 0;
+                QQ.localData.set("Mblog-atnum", obj.info.Mblog.atnum);
+                MblogFansnum = obj.info.Mblog.fansnum || 0;
+                QQ.localData.set("Mblog-fansnum", obj.info.Mblog.fansnum);
+                QZoneTotalnum = obj.info.QZone.totalnum || 0;
+                QQ.localData.set("QZone-totalnum", obj.info.QZone.totalnum);
+                QZonePassivenum = obj.info.QZone.passivenum || 0;
+                QQ.localData.set("QZone-passivenum", obj.info.QZone.passivenum);
+                QZoneInitnum = obj.info.QZone.initnum || 0;
+                QQ.localData.set("QZone-initnum", obj.info.QZone.initnum);
+                QZoneAboutnum = obj.info.QZone.aboutnum || 0;
+                QQ.localData.set("QZone-aboutnum", obj.info.QZone.aboutnum);
+                QMailTotalnum = obj.info.QMail.totalnum || 0;
+                QQ.localData.set("QMail-totalnum", obj.info.QMail.totalnum);
+                QMailInboxnum = obj.info.QMail.inboxnum || 0;
+                QQ.localData.set("QMail-inboxnum", obj.info.QMail.inboxnum);
+                QMailBottlenum = obj.info.QMail.bottlenum || 0;
+                QQ.localData.set("QMail-bottlenum", obj.info.QMail.bottlenum);
+                QMailGmailnum = obj.info.QMail.gmailnum || 0;
+                QQ.localData.set("QMail-gmailnum", obj.info.QMail.gmailnum);
+                QMailDmailnum = obj.info.QMail.dmailnum || 0;
+                QQ.localData.set("QMail-dmailnum", obj.info.QMail.dmailnum);
+                userInfoUin = uin;
+                QQ.localData.set("Uin", uin);
+                nick = userInfoName = obj.nick.replace(/</, "&lt;").replace(/>/, "&gt;");
+                QQ.localData.set("nick", userInfoName);
+                userInfoVip = obj.Vip;
+                QQ.localData.set("Vip", userInfoVip || 0);
+                Face = userInfoFace = obj.Face || "http://mat1.gtimg.com/news/dc/temp/c1.jpg";
+                QQ.localData.set("Face", userInfoFace || "http://mat1.gtimg.com/news/dc/temp/c1.jpg");
+
+                UI && UI.getScript("http://mini.t.qq.com/mini/mycheck.php?r=" + new Date().getTime()); //add 20130226
+
+                if (MblogTotalnum) {
+                  if (MblogTotalnum > 99) {
+                    document.getElementById("weiboNum").innerHTML = "99+";
+                  } else {
+                    document.getElementById("weiboNum").innerHTML = MblogTotalnum;
+                  }
+                  document.getElementById("weiboNum").style.padding = "0 7px";
+                  if (MblogMsgnum != "") {
+                    document.getElementById("msgNum").innerHTML = MblogMsgnum;
+                    document.getElementById("msgLi").style.display = "block";
+                  }
+                  if (MblogAtnum != "") {
+                    document.getElementById("atNum").innerHTML = MblogAtnum;
+                    document.getElementById("atLi").style.display = "block";
+                  }
+                  if (MblogFansnum != "") {
+                    document.getElementById("fansNum").innerHTML = MblogFansnum;
+                    document.getElementById("fansLi").style.display = "block";
+                  }
+                } else {
+                  document.getElementById("weiboTitle").innerHTML =
+                    "<a href='http://t.qq.com' target='_blank'>����鿴��Ѷ΢��</a>";
+                }
+                if (QZoneTotalnum) {
+                  if (QZoneTotalnum > 99) {
+                    document.getElementById("qzoneNum").innerHTML = "99+";
+                  } else {
+                    document.getElementById("qzoneNum").innerHTML = QZoneTotalnum;
+                  }
+                  document.getElementById("qzoneNum").style.padding = "0 7px";
+                  if (QZonePassivenum != "") {
+                    document.getElementById("passiveNum").innerHTML = QZonePassivenum;
+                    document.getElementById("passiveLi").style.display = "block";
+                  }
+                  if (QZoneInitnum != "") {
+                    document.getElementById("InitNum").innerHTML = QZoneInitnum;
+                    document.getElementById("InitLi").style.display = "block";
+                  }
+                  if (QZoneAboutnum != "") {
+                    document.getElementById("AboutNum").innerHTML = QZoneAboutnum;
+                    document.getElementById("AboutLi").style.display = "block";
+                  }
+                } else {
+                  document.getElementById("qzoneTitle").innerHTML =
+                    "<a href='http://qzone.qq.com' target='_blank'>����鿴QQ�ռ�</a>";
+                }
+                if (QMailTotalnum) {
+                  if (QMailTotalnum > 99) {
+                    document.getElementById("mailNum").innerHTML = "99+";
+                  } else {
+                    document.getElementById("mailNum").innerHTML = QMailTotalnum;
+                  }
+                  document.getElementById("mailNum").style.padding = "0 7px";
+                  weiDu = QMailTotalnum - QMailInboxnum - QMailBottlenum - QMailGmailnum - QMailDmailnum;
+                  if (QMailInboxnum != "") {
+                    if (weiDu != 0) {
+                      document.getElementById("inboxNum").innerHTML = Number(QMailInboxnum) + Number(weiDu);
+                      document.getElementById("inboxLi").style.display = "block";
+                    } else {
+                      document.getElementById("inboxNum").innerHTML = QMailInboxnum;
+                      document.getElementById("inboxLi").style.display = "block";
+                    }
+                  } else if (weiDu != 0) {
+                    document.getElementById("inboxNum").innerHTML = weiDu;
+                    document.getElementById("inboxLi").style.display = "block";
+                  }
+                  if (QMailBottlenum != "") {
+                    document.getElementById("bottleNum").innerHTML = QMailBottlenum;
+                    document.getElementById("bottleLi").style.display = "block";
+                  }
+                  if (QMailGmailnum != "") {
+                    document.getElementById("gmailNum").innerHTML = QMailGmailnum;
+                    document.getElementById("gmailLi").style.display = "block";
+                  }
+                  if (QMailDmailnum != "") {
+                    document.getElementById("dmailNum").innerHTML = QMailDmailnum;
+                    document.getElementById("dmailLi").style.display = "block";
+                  }
+                  if (QMailInboxnum == "" && QMailBottlenum == "" && QMailGmailnum == "" && QMailDmailnum == "") {
+                    document.getElementById("mailTitle").innerHTML =
+                      "<a href='http://mail.qq.com' target='_blank'>����鿴QQ����</a>";
+                  }
+                } else {
+                  document.getElementById("mailTitle").innerHTML =
+                    "<a href='http://mail.qq.com' target='_blank'>����鿴QQ����</a>";
+                }
+                document.getElementById("mailIcon").onmouseover = function () {
+                  document.getElementById("mailSmart").style.display = "block";
+                };
+                document.getElementById("mailIcon").onmouseout = function () {
+                  document.getElementById("mailSmart").style.display = "none";
+                };
+                document.getElementById("qzoneIcon").onmouseover = function () {
+                  document.getElementById("qzoneSmart").style.display = "block";
+                };
+                document.getElementById("qzoneIcon").onmouseout = function () {
+                  document.getElementById("qzoneSmart").style.display = "none";
+                };
+                document.getElementById("weiboIcon").onmouseover = function () {
+                  document.getElementById("weiboSmart").style.display = "block";
+                };
+                document.getElementById("weiboIcon").onmouseout = function () {
+                  document.getElementById("weiboSmart").style.display = "none";
+                };
+
+                document.getElementById("userName").innerHTML = userInfoName;
+                document.getElementById("logined").style.display = "block";
+                document.getElementById("loginAll").style.display = "none";
+                document.getElementById("loginOut").onclick = function () {
+                  login.loginOut();
+                  //MI &&��MI.Login.logout();//��ͨ΢��һ����¼
+                  //�°�����add
+                  if (window["ifr_cmt_status"] && document.getElementById("commentIframe")) {
+                    document.getElementById("commentIframe").contentWindow.publicLogout();
+                    //registerCoralEvent.publicLogout();
+                  }
+                  return false;
+                };
+                if (typeof loginAllCallBack == "function") {
+                  loginAllCallBack(userInfoName);
+                }
+              }
+
+              //�°�����add
+              if (window["ifr_cmt_status"] && document.getElementById("commentIframe")) {
+                //registerCoralEvent.publicLogined(uin, nick, Face);
+                document.getElementById("commentIframe").contentWindow.publicLogined(uin, nick, Face);
+              }
+            }
+            function reloadLoginInfo() {
+              var _obj = {
+                result: "0",
+                Uin: QQ.localData.get("Uin"),
+                nick: QQ.localData.get("nick"),
+                Vip: QQ.localData.get("Vip"),
+                Face: QQ.localData.get("Face"),
+                info: {
+                  QZone: {
+                    totalnum: parseInt(QQ.localData.get("QZone-totalnum")),
+                    passivenum: parseInt(QQ.localData.get("QZone-passivenum")),
+                    initnum: parseInt(QQ.localData.get("QZone-initnum")),
+                    aboutnum: parseInt(QQ.localData.get("QZone-aboutnum")),
+                  },
+                  /*"Friend":{"totalnum":parseInt(QQ.localData.get('Friend-totalnum')),"passivenum":parseInt(QQ.localData.get('Friend-passivenum')),"initnum":parseInt(QQ.localData.get('Friend-initnum')),"aboutnum":parseInt(QQ.localData.get('Friend-aboutnum'))},*/ QMail:
+                    {
+                      totalnum: parseInt(QQ.localData.get("QMail-totalnum")),
+                      inboxnum: parseInt(QQ.localData.get("QMail-inboxnum")),
+                      bottlenum: parseInt(QQ.localData.get("QMail-bottlenum")),
+                      gmailnum: parseInt(QQ.localData.get("QMail-gmailnum")),
+                      dmailnum: parseInt(QQ.localData.get("QMail-dmailnum")),
+                    },
+                  Mblog: {
+                    totalnum: parseInt(QQ.localData.get("Mblog-totalnum")),
+                    msgnum: parseInt(QQ.localData.get("Mblog-msgnum")),
+                    atnum: parseInt(QQ.localData.get("Mblog-atnum")),
+                    fansnum: parseInt(QQ.localData.get("Mblog-fansnum")),
+                  },
+                },
+              };
+              loginAll(_obj);
+            }
+            window.QQ = {};
+            QQ.localData = {
+              hname: location.hostname ? location.hostname : "localStatus",
+              isLocalStorage: window.localStorage ? true : false,
+              dataDom: null,
+              initDom: function () {
+                //��ʼ��userData
+                if (!this.dataDom) {
+                  try {
+                    this.dataDom = document.createElement("input"); //����ʹ��hidden��inputԪ��
+                    this.dataDom.type = "hidden";
+                    this.dataDom.style.display = "none";
+                    this.dataDom.addBehavior("#default#userData"); //����userData���﷨
+                    document.body.appendChild(this.dataDom);
+                    var exDate = new Date();
+                    exDate = exDate.getDate() + 30;
+                    this.dataDom.expires = exDate.toUTCString(); //�趨����ʱ��
+                  } catch (ex) {
+                    return false;
+                  }
+                }
+                return true;
+              },
+              set: function (key, value) {
+                if (this.isLocalStorage) {
+                  window.localStorage.setItem(key, value);
+                } else {
+                  if (this.initDom()) {
+                    this.dataDom.load(this.hname);
+                    this.dataDom.setAttribute(key, value);
+                    this.dataDom.save(this.hname);
+                  }
+                }
+              },
+              get: function (key) {
+                if (this.isLocalStorage) {
+                  return window.localStorage.getItem(key);
+                } else {
+                  if (this.initDom()) {
+                    this.dataDom.load(this.hname);
+                    return this.dataDom.getAttribute(key);
+                  }
+                }
+              },
+              remove: function (key) {
+                if (this.isLocalStorage) {
+                  localStorage.removeItem(key);
+                } else {
+                  if (this.initDom()) {
+                    this.dataDom.load(this.hname);
+                    this.dataDom.removeAttribute(key);
+                    this.dataDom.save(this.hname);
+                  }
+                }
+              },
+            };
+            QQ.Cookie = {
+              set: function (name, value, expires, path, domain) {
+                if (typeof expires == "undefined") {
+                  expires = new Date(new Date().getTime() + 3600 * 1000);
+                }
+                document.cookie =
+                  name +
+                  "=" +
+                  escape(value) +
+                  (expires ? "; expires=" + expires.toGMTString() : "") +
+                  (path ? "; path=" + path : "; path=/") +
+                  (domain ? ";domain=" + domain : "");
+              },
+              get: function (name) {
+                var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+                if (arr != null) {
+                  return unescape(arr[2]);
+                }
+                return null;
+              },
+              clear: function (name, path, domain) {
+                if (this.get(name)) {
+                  document.cookie =
+                    name +
+                    "=" +
+                    (path ? "; path=" + path : "; path=/") +
+                    (domain ? "; domain=" + domain : "") +
+                    ";expires=Fri, 02-Jan-1970 00:00:00 GMT";
+                }
+              },
+            };
+            function getExpires(a) {
+              //a:hour
+              var expires = new Date(new Date().getTime() + (a ? a : 1) * 24 * 3600 * 1000);
+              return expires;
+            }
+
+            window["login"] = {
+              loginCheck: function () {
+                if (QQ.Cookie.get("skey")) {
+                  uin = Number(QQ.Cookie.get("uin").substring(1));
+                  skey = QQ.Cookie.get("skey");
+                  try {
+                    var loginScript = document.createElement("script");
+                    loginScript.charset = "utf-8";
+                    loginScript.src =
+                      "http://qfwd.qq.com/?uin=" +
+                      uin +
+                      "&skey=" +
+                      skey +
+                      "&func=loginAll&refresh=0&ran=" +
+                      Math.random();
+                    document.getElementsByTagName("head")[0].appendChild(loginScript);
+                    QQ.localData.set("loginTime", new Date().getTime());
+                  } catch (e) {}
+                }
+              },
+              loginCountCheck: function (obj) {
+                if (document.getElementById(obj).innerHTML != "") {
+                  document.getElementById(obj).innerHTML = "";
+                  document.getElementById(obj).parentNode.parentNode.style.display = "none";
+                }
+              },
+              loginOut: function () {
+                //var _this = this;
+                UI.getScript("https://ui.ptlogin2.qq.com/js/ptloginout.js", function () {
+                  pt_logout.logout(function (n) {
+                    if (!n) {
+                      //fail
+                    } else {
+                      //success
+                      login.loginOutCall();
+                    }
+                  });
+                });
+              },
+              loginOutCall: function () {
+                var d = new Date().getTime();
+                //QQ.Cookie.clear("skey", '/', "qq.com");
+                document.getElementById("logined").style.display = "none";
+                document.getElementById("loginAll").style.display = "block";
+                login.loginCountCheck("weiboNum");
+                login.loginCountCheck("msgNum");
+                login.loginCountCheck("atNum");
+                login.loginCountCheck("fansNum");
+                login.loginCountCheck("qzoneNum");
+                login.loginCountCheck("passiveNum");
+                login.loginCountCheck("InitNum");
+                login.loginCountCheck("AboutNum");
+                login.loginCountCheck("mailNum");
+                login.loginCountCheck("inboxNum");
+                login.loginCountCheck("bottleNum");
+                login.loginCountCheck("gmailNum");
+                login.loginCountCheck("dmailNum");
+                document.getElementById("weiboTitle").innerHTML = "��Ѷ΢��:";
+                document.getElementById("qzoneTitle").innerHTML = "QQ�ռ�:";
+                document.getElementById("mailTitle").innerHTML = "QQ����:";
+                document.getElementById("weiboNum").style.padding = "0 14px";
+                document.getElementById("qzoneNum").style.padding = "0 16px";
+                document.getElementById("mailNum").style.padding = "0 15px";
+                if (typeof loginOutCallBack == "function") {
+                  loginOutCallBack();
+                }
+                login.cbArr = [];
+                login.cleanCbLogin();
+              },
+              loginSuccess: function () {
+                document.getElementById("loginBg").style.display = "none";
+                document.getElementById("login_div").style.left = "-9999px";
+                document.getElementById("logined").style.display = "block";
+                document.getElementById("loginAll").style.display = "none";
+                //���ػص�
+                if (login.cbArr.length > 0) {
+                  for (var i = login.cbArr.length - 1; i >= 0; i--) {
+                    login.cbArr[i]();
+                  }
+                }
+                //����ص�
+                login.loginCheck();
+                login.cbLogin();
+                login.cleanCbLogin();
+              },
+              cbArr: new Array(), //���ػص�
+              cbLogin: function () {}, //����ص�
+              cleanCbLogin: function () {
+                this.cbLogin = function () {};
+              },
+            };
+            function EA(node, type, listener) {
+              if (node.addEventListener) {
+                node.addEventListener(type, listener, false);
+                return true;
+              } else if (node.attachEvent) {
+                node["e" + type + listener] = listener;
+                node[type + listener] = function () {
+                  node["e" + type + listener](window.event);
+                };
+                node.attachEvent("on" + type, node[type + listener]);
+                return true;
+              }
+              return false;
+            }
+            //��¼���ش洢
+            EA(window, "load", function () {
+              if (QQ.Cookie.get("skey")) {
+                var _t = QQ.localData.get("loginTime") || 0,
+                  t = new Date().getTime();
+                if (t - _t > 60000 || QQ.Cookie.get("uin") != QQ.localData.get("Uin")) {
+                  login.loginCheck();
+                } else {
+                  reloadLoginInfo();
+                }
+              }
+            });
+            //]]>
+          </script>
+          <!--[if !IE]>|xGv00|21283af2180ac4338fa0fbea90958f17<![endif]-->
+        </div>
+      </div>
+      <script type="text/javascript">
+        (function () {
+          var e = {
+              webmap: "webmap",
+              qqindex: "qqindex",
+              logkey: "logkey",
+              onekey: "onekey",
+              weibo: "weibo",
+              qzone: "qzone",
+              qmail: "qmail",
+              friend: "friend",
+              loginOut: "logquit",
+              weiboIcon: "weiboinfor",
+              qzoneIcon: "qzoneinfor",
+              mailIcon: "qmailinfor",
+              pengyouIcon: "friendinfor",
+            },
+            t = function () {
+              for (var t in e) {
+                if (!e.hasOwnProperty(t)) return;
+                var n = document.getElementById(t);
+                n && n.setAttribute("bossZone", e[t]);
+              }
+            };
+          t();
+        })();
+      </script>
+      <script type="text/javascript">
+        //�ƶ������ұ߾�
+        if (
+          /AppleWebKit.*Mobile/i.test(navigator.userAgent) ||
+          /MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(
+            navigator.userAgent,
+          )
+        ) {
+          document.getElementsByTagName("body")[0].style.minWidth = "1028px";
+        }
+      </script>
+      <!--[if !IE]>|xGv00|391c10b45046351ab35a91ecc9e5bb6e<!
+      [endif]--><!--[if !IE]>|xGv00|63885e533c6b7dd990669f000661a4a2<![endif]-->
+    </div>
+
+    <!-- ר������ -->
+    <div class="bodyWrap clearfix yahei" style="height: 770px">
+      <!-- ��� -->
+      <div class="act_left">
+        <div style="width: 0px; height: 0px; overflow: hidden; line-height: 0px; font-size: 0px; text-indent: -20000px">
+          <h1>���̣���Ů����������������ů</h1>
+          <h2>��ŦԼ����������һ���6Сʱ������Ū���Ϊʲôÿ�μ��������ľ���������������ԭ������Ϊ�а���������ѽ��</h2>
+        </div>
+        <p class="c_logo ImgStyle">
+          <a href="http://fashion.qq.com/zhuanti2012/mrpc/mjby/mjby_list.htm" target="_blank"
+            ><img src="./assets/public_logo.png"
+          /></a>
+        </p>
+        <!-- ����ǩ����Ҫ���ɾ������Ϊ�ͺ�������ƥ�� -->
+        <ul class="Left_Tips yahei">
+          <li class="c_meun01"><a class="cur" href="javascript:void(0)">����</a></li>
+          <li class="c_meun02"><a href="javascript:void(0)">̬��</a></li>
+          <li class="c_meun03"><a href="javascript:void(0)">����</a></li>
+          <li class="c_meun04"><a href="javascript:void(0)">����</a></li>
+          <li class="c_meun05"><a href="javascript:void(0)">����</a></li>
+          <li class="c_meun06"><a href="javascript:void(0)">ӡ��</a></li>
+        </ul>
+      </div>
+      <!-- ��� end -->
+      <!-- �Ҳ� -->
+      <div id="sliderPages" class="act_right slider-pages" style="width: 1261px; height: 770px">
+        <!-- ����������̶�����Ļ���� -->
+
+        <div class="slider-pages-help">
+          <ul id="UlId" class="RightUl clearfix slider-pages-ul">
+            <!-- 1-1 -->
+            <li class="Page01 slider-page-con cur" style="width: 1261px; height: 770px">
+              <span class="shining_bg"><img src="./assets/page1_shining_bg.png" /></span>
+              <div class="c_Wrap">
+                <div data-order="1" class="p1_m1">
+                  <div class="p1_b1">
+                    <img src="./assets/page1_b1.png" usemap="#Map1" />
+                    <map name="Map1">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="5" />
+                    </map>
+                  </div>
+                  <div class="p1_b2">
+                    <img src="./assets/page1_b2.png" usemap="#Map2" />
+                    <map name="Map2">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="2" />
+                    </map>
+                  </div>
+                  <div class="p1_b3">
+                    <img src="./assets/page1_b3.png" usemap="#Map3" />
+                    <map name="Map3">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="3" />
+                    </map>
+                  </div>
+                  <div class="p1_b4">
+                    <img src="./assets/page1_b4.png" usemap="#Map4" />
+                    <map name="Map4">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="4" />
+                    </map>
+                  </div>
+                  <div class="p1_b5">
+                    <img src="./assets/page1_b5.png" usemap="#Map5" />
+                    <map name="Map5">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="1" />
+                    </map>
+                  </div>
+                </div>
+                <span data-order="2" data-left="-50" class="p1_m2">
+                  <img src="./assets/page1_m2.png" />
+                </span>
+              </div>
+            </li>
+            <!-- 1-2 -->
+            <li class="Page02 slider-page-con" style="width: 1261px; height: 770px">
+              <span class="shining_bg"><img src="./assets/page1_shining_bg.png" /></span>
+              <div class="c_Wrap">
+                <div data-order="1" class="p1_m1">
+                  <div class="p1_b1">
+                    <img src="./assets/page1_b1.png" usemap="#Map1" />
+                    <map name="Map1">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="5" />
+                    </map>
+                  </div>
+                  <div class="p1_b2">
+                    <img src="./assets/page1_b2.png" usemap="#Map2" />
+                    <map name="Map2">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="2" />
+                    </map>
+                  </div>
+                  <div class="p1_b3">
+                    <img src="./assets/page1_b3.png" usemap="#Map3" />
+                    <map name="Map3">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="3" />
+                    </map>
+                  </div>
+                  <div class="p1_b4">
+                    <img src="./assets/page1_b4.png" usemap="#Map4" />
+                    <map name="Map4">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="4" />
+                    </map>
+                  </div>
+                  <div class="p1_b5">
+                    <img src="./assets/page1_b5.png" usemap="#Map5" />
+                    <map name="Map5">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="1" />
+                    </map>
+                  </div>
+                </div>
+                <span data-order="2" data-left="-50" class="p1_m23">
+                  <img src="./assets/page1_m23.png" />
+                </span>
+              </div>
+            </li>
+            <!-- 1-3 -->
+            <li class="Page03 slider-page-con" style="width: 1261px; height: 770px">
+              <span class="shining_bg"><img src="./assets/page1_shining_bg.png" /></span>
+              <div class="c_Wrap">
+                <div data-order="1" class="p1_m1">
+                  <div class="p1_b1">
+                    <img src="./assets/page1_b1.png" usemap="#Map1" />
+                    <map name="Map1">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="5" />
+                    </map>
+                  </div>
+                  <div class="p1_b2">
+                    <img src="./assets/page1_b2.png" usemap="#Map2" />
+                    <map name="Map2">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="2" />
+                    </map>
+                  </div>
+                  <div class="p1_b3">
+                    <img src="./assets/page1_b3.png" usemap="#Map3" />
+                    <map name="Map3">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="3" />
+                    </map>
+                  </div>
+                  <div class="p1_b4">
+                    <img src="./assets/page1_b4.png" usemap="#Map4" />
+                    <map name="Map4">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="4" />
+                    </map>
+                  </div>
+                  <div class="p1_b5">
+                    <img src="./assets/page1_b5.png" usemap="#Map5" />
+                    <map name="Map5">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="1" />
+                    </map>
+                  </div>
+                </div>
+                <span data-order="2" data-left="-50" class="p1_m22">
+                  <img src="./assets/page1_m22.png" />
+                </span>
+              </div>
+            </li>
+            <!-- 1-4 -->
+            <li class="Page04 slider-page-con" style="width: 1261px; height: 770px">
+              <span class="shining_bg"><img src="./assets/page1_shining_bg.png" /></span>
+              <div class="c_Wrap">
+                <div data-order="1" class="p1_m1">
+                  <div class="p1_b1">
+                    <img src="./assets/page1_b1.png" usemap="#Map1" />
+                    <map name="Map1">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="5" />
+                    </map>
+                  </div>
+                  <div class="p1_b2">
+                    <img src="./assets/page1_b2.png" usemap="#Map2" />
+                    <map name="Map2">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="2" />
+                    </map>
+                  </div>
+                  <div class="p1_b3">
+                    <img src="./assets/page1_b3.png" usemap="#Map3" />
+                    <map name="Map3">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="3" />
+                    </map>
+                  </div>
+                  <div class="p1_b4">
+                    <img src="./assets/page1_b4.png" usemap="#Map4" />
+                    <map name="Map4">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="4" />
+                    </map>
+                  </div>
+                  <div class="p1_b5">
+                    <img src="./assets/page1_b5.png" usemap="#Map5" />
+                    <map name="Map5">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="1" />
+                    </map>
+                  </div>
+                </div>
+                <span data-order="2" data-left="-50" class="p1_m21">
+                  <img src="./assets/page1_m21.png" />
+                </span>
+              </div>
+            </li>
+            <!-- 1-5 -->
+            <li class="Page05 slider-page-con" style="width: 1261px; height: 770px">
+              <span class="shining_bg"><img src="./assets/page1_shining_bg.png" /></span>
+              <div class="c_Wrap">
+                <div data-order="1" class="p1_m1">
+                  <div class="p1_b1">
+                    <img src="./assets/page1_b1.png" usemap="#Map1" />
+                    <map name="Map1">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="5" />
+                    </map>
+                  </div>
+                  <div class="p1_b2">
+                    <img src="./assets/page1_b2.png" usemap="#Map2" />
+                    <map name="Map2">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="2" />
+                    </map>
+                  </div>
+                  <div class="p1_b3">
+                    <img src="./assets/page1_b3.png" usemap="#Map3" />
+                    <map name="Map3">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="3" />
+                    </map>
+                  </div>
+                  <div class="p1_b4">
+                    <img src="./assets/page1_b4.png" usemap="#Map4" />
+                    <map name="Map4">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="4" />
+                    </map>
+                  </div>
+                  <div class="p1_b5">
+                    <img src="./assets/page1_b5.png" usemap="#Map5" />
+                    <map name="Map5">
+                      <area shape="circle" coords="70,60,55" href="javascript:;" data-to="1" />
+                    </map>
+                  </div>
+                </div>
+                <span data-order="2" data-left="-50" class="p1_m24">
+                  <img src="./assets/page1_m24.png" />
+                </span>
+              </div>
+            </li>
+
+            <!-- 2 -->
+            <li class="Page06 slider-page-con" style="width: 1261px; height: 770px">
+              <div class="c_Wrap">
+                <span class="p2_m1" data-order="1"><img src="./assets/page2_m1.png" /></span>
+                <span class="p2_m2" data-order="2"
+                  ><img src="./assets/page2_m2.png" /><span class="p2_q1"><img src="./assets/page2_q1.png" /></span
+                ></span>
+                <span class="p2_m3" data-order="2"
+                  ><img src="./assets/page2_m3.png" /><span class="p2_q2"><img src="./assets/page2_q2.png" /></span
+                ></span>
+                <span class="p2_m4" data-order="3"
+                  ><img src="./assets/page2_m4.png" /><span class="p2_q3"><img src="./assets/page2_q3.png" /></span
+                ></span>
+                <span class="p2_m5" data-order="3"
+                  ><img src="./assets/page2_m5.png" /><span class="p2_q4"><img src="./assets/page2_q4.png" /></span
+                ></span>
+                <span class="p2_m6" data-order="4"><img src="./assets/page2_m6.png" /></span>
+                <span class="p2_m7 VPic" data-vid="r0018qo0yp8" data-order="4"
+                  ><img src="./assets/page2_m7.png"
+                /></span>
+              </div>
+            </li>
+            <!-- 3 -->
+            <li class="Page07 slider-page-con" style="width: 1261px; height: 770px">
+              <span class="shining_bg"><img src="./assets/page1_shining_bg.png" /></span>
+              <span class="p3_m1" data-order="2"><img src="./assets/page3_m1.png" /></span>
+              <span class="p3_m2" data-order="2"><img src="./assets/page3_m2.png" /></span>
+              <span class="p3_m3" data-order="1"><img src="./assets/page3_m3.png" /></span>
+              <span class="p3_m4" data-order="4"><img src="./assets/page3_m4.png" /></span>
+              <span class="p3_m5" data-order="5"><img src="./assets/page3_m5.png" /></span>
+              <span class="p3_m6" data-order="5"><img src="./assets/page3_m6.png" /></span>
+              <span class="p3_m7" data-order="3"><img src="./assets/page3_m7.png" /></span>
+              <span class="p3_m8" data-order="3"><img src="./assets/page3_m8.png" /></span>
+            </li>
+            <!-- 4 -->
+            <li class="Page08 slider-page-con" style="width: 1261px; height: 770px">
+              <div class="c_Wrap">
+                <span class="p4_m1"><img src="./assets/page4_m1.png" /></span>
+
+                <div class="p4_m2" data-order="1">
+                  <a class="p4to2" href="javascript:;"
+                    ><img src="./assets/page4_m2.png" />
+                    <div class="p4_m3"><img src="./assets/page4_m3.png" /></div
+                  ></a>
+                </div>
+                <div class="p4_m4">
+                  <div class="p4prto1" data-num="1" href="javascript:;">
+                    <div class="p4_text p4_text1" href="javascript:;"><img src="./assets/page4_text1.png" /></div>
+                  </div>
+                  <div class="p4prto2 p4prto2-1" data-num="2" href="javascript:;">
+                    <div class="p4_text p4_text2" href="javascript:;"><img src="./assets/page4_text2.png" /></div>
+                  </div>
+                  <div class="p4prto3 p4prto3-1" data-num="3" href="javascript:;">
+                    <div class="p4_text p4_text3" href="javascript:;"><img src="./assets/page4_text3.png" /></div>
+                  </div>
+                  <div class="p4prto4 p4prto4-1" data-num="4" href="javascript:;">
+                    <div class="p4_text p4_text4" href="javascript:;"><img src="./assets/page4_text4.png" /></div>
+                  </div>
+                  <div class="p4prto5 p4prto5-1" data-num="5" href="javascript:;">
+                    <div class="p4_text p4_text5" href="javascript:;"><img src="./assets/page4_text5.png" /></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- 5 -->
+            <li class="Page09 slider-page-con" style="width: 1261px; height: 770px">
+              <div class="c_Wrap">
+                <span class="p5_m1" data-order="1"><img src="./assets/page5_m1.png" /></span>
+                <span class="p5_m2" data-order="2"><img src="./assets/page5_m2.png" /></span>
+                <span class="p5_m3" data-order="3"><img src="./assets/page5_m3.png" /></span>
+                <span class="p5_m4" data-order="3"><img src="./assets/page5_m4.png" /></span>
+                <span class="p5_m5" data-order="4"><img src="./assets/page5_m5.png" /></span>
+                <span class="p5_m6" data-order="4"><img src="./assets/page5_m6.png" /></span>
+                <span class="p5_m7" data-order="4"><img src="./assets/page5_m7.png" /></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="popup_video">
+        <div class="popup_close"></div>
+        <div id="pop_mod_player"></div>
+      </div>
+      <!-- �Ҳ� end -->
+      <a href="javascript:void(0);" id="btn_Next"></a>
+      <a href="javascript:void(0);" id="btn_Return"></a>
+    </div>
+    <!-- ר������ end -->
+    <div class="bg_white tc">
+      <div class="w1000 pt15 pb15">
+        <!-- ��Ȩ��ʼ -->
+        <style>
+          .tcopyright {
+            width: 960px;
+            margin: 0 auto;
+            padding: 8px 0;
+            font-size: 12px;
+            line-height: 28px;
+            color: #333;
+            text-align: center;
+            overflow: hidden;
+            clear: both;
+          }
+          .tcopyright .en {
+            font-family: Arial;
+          }
+          .tcopyright a {
+            color: #333;
+            text-decoration: none;
+          }
+          .tcopyright a:hover {
+            color: #bd0a01;
+            text-decoration: underline;
+          }
+        </style>
+        <div id="tcopyright" class="tcopyright" bosszone="footer" role="contentinfo">
+          <div>
+            <a href="http://www.tencent.com/" target="_blank" rel="nofollow">������Ѷ</a> |
+            <a href="http://www.tencent.com/index_e.shtml" target="_blank" rel="nofollow">About Tencent</a> |
+            <a href="http://www.qq.com/contract.shtml" target="_blank" rel="nofollow">����Э��</a> |
+            <a href="http://www.qq.com/privacy.htm" target="_blank" rel="nofollow">��˽����</a> |
+            <a href="http://open.qq.com/" target="_blank" rel="nofollow">����ƽ̨</a> |
+            <a href="http://www.tencentmind.com/" target="_blank" rel="nofollow">������</a> |
+            <a href="http://hr.tencent.com/" target="_blank" rel="nofollow">��Ѷ��Ƹ</a> |
+            <a href="http://gongyi.qq.com/" target="_blank" rel="nofollow">��Ѷ����</a> |
+            <a href="http://service.qq.com/" target="_blank" rel="nofollow">�ͷ�����</a> |
+            <a href="http://www.qq.com/map/" target="_blank" rel="nofollow">��վ����</a>
+          </div>
+          <div class="en">Copyright 1998 - 2015 Tencent. All Rights Reserved</div>
+          <div>
+            <a href="http://www.tencent.com/" target="_blank" rel="nofollow">��Ѷ��˾</a>
+            <a href="http://www.tencent.com/zh-cn/le/copyrightstatement.shtml" target="_blank" rel="nofollow"
+              >��Ȩ����</a
+            >
+          </div>
+        </div>
+        <!--[if !IE]>|xGv00|ebd6fb0d7fdd1cfabfeda4cf113fa32e<![endif]-->
+        <!-- ��Ȩ���� -->
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./assets/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="./assets/main.js"></script>
+    <script src="./assets/zepto.min.js"></script>
+    <script src="./assets/tvp.player_v2_zepto.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      (function ($) {
+        // sliderPage
+        function sliderPage(selector, option) {
+          var that = this;
+          this.option = $.extend(
+            {
+              // Ĭ������
+            },
+            option,
+          );
+          this.dom = $(selector);
+          this.dom_ul = this.dom.find(".slider-pages-ul");
+          this.dom_unit = this.dom.find(".slider-page-con");
+          this.length = this.dom_unit.length;
+          this.index = 0;
+          if (this.option.bt_next) {
+            $(this.option.bt_next).bind("click", function () {
+              that.toNext();
+            });
+          }
+          if (this.option.bt_prev) {
+            $(this.option.bt_prev).bind("click", function () {
+              that.toPrev();
+            });
+          }
+          this.dom.bind("mousewheel", function (event, delta) {
+            event.preventDefault();
+            that[delta > 0 ? "toPrev" : "toNext"]();
+          });
+        }
+        sliderPage.prototype = {
+          toIndex_bak: function (index) {
+            if (this.index == null) return;
+            if (index < 0 || index >= this.length) return;
+            var that = this;
+            this.index = null;
+            this.dom_ul.animate(
+              {
+                marginLeft: -(index * this.getUnitWidth()),
+              },
+              function () {
+                that.index = index;
+                that.option.callback && that.option.callback.call(that, that.index);
+              },
+            );
+          },
+          toIndex: function (index) {
+            if (index == this.index) return;
+            if (this.index == null) return;
+            if (index < 0 || index >= this.length) return;
+            var that = this;
+            var oldIndex = this.index;
+            this.index = null;
+
+            var target = this.dom_unit.eq(index); // Ҫ��ʾ���Ǹ�li��ǩ
+            this.dom_unit.eq(oldIndex)[index > oldIndex ? "after" : "before"](target);
+            $(".slider-pages-ul li").removeClass("cur");
+            this.dom_unit.eq(index).addClass("cur");
+
+            // ��������˳��
+            // ����
+            doWidthOrderHide();
+            this.option.beforeAnimate && this.option.beforeAnimate.call(this, index, oldIndex);
+            this.dom_ul.animate(
+              {
+                marginLeft: -((index > oldIndex ? oldIndex + 1 : oldIndex - 1) * this.getUnitWidth()),
+              },
+              function () {
+                that.index = index;
+                that.option.callback && that.option.callback.call(that, that.index);
+                // ��ԭԭ����dom˳��
+                back();
+                // ��������˳��
+                // ��ʾ
+                if (that.dom_unit.eq(index).find("[data-order]").length) {
+                  doWidthOrderShow(index);
+                }
+              },
+            );
+
+            function back() {
+              //debugger;
+              if (index - 1 < 0) {
+                target.prependTo(that.dom_ul);
+              } else {
+                target.insertAfter(that.dom_unit.eq(index - 1));
+              }
+              that.dom_ul.css({
+                marginLeft: -(index * that.getUnitWidth()),
+              });
+            }
+            function doWidthOrderHide() {
+              var blocks = that.dom_unit.eq(index).find("[data-order]");
+              blocks.hide();
+              $.each(blocks, function () {
+                var block = $(this);
+                if (block.attr("data-left")) {
+                  block.css("marginLeft", block.attr("data-left") + "px");
+                }
+                if (block.attr("data-top")) {
+                  block.css("marginTop", block.attr("data-top") + "px");
+                }
+                if (!block.attr("data-top") && !block.attr("data-left")) {
+                  // Ĭ��
+                  block.css("marginTop", "-30px");
+                }
+              });
+            }
+            function doWidthOrderShow(index) {
+              var blocks = that.dom_unit.eq(index).find("[data-order]");
+              var step = 400; // ��ʾ��� �ӵ�һ����ʼ��ʾ���ڶ�����ʼ��ʾ
+              var index = 0;
+              clearInterval(that.interval);
+              var orders = [];
+              $.each(blocks, function () {
+                orders.push(+$(this).attr("data-order"));
+              });
+              orders.sort(function (a, b) {
+                // �Ӵ�С����
+                return b - a;
+              });
+              var maxOrder = orders[0];
+              var interval = (that.interval = setInterval(fn, step));
+              fn();
+              function fn() {
+                index++;
+                if (index > maxOrder) {
+                  clearInterval(interval);
+                  return;
+                }
+                var block = blocks.filter("[data-order=" + index + "]");
+                block.animate({ marginTop: 0, marginLeft: 0 });
+                block.fadeIn().dequeue();
+              }
+            }
+          },
+          toNext: function () {
+            if (this.index >= this.length - 1) return;
+            this.toIndex(this.index + 1);
+          },
+          toPrev: function () {
+            if (this.index <= 0) return;
+            this.toIndex(this.index - 1);
+          },
+          getUnitWidth: function () {
+            // li��ǩ��������Ӧ
+            return this.dom_unit.width();
+          },
+        }; // sliderPage end
+
+        var slider = new sliderPage("#sliderPages", {
+          bt_next: "#btn_Next",
+          bt_prev: "#btn_Return",
+          callback: function (index) {
+            $(".Left_Tips li").find("a").removeClass("cur");
+            $(".Left_Tips li").eq([0, 0, 0, 0, 0, 1, 2, 3, 4][index]).find("a").addClass("cur");
+          },
+          beforeAnimate: function (index, oldIndex) {},
+        });
+        $(".Left_Tips li").click(function () {
+          var index = $(this).prevAll().length;
+          slider.toIndex([0, 5, 6, 7, 8][index]);
+        });
+        $(".S_pic li").hover(function () {
+          var index = $(this).prevAll().length;
+          slider.toIndex(index);
+        });
+
+        $("#sliderPages").delegate("[data-to]", "click", function () {
+          var index = $(this).attr("data-to");
+          slider.toIndex(index - 1);
+        });
+      })(jQuery);
+    </script>
+    <script type="text/javascript">
+      (function ($) {
+        /*�����Ҳ�����Ӧ*/
+        function autoWidth() {
+          var w = Math.min($(window).width(), 3500);
+          $(".slider-page-con").width(w);
+          $("#sliderPages").width(w);
+        }
+        function autoHeight() {
+          var h = Math.max($(window).height(), 800);
+          $(".slider-page-con,.bodyWrap").height(h - 30);
+          $("#sliderPages").height(h - 30);
+        }
+        $(function () {
+          autoWidth();
+          autoHeight();
+        });
+        $(window).resize(function () {
+          autoWidth();
+          autoHeight();
+        });
+      })(jQuery);
+    </script>
+    <script type="text/javascript">
+      (function ($) {
+        /*�����Ҳ�����Ӧ*/
+        $(".p4to2").click(function () {
+          $(".p4to2").css("display", "none");
+          $(".p4_m4").css("display", "block");
+        });
+      })(jQuery);
+
+      $(".VPic").bind("click", function () {
+        //myVideo.pause();
+        /*����Ƶ*/
+        var scale = 16 / 9,
+          _w = $(window).width(),
+          _h = $(window).height();
+        $("#pop_mod_player")
+          .css({ "padding-top": (_h - _w / scale) / 2 + "px" })
+          .show();
+        var video = new tvp.VideoInfo();
+        video.setVid($(this).attr("data-vid"));
+        var player = new tvp.Player();
+        player.create({
+          width: _w,
+          height: _w / scale,
+          video: video,
+          modId: "pop_mod_player",
+          autoplay: true,
+        });
+        $(".popup_close").bind("click", function () {
+          $(".popup_video").hide();
+          $("#pop_mod_player div").remove();
+          //media.play();
+          //myVideo.play();
+        });
+        $(".popup_video").show();
+        //media.pause();
+        //  $('.popup_video').css({'left':'0px'});
+      });
+    </script>
+
+    <div id="wot-new-assistant-container"><div data-reactroot=""></div></div>
+    <div id="__FEISHU_CLIPPER__"></div>
+  </body>
+</html>

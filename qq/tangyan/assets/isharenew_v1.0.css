@@ -1,0 +1,408 @@
+ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, nav, section, firstSection, credits, menu, time, mark, audio, video, canvas {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ .iShareWrap {width:100%;clear: both;overflow:hidden}
+   .iShareWrap a {
+   		cursor: pointer;
+		float: left;
+		font-family: 'ËÎÌו',Arial;
+   		background: url(http://mat1.gtimg.com/joke/tomiezhang/ishare/icon_dev.png) 0 15px no-repeat;
+		height: 15px;
+		width: 15px;
+		margin-right: 0px;
+		display: inline;
+		line-height: 16px;
+		overflow: hidden;
+   }
+   .iShareWrap a.iShare_0_tsina {
+         margin-right: 3px;
+   		background-position: 0 0 !important;
+   }
+   .iShareWrap a.iShare_0_tqq {
+         margin-right: 3px;
+   		background-position: -19px 0 !important;
+   }
+   .iShareWrap a.iShare_0_qzone {
+         margin-right: 3px;
+   		background-position: -38px 0 !important;
+   }
+   .iShareWrap a.iShare_0_mail {
+         margin-right: 3px;
+   		background-position: -57px 0 !important;
+   }
+   .iShareWrap a.iShare_0_kaixin001 {
+         margin-right: 3px;
+   		background-position: -76px 0 !important;
+   }
+   .iShareWrap a.iShare_0_renren {
+         margin-right: 3px;
+   		background-position: -95px 0 !important;
+   }
+   .iShareWrap a.iShare_0_fb {
+         margin-right: 3px;
+   		background-position: -114px 0 !important;
+   }
+   .iShareWrap a.iShare_0_twitter {
+         margin-right: 3px;
+   		background-position: -133px 0 !important;
+   }
+   .iShareWrap a.iShare_0_weixin {
+         margin-right: 3px;
+         background-position: -152px 0 !important;
+   }
+    .iShareWrap a.showTime_0 {
+		width:36px;
+		height:16px;
+		background: url(http://mat1.gtimg.com/joke/tomiezhang/ishare/counter.gif) 0 -64px no-repeat;
+		text-align:center;
+		line-height:16px;
+		font-size:12px;
+		text-decoration:none;
+		font-family: arial,helvetica,sans-serif;
+		color:#565656;
+   }
+   .iShareWrap a.iShare_0_tsina:hover {
+      background-position: 0 -124px !important;
+   }
+   .iShareWrap a.iShare_0_tqq:hover {
+         background-position: -19px -124px !important;
+   }
+   .iShareWrap a.iShare_0_qzone:hover {
+         background-position: -38px -124px !important;
+   }
+   .iShareWrap a.iShare_0_mail:hover {
+         background-position: -57px -124px !important;
+   }
+   .iShareWrap a.iShare_0_kaixin001:hover {
+         background-position: -76px -124px !important;
+   }
+   .iShareWrap a.iShare_0_renren:hover {
+         background-position: -95px -124px !important;
+   }
+   .iShareWrap a.iShare_0_fb:hover {
+         background-position: -114px -124px !important;
+   }
+   .iShareWrap a.iShare_0_twitter:hover {
+         background-position: -133px -124px !important;
+   }
+   .iShareWrap a.iShare_0_weixin:hover {
+         background-position: -152px -124px !important;
+   }
+   /*icon1*/
+ .iShareWrap a.iShare_1_tsina {
+         margin-right: 5px;
+         width: 24px;
+         height: 24px;
+         background-position: 0 -36px !important;
+   }
+   .iShareWrap a.iShare_1_tqq {
+          margin-right: 5px;
+         width: 24px;
+         height: 24px;
+         background-position: -29px -36px !important;
+   }
+   .iShareWrap a.iShare_1_qzone {
+         margin-right: 5px;
+         width: 24px;
+         height: 24px;
+         background-position: -58px -36px !important;
+   }
+   .iShareWrap a.iShare_1_mail {
+          margin-right: 5px;
+         width: 24px;
+         height: 24px;
+         background-position: -87px -36px !important;
+   }
+   .iShareWrap a.iShare_1_kaixin001 {
+          margin-right: 5px;
+         width: 24px;
+         height: 24px;
+         background-position: -116px -36px !important;
+   }
+   .iShareWrap a.iShare_1_renren {
+          margin-right: 5px;
+         width: 24px;
+         height: 24px;
+         background-position: -145px -36px !important;
+   }
+   .iShareWrap a.iShare_1_fb {
+          margin-right: 5px;
+         width: 24px;
+         height: 24px;
+         background-position: -174px -36px !important;
+   }
+   .iShareWrap a.iShare_1_twitter {
+         margin-right: 5px;
+         width: 24px;
+         height: 24px;
+         background-position: -203px -36px !important;
+   }
+   .iShareWrap a.iShare_1_weixin {
+         margin-right: 5px;
+         width: 24px;
+         height: 24px;
+         background-position: -232px -36px !important;
+   }
+    .iShareWrap a.showTime_1 {
+		width:58px;
+		height:24px;
+		background: url(http://mat1.gtimg.com/joke/tomiezhang/ishare/counter.gif) 0 -80px no-repeat;
+		text-align:center;
+		line-height:24px;
+		font-size:14px;
+		text-decoration:none;
+		font-family: arial,helvetica,sans-serif;
+		color:#565656;
+   }
+   .iShareWrap a.iShare_1_tsina:hover {
+      background-position: 0 -160px !important;
+   }
+   .iShareWrap a.iShare_1_tqq:hover {
+          background-position: -29px -160px !important;
+   }
+   .iShareWrap a.iShare_1_qzone:hover {
+         background-position: -58px -160px !important;
+   }
+   .iShareWrap a.iShare_1_mail:hover {
+         background-position: -87px -160px !important;
+   }
+   .iShareWrap a.iShare_1_kaixin001:hover {
+         background-position: -116px -160px !important;
+   }
+   .iShareWrap a.iShare_1_renren:hover {
+        background-position: -145px -160px !important;
+   }
+   .iShareWrap a.iShare_1_fb:hover {
+        background-position: -174px -160px !important;
+   }
+   .iShareWrap a.iShare_1_twitter:hover {
+       background-position: -203px -160px !important;
+   }
+   .iShareWrap a.iShare_1_weixin:hover {
+      background-position: -232px -160px !important;
+   }
+/*icon2*/  
+.iShareWrap a.iShare_2_tsina {
+         margin-right: 10px;
+         width: 32px;
+         height: 32px;
+         background-position: 0 -83px !important;
+   }
+   .iShareWrap a.iShare_2_tqq {
+         margin-right: 10px;
+         width: 32px;
+         height: 32px;
+         background-position: -42px -83px !important;
+   }
+   .iShareWrap a.iShare_2_qzone {
+          margin-right: 10px;
+         width: 32px;
+         height: 32px;
+         background-position: -84px -83px !important;
+   }
+   .iShareWrap a.iShare_2_mail {
+          margin-right: 10px;
+         width: 32px;
+         height: 32px;
+         background-position: -126px -83px !important;
+   }
+   .iShareWrap a.iShare_2_kaixin001 {
+        margin-right: 10px;
+         width: 32px;
+         height: 32px;
+         background-position: -168px -83px !important;
+   }
+   .iShareWrap a.iShare_2_renren {
+        margin-right: 10px;
+         width: 32px;
+         height: 32px;
+         background-position: -210px -83px !important;
+   }
+   .iShareWrap a.iShare_2_fb {
+          margin-right: 10px;
+         width: 32px;
+         height: 32px;
+         background-position: -252px -83px !important;
+   }
+   .iShareWrap a.iShare_2_twitter {
+         margin-right: 10px;
+         width: 32px;
+         height: 32px;
+         background-position: -294px -83px !important;
+   }
+   .iShareWrap a.iShare_2_weixin {
+         margin-right: 10px;
+         width: 32px;
+         height: 32px;
+         background-position: -336px -83px !important;
+   }
+   .iShareWrap a.showTime_2 {
+		width:60px;
+		height:32px;
+		background: url(http://mat1.gtimg.com/joke/tomiezhang/ishare/counter.gif) 0 0 no-repeat;
+		text-align:center;
+		line-height:32px;
+		font-size:16px;
+		text-decoration:none;
+		font-family: arial,helvetica,sans-serif;
+		color:#565656;
+   }
+   .iShareWrap a.iShare_2_tsina:hover {
+      background-position: 0 -207px !important;
+   }
+   .iShareWrap a.iShare_2_tqq:hover {
+      background-position: -42px -207px !important;
+   }
+   .iShareWrap a.iShare_2_qzone:hover {
+       background-position: -84px -207px !important;
+   }
+   .iShareWrap a.iShare_2_mail:hover {
+      background-position: -126px -207px !important;
+   }
+   .iShareWrap a.iShare_2_kaixin001:hover {
+      background-position: -168px -207px !important;
+   }
+   .iShareWrap a.iShare_2_renren:hover {
+       background-position: -210px -207px !important;
+   }
+   .iShareWrap a.iShare_2_fb:hover {
+      background-position: -252px -207px !important;
+   }
+   .iShareWrap a.iShare_2_twitter:hover {
+      background-position: -294px -207px !important;
+   }
+   .iShareWrap a.iShare_2_weixin:hover {
+     background-position: -336px -207px !important;
+   }
+.iShareFloatWrap {
+   position: fixed;
+   width: 240px;
+   height: 300px;
+   _position: absolute;
+   top: 150px;
+   right: -216px;
+   background:none;
+   overflow:hidden;
+   z-index:99999;
+}
+.iShareFloatWrapLeft {
+   position: fixed;
+   width: 240px;
+   height: 300px;
+   _position: absolute;
+   top: 150px;
+   left: -216px;
+   background: none;
+   overflow:hidden;
+   z-index:99999;
+}
+.iShareFloatWrap .shareBar {
+	float:left;
+}
+.iShareFloatWrapLeft .shareBar {
+	float:right;
+}
+.iShareFloatWrapLeft a,.iShareFloatWrap a{
+	width:100px;
+	height:24px;
+	float:left;
+	overflow:hidden;
+	display:inline-block;
+	margin:5px 0 5px 6px;
+}
+.iShareFloatWrapLeft a:hover,.iShareFloatWrap a:hover {
+	background:#F3F3F3;
+}
+.iShareFloatWrapLeft a:hover .text,.iShareFloatWrap a:hover .text {
+	color:#CC0000;
+}
+.iShareFloatWrapLeft a .icon,.iShareFloatWrap a .icon {
+	width:24px;
+	height:24px;
+	float:left;
+	background: url(http://mat1.gtimg.com/joke/tomiezhang/ishare/icon_dev.png) 0 0 no-repeat;
+}
+.iShareFloatWrapLeft a .text,.iShareFloatWrap a .text {
+	text-align:left;
+	font-size:14px;
+	color:#666;
+	line-height:24px;
+	float:right;
+	width:72px;
+}
+.iShareFloatWrapLeft  a.iShare_1_tsina .icon,.iShareFloatWrap a.iShare_1_tsina .icon{
+	background-position: 0 -36px !important;
+}
+.iShareFloatWrapLeft  a.iShare_1_tqq .icon,.iShareFloatWrap a.iShare_1_tqq .icon{
+	background-position: -29px -36px !important;
+}
+.iShareFloatWrapLeft a.iShare_1_qzone .icon,.iShareFloatWrap a.iShare_1_qzone .icon{
+	background-position: -58px -36px !important;
+}
+.iShareFloatWrapLeft a.iShare_1_mail .icon,.iShareFloatWrap a.iShare_1_mail .icon{
+    background-position: -87px -36px !important;
+}
+.iShareFloatWrapLeft a.iShare_1_kaixin001 .icon,.iShareFloatWrap a.iShare_1_kaixin001 .icon{
+	background-position: -116px -36px !important;
+}
+.iShareFloatWrapLeft a.iShare_1_renren .icon,.iShareFloatWrap a.iShare_1_renren .icon{
+	background-position: -145px -36px !important;
+}
+.iShareFloatWrapLeft a.iShare_1_fb .icon,.iShareFloatWrap a.iShare_1_fb .icon{
+	background-position: -174px -160px !important;
+}
+.iShareFloatWrapLeft a.iShare_1_twitter .icon,.iShareFloatWrap a.iShare_1_twitter .icon{
+	background-position: -203px -160px !important;
+}
+.iShareFloatWrapLeft a.iShare_1_weixin .icon,.iShareFloatWrap a.iShare_1_weixin .icon{
+	background-position: -232px -36px !important;
+}
+ .iShareFloatWrap  .shareCoent {
+	float:right;
+	width:213px;
+	height:181px;
+	border:1px solid #EBEBEB;
+	text-align:center;
+	background:#fff;
+}
+.iShareFloatWrapLeft .shareCoent .title, .iShareFloatWrap  .shareCoent .title {
+	width:207px;
+	height:23px;
+	border-bottom:1px solid #EAEAEA;
+	overflow:hidden;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+.iShareFloatWrapLeft .shareCoent .title em,.iShareFloatWrap  .shareCoent .title em {
+	font-size:12px;
+	color:#888;
+	font-weight:bold;
+	float:left;
+	text-indent:6px;
+	font-style:normal; 
+	margin-top:5px;
+}
+.iShareFloatWrapLeft .shareCoent .title  span.closeTips, .iShareFloatWrap  .shareCoent .title span.closeTips {
+	width:13px;
+	height:13px;
+	float:right;
+	background: url(http://mat1.gtimg.com/joke/tomiezhang/ishare/icon_dev.png) 0 -267px no-repeat;
+	margin-top:5px;
+	cursor:pointer;
+}
+.iShareFloatWrapLeft .shareCoent{
+	float:left;
+	width:213px;
+	height:181px;
+	border:1px solid #EBEBEB;
+	text-align:center;
+	background:#fff;
+}
+/**/
+#ishareWin {
+	width:560px;
+	overflow:hidden;
+	position:absolute;
+}/*  |xGv00|7dc19d3a77f3118ef328b92a0b4960d6 */
